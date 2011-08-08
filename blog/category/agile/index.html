@@ -1,32 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed
-  xmlns="http://www.w3.org/2005/Atom"
-  xmlns:thr="http://purl.org/syndication/thread/1.0"
-  xml:lang="en"
-   >
-  <title type="text">Ruminations From a Tortured Mind</title>
-  <subtitle type="text">Me me me me</subtitle>
 
-  <updated>2011-08-09T06:42:20Z</updated>
-  <generator uri="http://blogofile.com/">Blogofile</generator>
 
-  <link rel="alternate" type="text/html" href="http://douche.name/blog" />
-  <id>http://douche.name/blog/feed/atom/</id>
-  <link rel="self" type="application/atom+xml" href="http://douche.name/blog/feed/atom/" />
-  <entry>
-    <author>
-      <name></name>
-      <uri>http://douche.name/blog</uri>
-    </author>
-    <title type="html"><![CDATA[L'Agile est mort]]></title>
-    <link rel="alternate" type="text/html" href="http://douche.name/blog/2011/08/08/l-agile-est-mort" />
-    <id>http://douche.name/blog/2011/08/08/l-agile-est-mort</id>
-    <updated>2011-08-08T03:00:00Z</updated>
-    <published>2011-08-08T03:00:00Z</published>
-    <category scheme="http://douche.name/blog" term="agile" />
-    <category scheme="http://douche.name/blog" term="rumination" />
-    <summary type="html"><![CDATA[L'Agile est mort]]></summary>
-    <content type="html" xml:base="http://douche.name/blog/2011/08/08/l-agile-est-mort"><![CDATA[<p>Sous ce titre qui peut paraitre provocateur se trouve un constat plutôt amère,
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+  <title>Ruminations From a Tortured Mind</title>
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/sdouche" />
+<link rel='stylesheet' href='/css/pygments_tango.css' type='text/css' />
+<link rel='stylesheet' href='/css/site.css' type='text/css' />
+
+
+  </head>
+  <body>
+    <div id="content">
+      
+  <h1><a href="/">Ruminations From a Tortured Mind</a></h1>
+<hr/>
+
+
+      <div id="main_block">
+        <div id="prose_block">
+          
+  
+<div class="blog_post">
+  <a name="l-agile-est-mort"></a>
+  <h2 class="blog_post_title"><a href="/blog/2011/08/08/l-agile-est-mort" rel="bookmark" title="Permanent Link to L'Agile est mort">L'Agile est mort</a></h2>
+  <small>August 08, 2011 at 03:00 AM | categories: 
+
+<a href='/blog/category/agile'>agile</a>, <a href='/blog/category/rumination'>rumination</a>
+ | <a href="http://douche.name/blog/2011/08/08/l-agile-est-mort#disqus_thread">View Comments</a>
+</small><p/>
+  <div class="post_prose">
+    
+  <p>Sous ce titre qui peut paraitre provocateur se trouve un constat plutôt amère,
 d'autant plus amère que tout cela était prévisible depuis bien des années.
 L'Agile est devenu <em>mainstream</em>, on en parle régulièrement dans les
 journaux de décideurs (c'est bien la preuve de sa reconnaissance non ?), les
@@ -345,141 +354,46 @@ Lean, Lean startup ou Kanban. Un modèle <strong>qui évolue</strong> sans cesse
 maturité et la capacité de l'organisation à produire.</p>
 <p>Mais pour essayer de le faire sans relâche depuis 4 ans, je vous concède que
 c'est bien plus difficile et pénible qu'une formation de 2 jours ou de
-répéter à l'envie ce que l'on a lu dans un livre...</p>]]></content>
-  </entry>
-  <entry>
-    <author>
-      <name></name>
-      <uri>http://douche.name/blog</uri>
-    </author>
-    <title type="html"><![CDATA[Nouveau blog avec Blogofile]]></title>
-    <link rel="alternate" type="text/html" href="http://douche.name/blog/2011/07/15/nouveau-blog-avec-blogofile" />
-    <id>http://douche.name/blog/2011/07/15/nouveau-blog-avec-blogofile</id>
-    <updated>2011-07-15T02:00:00Z</updated>
-    <published>2011-07-15T02:00:00Z</published>
-    <category scheme="http://douche.name/blog" term="python" />
-    <category scheme="http://douche.name/blog" term="coding" />
-    <summary type="html"><![CDATA[Nouveau blog avec Blogofile]]></summary>
-    <content type="html" xml:base="http://douche.name/blog/2011/07/15/nouveau-blog-avec-blogofile"><![CDATA[<p>Cela faisait quelques temps que cela me titillait : écrire des billets avec
-mon éditeur texte habituel, et de pousser en prod avec Git. C'est le blog
-de <a href="http://gitfr.net/blog">#gitfr</a> qui m'a donné le courage de m'y mettre.
-Et c'est maintenant chose faites. Adieu Wordpress, boujour Blogofile !</p>
-<h2>Mais qu'utilises tu ?</h2>
-<p>Un générateur statique de site, autrement un outil qui transforme les
-documents textes (format <code>markdown</code> ou <code>rst</code>) en pages html, à l'aide de
-templates.</p>
-<p>Beaucoup d'avantages :</p>
-<ul>
-<li>Tout se trouve dans des fichiers textes.</li>
-<li>Plus besoin d'être en ligne.</li>
-<li>Ecriture avec Vim et non un éditeur WYSIWIG dans un navigateur.</li>
-<li>Maintenance pratiquement nulle.</li>
-<li>Plus de problème de sécurité.</li>
-<li>Sauvegarde automatique sur GitHub.</li>
-<li>Liberté totale sur l'organisation du site.</li>
-<li>Hébergement simplifiée (plus besoin de PHP, Python...).</li>
-<li>Et bien sûr, utilisation de Git pour gérer le site :).</li>
-</ul>
-<p>En contre partie, vous n'avez plus la facilité de créer un joli site en 2
-clicks de souris. La, c'est à vous de créer votre template et de développer
-les services supplémentaires (affichage de tweets par exemple).</p>
-<h2>Un retour en arrière ?</h2>
-<p>Je faisais du statique en 96 quand j'apprenais l'html 3 (ou 2 je ne sais
-plus), et voila que je refais du statique en 2011, est ce vraiment
-raisonnable ? Il y'a en fait un changement important qui permet ce retour
-aux sources : le <strong>cloud</strong>. Pour disposer d'un blog, il faut un moteur de rendu
-de billets, mais aussi un système de commentaires, la gestion de flux RSS,
-le multi-compte, des droits et authorisations, etc.</p>
-<p>Maintenant, vous pouvez externaliser tous les services importants :</p>
-<ul>
-<li>les commentaires : Disqus.</li>
-<li>les flux RSS : Feedburner.</li>
-<li>Suivi d'activité : Google Analytics.</li>
-<li>Hébergement, backup, droit et travail collaboratif : GitHub.</li>
-</ul>
-<p>Cela permet de se concentrer sur l'essentiel : écrire du contenu.</p>
-<h2>Organisation</h2>
-<p>Il me faut deux dépôts. Pourquoi deux ? Ce n'est pas obligatoire bien sûr,
-mais j'utilise le service d'hébergement gratuit de pages statiques de
-<em>GitHub</em>. Ce dernier impose des contraintes, dont le nom du dépôt et
-l'emplacement des fichiers. Si vous hébergé vous même le site, un seul dépôt
-est suffisant.</p>
-<p>Pour les utilisateurs de <code>Git</code>, les <em>submodules</em> font parfaitement
-l'affaire puisque la version générée se trouve dans un sous répertoire.</p>
-<h2>Un exemple ?</h2>
-<p>La mise en production se fait comme suit :</p>
-<pre><code>$ /path/to/blogofile/blogofile build
-$ git add _site/*
-$ git commit -m "nouveau billet sur Blogofile"
-$ git push
-</code></pre>
-<p>(sans submodules, il suffit de copier le contenu manuellement).</p>
-<p>Et voila ! Je vous laisse imaginer les possibilités intéressantes qu'offrent
-un DVCS comme <em>Git</em> ou <em>Hg</em> (si ce n'est pas le cas, vous êtes bon pour voir une
-de mes présentations Git ;) pour gérer votre site.</p>
-<h2>Pourquoi Blogofile ?</h2>
-<ul>
-<li>
-<p>Parce qu'il est en Python, et cela me permet de coder dans mon langage préféré
-  et d'apprendre des moteurs de templates que je ne connaissais pas (<em>Mako</em> et
-  bientôt <em>jinja2</em>).</p>
-</li>
-<li>
-<p>Parce qu'il est vraiment simple. Pas fioritures, il va à l'essentiel. Ecrire
-  des controlleurs ne semblent vraiment pas dur et les quelques fonctionnalités
-  dont j'avais besoin (Disqus, flux RSS et blog) sont là. Un site de base tiens
-  dans 700 lignes de code Python, ce qui rend la compréhension aisé. Blogofile
-  fait pour sa part 900 lignes.</p>
-</li>
-<li>
-<p>Il permet de gérer les documents drafts, le multi-auteur ou les
-  transformations multiples.</p>
-</li>
-<li>
-<p>Parce que je sature un peu de Ruby. Utilisant pas mal d'outils codés en
-  Ruby ces derniers temps, je commençais en avoir ras la casquette des 
-  erreurs d'installation ou des messages d'erreur complètement abscons. Mais
-  des outils comme Jekyll ou Toto semblent pas mal du tout, j'ai fais joué
-  ma fibre Pythonienne.</p>
-</li>
-</ul>
-<p>Alors, si vous avez un site à monter, je vous conseille fortement de jeter un oeil
-sur ces logiciels, cela peut vous intéresser ! :).</p>]]></content>
-  </entry>
-  <entry>
-    <author>
-      <name></name>
-      <uri>http://douche.name/blog</uri>
-    </author>
-    <title type="html"><![CDATA[Un retour sur Pomodoro]]></title>
-    <link rel="alternate" type="text/html" href="http://douche.name/blog/2010/01/01/un-retour-sur-pomodoro" />
-    <id>http://douche.name/blog/2010/01/01/un-retour-sur-pomodoro</id>
-    <updated>2010-01-01T05:45:00Z</updated>
-    <published>2010-01-01T05:45:00Z</published>
-    <category scheme="http://douche.name/blog" term="lifehacking" />
-    <summary type="html"><![CDATA[Un retour sur Pomodoro]]></summary>
-    <content type="html" xml:base="http://douche.name/blog/2010/01/01/un-retour-sur-pomodoro"><![CDATA[<p>Cela fait maintenant plusieurs semaines que j'utilise la technique <a href="http://www.pomodorotechnique.com/">Pomodoro</a>, qui consiste (en gros) à découper le temps par tranche de 30 minutes : 25 minutes de travail puis 5 minutes de repos. D'abord trés sceptique, je suis devenu un partisan convaincu.</p>
-<h2>Pourquoi tenter Pomodoro ?</h2>
-<p>Au boulot, j'ai constaté une dégradation progressive de mon efficacité, c'est à dire de ma capacité à produire de la valeur. Je dois selon les moments trouver des idées, réfléchir à des actions ou tout simplement agir. Pire, j'endosse différents rôles bien différent les uns des autres, ce qui accentue la difficulté : les tâches n'ont aucune relation entre elles, demande un état d'esprit adpaté, des connaissances différentes... Bref,  ce n'est pas simple.</p>
-<p>J'ai tenté plusieurs approches sans réussite comme jouer un rôle par jour : pas vraiment réaliste, on arrive vite à des situations de gachis extrême (exemple : tâches trop peu nombreuses pour la journée). Autre technique, la procrastination :). En gros, laisser courir le plus longtemps possible. Facile, mais pas efficace pour un sou. Bref, rien de convainquant, en retournant ça dans tous les sens, je n'ai guère le choix : abondonner certains aspects de mon travail ou trouver une méthode plus efficace. C'est la que j'ai tenté cette technique.</p>
-<h2>Ce qui repousse à priori</h2>
-<p>Le découpage en 25 minutes pardi ! "25 minutes, c'est bien trop court pour faire quoi que ce soit" est la première remarque qui vient à l'esprit. Ensuite le coté stressant de la chose, ce sentiment d'être minuté en permanence. Pas réjouissant. Enfin cet envie de repousser toute pratique qui demande à changer ses habitudes, surtout quand c'est 10 heures par jour... tous les jours.</p>
-<h2>Un outillage adapté</h2>
-<p>J'ai commencé par chercher une solution de chronométrage. L'idée d'avoir un chrono "physique" me semblait pas pratique, je ne me voyais pas en train de m'occuper du compteur régulièrement. J'ai donc cherché une version logicielle, fonctionnement bien sûr sous <em>Linux</em> (natif ou web).</p>
-<p>Après quelques dizaines de minutes et plusieurs tests non concluants, je suis tombé sur <a href="http://www.workrave.org/welcome/">Workrave</a>. D'abord interloqué par la taille de l'engin (presque 7 Mo !), j'ai vite changé d'avis. Simple d'utilisation, il apporte quelques plus dont je n'avais pas imaginé en me lançant dans l'aventure :</p>
-<ul>
-<li>il bloque (option modifiable) le clavier pendant la pause, vous obligeant à vous arrêter. Cela semble ridicule mais quand on accepte difficilement de lâcher le clavier cela aide.</li>
-<li>il affiche des exercices pendant la pause (je vous laisse deviner la tête de mes collègues :).</li>
-</ul>
-<h2>Les raisons du succès</h2>
-<p>Mais alors, pourquoi cela marche ? Et bien c'est simple :</p>
-<ul>
-<li>il est difficile de garder sa concentration sur une longue période (les études disent souvent 45 minutes). Vous obliger à prendre une pause régulièrement vous rend plus efficace <strong>sur la journée</strong>.</li>
-<li>la pause de 5 minutes n'est pas suffisamment longue pour vous rendre inefficace en reprenant le travail. Surtout que cette pause programmée ne vous déconcentre pas car <strong>vous arrêtez non pas par fatigue mais par choix</strong>. Et oui, en reprenant le travail, vous n'avez rien perdu de votre concentration, il ne faut pas 10 minutes pour reprendre le fil de vos pensées, mais seulement quelques secondes.</li>
-<li>découper votre journée par tranche de 30 minutes ne veut pas dire que vous ne dépassez pas 30 minutes par tâches ! Rien ne vous interdit de passer 2 heures, ou 3, ou 4 ! Mais la, on voit <strong>le temps passer</strong>. On sait parfaitement que l'on vient de passer 2 heures sur ce foutu rapport car c'est la 4ème pause.</li>
-<li>enfin, un avantage intéressant et non visible au départ et la possibilité de <strong>laisser passer un tour</strong>. Au mileu d'un travail j'ai envie de faire une pause, par exemple pour répondre à ce mail important ou alors lire Twitter. Au lieu de se sentir coupable de laisser une tâche, je me donne un tour (25 minutes) pour cela, en me disant que je reprendrais le travail aprés. Cela semble un poil stupide, mais ça marche pour moi.</li>
-</ul>
-<h2>Conclusion</h2>
-<p>Voila un résumé sur l'avantage que je vois à Pomodoro. Il m'arrive encore d'oublier de lancer l'application le matin en arrivant au travail et je constate la différence. Pour moi c'est dorénavant jamais sans mon Pomodoro.</p>]]></content>
-  </entry>
-</feed>
+répéter à l'envie ce que l'on a lu dans un livre...</p>
+
+  </div>
+</div>
+
+
+
+  <div class="after_post"><a href="http://douche.name/blog/2011/08/08/l-agile-est-mort#disqus_thread">Read and Post Comments</a></div>
+  <hr class="interblog" />
+
+        </div><!-- End Prose Block -->
+      </div><!-- End Main Block -->
+      <div id="footer">
+        
+  <hr/>
+  <p id="credits">
+Propulsé par Blogofile | vim | Git | GitHub.<br/>
+
+
+      </div> <!-- End Footer -->
+    </div> <!-- End Content -->
+
+    <script type="text/javascript">
+  
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-24575958-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+
+    </script>
+
+  </body>
+</html>
+
+
+
+
