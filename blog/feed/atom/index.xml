@@ -7,12 +7,125 @@
   <title type="text">Ruminations From a Tortured Mind</title>
   <subtitle type="text">Me me me me</subtitle>
 
-  <updated>2011-08-09T06:42:20Z</updated>
+  <updated>2011-11-06T21:34:35Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://douche.name/blog" />
   <id>http://douche.name/blog/feed/atom/</id>
   <link rel="self" type="application/atom+xml" href="http://douche.name/blog/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>http://douche.name/blog</uri>
+    </author>
+    <title type="html"><![CDATA[Les 5 niveaux de conscience d'un développeur]]></title>
+    <link rel="alternate" type="text/html" href="http://douche.name/blog/2011/11/06/les-5-niveaux-de-conscience-d-un-developpeur" />
+    <id>http://douche.name/blog/2011/11/06/les-5-niveaux-de-conscience-d-un-developpeur</id>
+    <updated>2011-11-06T18:51:00Z</updated>
+    <published>2011-11-06T18:51:00Z</published>
+    <category scheme="http://douche.name/blog" term="coding" />
+    <summary type="html"><![CDATA[Les 5 niveaux de conscience d'un développeur]]></summary>
+    <content type="html" xml:base="http://douche.name/blog/2011/11/06/les-5-niveaux-de-conscience-d-un-developpeur"><![CDATA[<p>On peut juger un développeur sur la compréhension qu'il possède de son métier :
+5 niveaux qui détermine bien souvent sa plus value pour une organisation.</p>
+<h2>Niveau 0 : pisser de code</h2>
+<p>Il pense que son boulot est de <strong>produire des lignes et des lignes et des lignes
+de code</strong>. Généralement peu intéressé par ce qu'il fait, c'est juste un poste
+qui paye la soupe. Ou alors c'est un boulot temporaire avant de passer chef de
+projet.</p>
+<p>Le développeur du niveau 0 se voit très fréquemment et forme le gros du bataillon
+des SSII. Chaque fois qu'on le rencontre, on se pince les lêvres pour ne pas lui
+demander pourquoi il fait ce métier. Mais il faut bien reconnaitre que c'est
+souvent ce que lui demande son chef de projet...</p>
+<h2>Niveau 1 : livrer du code</h2>
+<p>Intéressé par la qualité du code, il pense qu'il doit <strong>livrer du code 
+fonctionnel</strong>. Il s'intéresse aux <em>Design Patterns</em>, lit des livres sur le
+développement logiciel, refactore de temps en temps son code pour le rendre
+<em>plus beau</em> et s'intéresse aux tests.</p>
+<p>Celui ci peut se rencontrer dans les groupes de développeurs, dans les soirées
+consacrés aux codes... <strong>Il a souvent la passion de son métier</strong>. Il discute
+longuement de code, et lit régulièrement blogs et livres sur le sujet.</p>
+<h2>Niveau 2 : livrer un logiciel</h2>
+<p>Le développeur <strong>livre un ensemble de code cohérent</strong>, qui possède une
+structure et fonctionne comme un bloc uni. Il s'intéresse à la conception, à la
+robustesse, à l'architecture logicielle. Il sait que les tests sont très
+importants, autant unitaire que fonctionnel, avec une couverture suffisante
+pour être rassuré quand il modifie des pans entiers du logiciel.</p>
+<p>Le niveau 2 est plus rare. Trop souvent, à la question <em>quel est ton métier</em>,
+un développeur me répond :</p>
+<blockquote>
+<p>Liver du code !</p>
+</blockquote>
+<p>Et non, ton métier est <strong>au minimum</strong> de livrer un logiciel. Avez vous déja
+vu un client satisfait d'une livraison d'un dépôt Git ?</p>
+<h2>Niveau 3 : livrer un produit</h2>
+<p>Le développeur livre plus qu'un logiciel, <strong>il livre un produit</strong>. Il
+s'intéresse donc à la couche système, aux procédures d'installation et de mise
+à jour, à la reprise sur incident, à la mise en production. Il participe à la
+documentation utilisateur et se met à la place des admins.</p>
+<p>Livrer un produit signifie souvent l'abandon du travail d'intégration pour un
+travail de conception, bien plus difficile. Il faut réfléchir avant
+tout à <strong>ses problématiques</strong> (et non celles que le framework X à résolu pour
+vous), au développement sur le long terme et donc à l'évolution du produit.</p>
+<h2>Niveau 4 : livrer de la valeur</h2>
+<p>Plus qu'un produit, même bien ficellé, le développeur apporte de la valeur.
+Car le réel objectif est <strong>d'améliorer le business du client</strong>. Niveau ultime
+et de loin le plus difficile car il demande de bien comprendre le métier du
+client en plus de parfaitement maitriser le sein (le développement logiciel).</p>
+<h2>Constat</h2>
+<p>Je vous concède que c'est un poil schématique. Une des particularités quand
+on travaille chez un éditeur logiciel est que le niveau minimum est... 4.</p>
+<p>Le niveau 3 est malheureusement rare alors que c'est pourtant le niveau que tout
+développeur devrait atteindre. Mais il faut bien avouer que le développement
+logiciel est un métier à la fois très exigeant et nouveau (moins de 40 ans !).</p>
+<p>L'autre raison que la plupart des développeurs travaillent en France dans le
+service, et peu dans le monde de l'édition. Ce qui veut dire bien souvent
+être en cascade (peu ou prou, même ceux qui disent faire de l'agilité, voir
+mon article «l'agile est mort») avec un cahier des charges fixe. Il faut
+une collaboration étroite avec le client pour échanger sur son business et
+comprendre, au dela des besoins exprimés (qui sont le plus souvent des
+solutions exprimées et non des besoins), les besoins réels et utiles. Ce qui
+est rarement le cas en SSII ou la plupart des clients estiment que ce n'est
+pas <strong>votre</strong> boulot de remettre en cause leurs besoins (comment voulez vous
+ensuite que les développeurs se sentent conernés ?).</p>
+<p>Je raconte souvent cette anectode :
+En tant qu'éditeur, il nous a fallu pratiquement <strong>un an entre la première
+version commerciale et la version crédible</strong>. Car nous avons trop misé sur
+des clients et partenaires incapables d'exprimer clairement des besoins, ce qui
+a affecté notre vision du produit. Nous avons donc sorti une version apportant
+peu de valeur. C'est en rencontrant des partenaires spécialisés et connaissant
+bien le métier que nous avons pu rectifier le tir et mieux comprendre ce dont
+ils avaient besoin.</p>
+<p>C'est évidemment de <strong>notre responsabilité</strong>, et je ne rejète en aucun cas la
+faute sur des tierces personnes. Mais cela m'a bien un peu éloigné de la sainte
+croyance <em>qu'il faut écouter le client</em>. Comme le disait Henry Ford :</p>
+<blockquote>
+<p>Si j'avais demandé à mes clients ce qu'ils voulaient, ils m'auraient réclamé
+un meilleur cheval</p>
+</blockquote>
+<p>Au passage, c'est en rencontrant des partenaires et clients Suisses,
+Belges, Allemands... (et non plus Français) que cela s'est amélioré :).</p>
+<h2>Conclusion</h2>
+<p>Etre éditeur logiciel, c'est être capable de livrer un produit robuste et
+fiable rapidement. Il faut maitriser le développement logiciel de bout en bout
+: le codage bien sûr mais aussi l'infrastructure, la conception, le packaging,
+le déploiement, la production, la documentation, le support... Il faut être
+foncièrement multi-compétences et vouloir s'améliorer dans tous ces domaines.
+Mais ce qui rend le travail si intéressant et dur, c'est que vous devez
+<strong>aussi</strong> maitriser votre coeur de métier. Là ou les niveaux 0 à 3 se
+focalisent uniquement sur la technique (qu'elle soit système, réseau,
+algorithmie, ihm, gestion de projet...)</p>
+<p>C'est pour cette raison que les <em>livreurs de code</em>, même excellents, ne sont
+bons au final, qu'a produire de la dette technique car plus intéressés par la
+beauté d'un code que de trouver une finalité utile à celle ci.</p>
+<p>Coder dans le cadre professionnel, ce n'est pas se faire plaisir avec le
+pattern X ou la techno Y, c'est avant comprendre un métier et apporter le
+maximum de valeur. Même si cela peut sembler inintéressant au premier abord,
+livrer un produit fonctionnel, fiable et robuste, utilisé par des clients
+heureux est le summum de la satisfaction, bien loin d'un algo lisible et
+performant. C'est ce qui fait tout le charme du métier d'éditeur.</p>
+<p>Mais ne me faites pas dire ce que je n'ai pas dit, il faut aussi se faire
+plaisir en tant que développeur :).</p>]]></content>
+  </entry>
   <entry>
     <author>
       <name></name>
