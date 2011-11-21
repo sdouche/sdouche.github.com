@@ -10,10 +10,153 @@
     <title>Ruminations From a Tortured Mind</title>
     <link>http://douche.name/blog</link>
     <description>Me me me me</description>
-    <pubDate>Sun, 06 Nov 2011 21:34:35 GMT</pubDate>
+    <pubDate>Mon, 21 Nov 2011 05:20:46 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
+    <item>
+      <title>Les conditions de travail</title>
+      <link>http://douche.name/blog/2011/11/21/les-conditions-de-travail</link>
+      <pubDate>Mon, 21 Nov 2011 06:05:00 CET</pubDate>
+      <category><![CDATA[rumination]]></category>
+      <category><![CDATA[management]]></category>
+      <guid isPermaLink="true">http://douche.name/blog/2011/11/21/les-conditions-de-travail</guid>
+      <description>Les conditions de travail</description>
+      <content:encoded><![CDATA[<p>J'ai récemment entendu un petit jeunot (vu l'âge moyen en informatique, ce sont
+maintenant tous des jeunots par rapport à moi) parler de son environnement de
+travail. Ce jeune homme disait donc qu'il devait obligatoirement venir en
+costume cravate, alors qu'il était au sous-sol sans jamais voir le moindre
+client. Les horaires sont 9h30 - 18h30, avec un manager aussi strict qu'un
+Suisse-Allemand. En gros, qui vous engueule pour 2 minutes de retard. Il
+travaille sur un poste Windows XP (alors qu'il code des applications sous
+Linux, cherchez l'erreur !), vérouillé à l'extrème ou il était impossible de
+modifier quoi que ce soit, dont son navigateur, ce brave IE6.</p>
+<p>Son manager lui attribue régulièrement du travail à effectuer sans qu'il donne
+son avis. Bien évidemment, étant en prestation, il devait bien faire attention
+à tout : tenue vestimentaire mais aussi comportement, blagues à midi avec
+ses collègues. Car chez son client, la <em>politique</em> est partout, même entre
+<em>collègues</em> prestataires puisque les différentes SSII se battent entre elles
+pour gagner des marchés, et toute information est bonne pour faire sauter son
+concurrent. Il faut donc être sur ses gardes, et éviter de faire des erreurs
+fatales pour votre mission. Grand sourire et haleine fraiche de rigueur en toute
+circonstance ! Son chef est son commercial, qui n'a donc rien à foutre de ses
+problèmes tant qu'il ne fâche pas le client, ce qui lui permet de gagner sa
+comm mensuelle sans rien faire. </p>
+<p>Sa mission est régulièrement entrecoupée de réunions, qui permet au manager de
+montrer son exceptionnelle capacité de non décision, malgré les 4 heures
+écoulées à parler (enfin surtout le manager, lui évite de trop parler histoire
+de ne pas rallonger la réunion dont il connait parfaitement le déroulement et
+surtout la fin). C'est quand même l'occasion de renconter des collègues qu'il
+voit rarement car il en a pas l'autorisation. On ne shint pas inpunément
+l'autorité du manager sans en subir les conséquences.</p>
+<p>Bien évidemment, la qualité est un refrain martellé par son client, mais au
+abonné absent dans son quotidien. Le refactoring ? Connait pas. Les tests ?
+Par le stagiaire quand le code est fini. Mais comme le dit son commercial :
+«c'est une opportunité de changer les choses de l'intérieur !». Et devoir
+travailler 8h par jour sur une application qui pète en permanence, c'est 
+comme disposer d'un bureau qui se pète la figure quand on bouge un peu trop.
+C'est juste très pénible.</p>
+<p>Ayant travaillé 8 ans en SSII chez de gros clients publics comme privés, tout
+cela m'a rappellé bien des souvenirs (et ceux qui me connaissent n'auront aucun
+mal à imaginer le peu d'antrain que j'avais à «faire semblant» et à accepter
+ces conditions de travail).</p>
+<p>Alors, pour toi, jeune informaticien, je vais te donner un aperçu de ce qui se
+passe dans mon quotidien :</p>
+<ul>
+<li>
+<p>Tenue vestimentaire libre.</p>
+</li>
+<li>
+<p>Vous pouvez être en chaussette ou pied nu pendant la journée. Ou en n'importe
+  quoi d'autre d'ailleurs.</p>
+</li>
+<li>
+<p>Horaire libre. La seule contrainte est le daily meeting à 11h45 d'une durée
+  de 15 minutes.</p>
+</li>
+<li>
+<p>Les autres réunions sont lancés au besoin, par un membre de l'équipe.
+  Généralement elles durent 15 à 20mn. On essaye de ne pas dépasser 1h.
+  On fait aussi des réunions <em>flashs</em> de 5 mn.</p>
+</li>
+<li>
+<p>Estimant que 5h par jour de travail est un maximum niveau efficacité,
+  vous ne serez pas bien vu en restant tard le soir. Le but est d'être
+  efficace sur le long terme, pas sur un mois.</p>
+</li>
+<li>
+<p>On prend régulièrement 2h pour manger et faire autre chose après, comme
+  jouer (à un jeu vidéo, au échecs...) ou matter des vidéos. On reprend
+  le taff à 14h.</p>
+</li>
+<li>
+<p>RTT et jours de congés sans obligation, vous les prenez quand vous le
+  voulez (en 4 ans, je crois n'avoir jamais refusé une demande).</p>
+</li>
+<li>
+<p>Si vous êtes malade ou peu productif dans la journée, alors on rentre. Pas
+  la peine de se forcer. Ou alors faite une sieste !</p>
+</li>
+<li>
+<p>Le poste de travail est de votre responsabilité. Vous mettez l'OS de votre 
+  choix (bon, on est tous Unixiens dans l'âme), la distrib que vous voulez.</p>
+</li>
+<li>
+<p>Télétravail possible sur 1 ou 2 jours par semaine (mais faut avouer que l'on
+  est pas bien organisé pour ça. Si on devait étendre à plus de monde, on
+  changera notre organisation).</p>
+</li>
+<li>
+<p>Chacun choisi son travail sur le kanban, j'ai autre chose à foutre de mes
+  journées qu'attribuer les tâches. On est tous des grands garçons (y'a pas
+  de filles).</p>
+</li>
+<li>
+<p>Plus de fiche sur le kanban ? Alors profitez en pour étudier un truc qui vous
+  intéresse, ou vous reposer un peu, ou faire un truc en rapport avec le dev.
+  Ca s'appelle être en <em>slack</em>.</p>
+</li>
+<li>
+<p>Tous les choix de conception et de développement sont pris ensemble, malgré
+  mes multiples casquettes, je n'ai pas celle d'architecte expert sénior
+  certifié (ajouter les buzzwords à la mode).</p>
+</li>
+<li>
+<p>La revue de code obligatoire permet de s'aligner, de se tenir au courant
+  du travail de ses collègues et de s'imprégner du projet dans sa globalité.</p>
+</li>
+<li>
+<p>Les techos sont séparés pour avoir du calme, ce qui joue beaucoup sur la
+  concentration. On évite le téléphone au maximum. La pièce possède tout le
+  nécessaire pour des réunions (tableau blanc, whitepaper, rétro-projecteur)
+  ce qui évite de se déplacer en salle de réunion.</p>
+</li>
+<li>
+<p>Et parce que la valorisation se fait aussi par le salaire, les augmentations
+  sont significatives (entre 8 et 12%). Le deal est clair à l'embauche sur
+  le niveau de salaire que je souhaite donner à moyen terme.</p>
+</li>
+</ul>
+<p>Bon, je m'arrête la mais vous voyez le topo. Je peux glorifier cet
+environnement, mais ce n'est pas le cas, pour une raison bien simple : <strong>c'est
+normal</strong>. C'est l'environnement cité par notre jeunot qui est inadmissible,
+puant de médiocrité organisationnelle et rempli de petits chefs sans envergure.</p>
+<p>L'informatique est un métier purement <strong>cognitif</strong>, la productivité est donc
+directement proportionnel à sa capacité à réfléchir et à être créatrif.
+Il est donc fondamental de disposer d'un environnement en rapport. Surveiller
+ou contrôler avec des processus contraingnants n'a donc aucun intérêt si on
+recherche l'efficacité.<br />
+</p>
+<p>Si vous voulez des gens motivés dans leur travail et qui donne le
+meilleur d'eux-mêmes, c'est <strong>donnant-donnant</strong>. A vous de construire une
+organisation qui leur donne l'impression d'être écoutés et impliqués. Et vous
+savez quoi ? Ca marche. <strong>Prenez des gens pour des gamins et ils se
+comporteront comme tels</strong>. Mais attention, on est de loin du monde sans
+management comme le pensent souvent les informaticiens, c'est même <strong>le
+contraire </strong>! Mais c'est le sujet d'un autre billet.</p>
+<p>Alors, si vous subissez ce genre d'environnement, changez d'air. Et si c'est
+vous le manager, alors changez de métier, il n'est pas fait pour vous.</p>]]></content:encoded>
+    </item>
     <item>
       <title>L'Agile est mort</title>
       <link>http://douche.name/blog/2011/08/08/l-agile-est-mort</link>
