@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Nouveau blog avec Blogofile &middot; Ruminations From a Tortured Mind</title>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
+        <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
+        <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="http://douche.name/apple-touch-icon-144-precomposed.png" sizes="144x144" />
+        <link rel="alternate" href="" type="application/rss+xml" title="Ruminations From a Tortured Mind" />
+    </head>
+    <body class="li-body">
+
+<header class="li-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-brand li-left">
+                <a href="http://douche.name">Ruminations From a Tortured Mind</a></div>
+                <div class="li-menu li-right">
+                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
+                    <ul id="menu2" class="li-menu-items">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <ul id="menu" class="li-menu-items li-menu-mobile">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">Nouveau blog avec Blogofile</h1>
+                        <time class="li-article-date">Friday, July 15, 2011</time>
+                    </header>
+                    <section>
+                        
+
+<p>Cela faisait quelques temps que cela me titillait : écrire des billets avec
+mon éditeur texte habituel, et de pousser en prod avec Git. C&rsquo;est le blog
+de <a href="http://gitfr.net/blog">#gitfr</a> qui m&rsquo;a donné le courage de m&rsquo;y mettre.
+Et c&rsquo;est maintenant chose faites. Adieu Wordpress, boujour Blogofile !</p>
+
+<h2 id="toc_0">Mais qu&rsquo;utilises tu ?</h2>
+
+<p>Un générateur statique de site, autrement un outil qui transforme les
+documents textes (format <code>markdown</code> ou <code>rst</code>) en pages html, à l&rsquo;aide de
+templates.</p>
+
+<p>Beaucoup d&rsquo;avantages :</p>
+
+<ul>
+<li>Tout se trouve dans des fichiers textes.</li>
+<li>Plus besoin d&rsquo;être en ligne.</li>
+<li>Ecriture avec Vim et non un éditeur WYSIWIG dans un navigateur.</li>
+<li>Maintenance pratiquement nulle.</li>
+<li>Plus de problème de sécurité.</li>
+<li>Sauvegarde automatique sur GitHub.</li>
+<li>Liberté totale sur l&rsquo;organisation du site.</li>
+<li>Hébergement simplifiée (plus besoin de PHP, Python&hellip;).</li>
+<li>Et bien sûr, utilisation de Git pour gérer le site :).</li>
+</ul>
+
+<p>En contre partie, vous n&rsquo;avez plus la facilité de créer un joli site en 2
+clicks de souris. La, c&rsquo;est à vous de créer votre template et de développer
+les services supplémentaires (affichage de tweets par exemple).</p>
+
+<h2 id="toc_1">Un retour en arrière ?</h2>
+
+<p>Je faisais du statique en 96 quand j&rsquo;apprenais l&rsquo;html 3 (ou 2 je ne sais
+plus), et voila que je refais du statique en 2011, est ce vraiment
+raisonnable ? Il y&rsquo;a en fait un changement important qui permet ce retour
+aux sources : le <strong>cloud</strong>. Pour disposer d&rsquo;un blog, il faut un moteur de rendu
+de billets, mais aussi un système de commentaires, la gestion de flux RSS,
+le multi-compte, des droits et authorisations, etc.</p>
+
+<p>Maintenant, vous pouvez externaliser tous les services importants :</p>
+
+<ul>
+<li>les commentaires : Disqus.</li>
+<li>les flux RSS : Feedburner.</li>
+<li>Suivi d&rsquo;activité : Google Analytics.</li>
+<li>Hébergement, backup, droit et travail collaboratif : GitHub.</li>
+</ul>
+
+<p>Cela permet de se concentrer sur l&rsquo;essentiel : écrire du contenu.</p>
+
+<h2 id="toc_2">Organisation</h2>
+
+<p>Il me faut deux dépôts. Pourquoi deux ? Ce n&rsquo;est pas obligatoire bien sûr,
+mais j&rsquo;utilise le service d&rsquo;hébergement gratuit de pages statiques de
+<em>GitHub</em>. Ce dernier impose des contraintes, dont le nom du dépôt et
+l&rsquo;emplacement des fichiers. Si vous hébergé vous même le site, un seul dépôt
+est suffisant.</p>
+
+<p>Pour les utilisateurs de <code>Git</code>, les <em>submodules</em> font parfaitement
+l&rsquo;affaire puisque la version générée se trouve dans un sous répertoire.</p>
+
+<h2 id="toc_3">Un exemple ?</h2>
+
+<p>La mise en production se fait comme suit :</p>
+
+<pre><code>$ /path/to/blogofile/blogofile build
+$ git add _site/*
+$ git commit -m &quot;nouveau billet sur Blogofile&quot;
+$ git push
+</code></pre>
+
+<p>(sans submodules, il suffit de copier le contenu manuellement).</p>
+
+<p>Et voila ! Je vous laisse imaginer les possibilités intéressantes qu&rsquo;offrent
+un DVCS comme <em>Git</em> ou <em>Hg</em> (si ce n&rsquo;est pas le cas, vous êtes bon pour voir une
+de mes présentations Git ;) pour gérer votre site.</p>
+
+<h2 id="toc_4">Pourquoi Blogofile ?</h2>
+
+<ul>
+<li><p>Parce qu&rsquo;il est en Python, et cela me permet de coder dans mon langage préféré
+et d&rsquo;apprendre des moteurs de templates que je ne connaissais pas (<em>Mako</em> et
+bientôt <em>jinja2</em>).</p></li>
+
+<li><p>Parce qu&rsquo;il est vraiment simple. Pas fioritures, il va à l&rsquo;essentiel. Ecrire
+des controlleurs ne semblent vraiment pas dur et les quelques fonctionnalités
+dont j&rsquo;avais besoin (Disqus, flux RSS et blog) sont là. Un site de base tiens
+dans 700 lignes de code Python, ce qui rend la compréhension aisé. Blogofile
+fait pour sa part 900 lignes.</p></li>
+
+<li><p>Il permet de gérer les documents drafts, le multi-auteur ou les
+transformations multiples.</p></li>
+
+<li><p>Parce que je sature un peu de Ruby. Utilisant pas mal d&rsquo;outils codés en
+Ruby ces derniers temps, je commençais en avoir ras la casquette des
+erreurs d&rsquo;installation ou des messages d&rsquo;erreur complètement abscons. Mais
+des outils comme Jekyll ou Toto semblent pas mal du tout, j&rsquo;ai fais joué
+ma fibre Pythonienne.</p></li>
+</ul>
+
+<p>Alors, si vous avez un site à monter, je vous conseille fortement de jeter un oeil
+sur ces logiciels, cela peut vous intéresser ! :).</p>
+
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="row li-author">
+    <div class="sixteen columns">
+        Written by <strong>Sébastien Douche</strong>
+    </div>
+</div>
+
+
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    
+                        Later article<br />
+                        <a href="http://douche.name/blog/l-agile-est-mort/"> L&#39;Agile est mort</a>
+                    
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    
+                        Older article<br />
+                        <a href="http://douche.name/blog/un-retour-sur-pomodoro/"> Un retour sur Pomodoro</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    Copyleft (c) 20010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="http://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+        var e = document.getElementById(id);
+        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
+    }
+    
+    </script>
+    <script type="text/javascript">
+    <!--
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', "UA-24575958-1"]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    -->
+    </script>
+    </body>
+</html>
+

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Rumination on Ruminations From a Tortured Mind </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://douche.name/categories/rumination/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 08 Aug 2011 03:00:00 CEST</updated>
+    
+    <item>
+      <title>L&#39;Agile est mort</title>
+      <link>http://douche.name/blog/l-agile-est-mort/</link>
+      <pubDate>Mon, 08 Aug 2011 03:00:00 CEST</pubDate>
+      
+      <guid>http://douche.name/blog/l-agile-est-mort/</guid>
+      <description>
+
+&lt;p&gt;Sous ce titre qui peut paraitre provocateur se trouve un constat plutôt amère,
+d&amp;rsquo;autant plus amère que tout cela était prévisible depuis bien des années.
+L&amp;rsquo;Agile est devenu &lt;em&gt;mainstream&lt;/em&gt;, on en parle régulièrement dans les
+journaux de décideurs (c&amp;rsquo;est bien la preuve de sa reconnaissance non ?), les
+développeurs disent le pratiquer au quotidien, les responsables de projet
+assurent en faire. Alors pourquoi ce pessimisme ? Parce qu&amp;rsquo;il ne se passe un
+mois sans en avoir la preuve, par exemple quand quelqu&amp;rsquo;un se pose en face de
+moi et me dit :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;L&amp;rsquo;agilité, c&amp;rsquo;est vraiment de la merde !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Et cela m&amp;rsquo;arrive très souvent (certes ce n&amp;rsquo;est pas toujours aussi vulgaire).
+Il ne faut pas 2 minutes pour savoir que son contexte n&amp;rsquo;est pas Agile, ni de
+près, ni de loin. Mais le signe le plus tangible est d&amp;rsquo;entendre des
+soit-disant &lt;em&gt;spécialistes&lt;/em&gt; dirent n&amp;rsquo;importe quoi à longueur de blogs,
+journaux ou listes de diffusion.&lt;/p&gt;
+
+&lt;p&gt;Oh, je vous vois venir : «mais qui es tu pour définir ce qui est de ce qui
+n&amp;rsquo;est pas Agile ?». Excellente question ! En fait, si définir avec précision
+les contours de l&amp;rsquo;agilité est difficile, surtout en 2011 où beaucoup de
+pratiques ou de mouvements se disent Agile, il est bien plus facile de dire ce
+qui n&amp;rsquo;est &lt;strong&gt;pas Agile&lt;/strong&gt; quand c&amp;rsquo;est &lt;strong&gt;aux antipodes de la philosophie qu&amp;rsquo;il veut
+incarner&lt;/strong&gt;. Certes le référenciel des pratiques a augmenté, mais il y&amp;rsquo;a toujours des
+fondamentaux clairs et bien visibles, et toutes pratiques agiles doivent en
+découler. J&amp;rsquo;aime comparer l&amp;rsquo;agilité avec le Logiciel Libre,
+deux mouvements auxquels je participe depuis longtemps (10 et 15 ans), car ils
+sont dans les deux cas un mélange de technique et d&amp;rsquo;humain. Dans les deux cas,
+c&amp;rsquo;est une certaine &lt;strong&gt;représentation du monde&lt;/strong&gt; et des relations entre les
+gens :&lt;/p&gt;
+
+&lt;p&gt;Si je diffuse un logiciel avec une licence Libre, par exemple BSD, mais que
+je ne propose pas de bugtracker, de liste de diffusion, ou que je refuse toute
+contribution extérieure, ou que j&amp;rsquo;obfusque mon code, ou que j&amp;rsquo;envoie sur
+les roses les demandes d&amp;rsquo;utilisateurs, je fais du Logiciel Libre (ma licence
+le prouve) sur papier. Dans les faits, ce n&amp;rsquo;est qu&amp;rsquo;un ersatz, je ne respecte
+pas la philosophie du Logiciel Libre. Il en est de même avec l&amp;rsquo;agilité.&lt;/p&gt;
+
+&lt;p&gt;A mes yeux, l&amp;rsquo;agilité se résume en trois points dont leurs présences sont
+faciles à juger.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;La recherche de la valeur&lt;/h2&gt;
+
+&lt;p&gt;Souvent maladroitement appelé &lt;em&gt;un logiciel qui marche&lt;/em&gt;, l&amp;rsquo;objectif est de
+donner aux utilisateurs un produit fonctionnel, utilisable et pratique.
+Et sauf à produire un logiciel maintes et maintes fois demandée, c&amp;rsquo;est
+une découverte, autant pour le client que pour l&amp;rsquo;équipe de développement.
+C&amp;rsquo;est donc une utopie de croire que l&amp;rsquo;on peut définir à l&amp;rsquo;avance les
+spécifications complètes du logiciel. Le but est avant de trouver ce
+logiciel agréable et fonctionnel, et non de le faire vite. La cascade
+est à bien des égards l&amp;rsquo;approche la plus efficiente pour faire du logiciel
+rapidement :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J&amp;rsquo;écoute les besoins.&lt;/li&gt;
+&lt;li&gt;Je conçois et valide les spécifications.&lt;/li&gt;
+&lt;li&gt;Je développe.&lt;/li&gt;
+&lt;li&gt;Je teste.&lt;/li&gt;
+&lt;li&gt;Je livre.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il n&amp;rsquo;y a pas plus rapide. Si vous faites depuis 20 ans la même chose, pas de
+soucis. Je n&amp;rsquo;ai entendu que deux (oui deux, pas trois) sociétés
+capables de livrer en temps et en heure avec de 99% succès en mode cascade.
+Et sans surprise ce sont deux sociétés développant en Cobol sur une
+plateforme assez ancienne des produits fortement similaires. En résumé :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Equipe stable.&lt;/li&gt;
+&lt;li&gt;Techno et plateforme archi connues.&lt;/li&gt;
+&lt;li&gt;Métier fortement maitrisé.&lt;/li&gt;
+&lt;li&gt;Produits similaires.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En sommes, un environnement idéal. Mais il est illusoire d&amp;rsquo;attendre d&amp;rsquo;un
+client la capacité à définir avec précision ses besoins. Non seulement il
+ne sait pas ce qu&amp;rsquo;il veut, mais il se rend souvent compte après coup que
+ce qu&amp;rsquo;il a réussi à expliquer est sans intérêt ! Voire même que son business
+ou ses besoins ont changés entre le début du développement et sa fin. Et je
+ne parle même pas de la capacité d&amp;rsquo;une équipe de développement à livrer un
+produit de bonne qualité d&amp;rsquo;une seule traite, surtout si c&amp;rsquo;est en découvrant
+le métier du client. Bref, pour résumer, c&amp;rsquo;est utopique. Mettons cela sur
+l&amp;rsquo;immaturité de notre métier, la jeunesse de nos outils et une formation
+trop basique.&lt;/p&gt;
+
+&lt;p&gt;Au contraire, l&amp;rsquo;agilité se veut une quête de sens :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Que dois je obtenir ?&lt;/li&gt;
+&lt;li&gt;Quelles sont les fonctionnalités réellement utiles ?&lt;/li&gt;
+&lt;li&gt;Ce besoin est il justifié ? N&amp;rsquo;est elle pas le symptôme d&amp;rsquo;un problème
+non technique ?&lt;/li&gt;
+&lt;li&gt;Voir même, ce logiciel est il utile ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;C&amp;rsquo;est un effort collectif, allant du développeur jusqu&amp;rsquo;au client pour
+comprendre, analyser et développer de la valeur métier  à travers un
+logiciel. Sans cela, vous faites de la cascade : on se met d&amp;rsquo;accord sur
+une limite fonctionnelle, numéraire et temporelle et zou !&lt;/p&gt;
+
+&lt;p&gt;Passons au deuxième point.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;L&amp;rsquo;humain est au centre&lt;/h2&gt;
+
+&lt;p&gt;Ce qui ressort aussi est cette volonté permanente de mettre en
+avant les personnes, et non les outils ou les processus. les seconds sont
+aux services des premiers, et pas l&amp;rsquo;inverse ! Le développement est une
+histoire de développeurs avant tout. Vous devez &lt;strong&gt;faire confiance aux gens,
+les respecter dans leur capacité à produire, dans leur jugement&lt;/strong&gt;. Cet accent
+me semble t&amp;rsquo;il est absent des approches précédentes comme la cascade ou RUP.
+Ces dernières sont plutôt axées processus, avec des dizaines de procédures
+et de la documentation à profusion, le développeur n&amp;rsquo;étant qu&amp;rsquo;un rouage du
+système.&lt;/p&gt;
+
+&lt;p&gt;CMMi est un bon exemple de cette vision : la documentation officielle parle
+sempiternellement d&amp;rsquo;organisation et de processus. Et pire, il faut être
+certifié CMMi pour savoir lire une doc CMMi (cherchez l&amp;rsquo;erreur) tellement elle
+est inbitable et truffée d&amp;rsquo;une terminologie incompréhensible. D&amp;rsquo;ailleurs la
+plupart font du cascade, c&amp;rsquo;est dire leur croyance dans les processus. Il
+faudra attendre 2010 pour entendre le CEI parler sérieusement d&amp;rsquo;agilité, 11
+ans après le livre de Ken Beck !&lt;/p&gt;
+
+&lt;p&gt;Au contraire, l&amp;rsquo;agilité privilégie l&amp;rsquo;interaction sur le processus, le
+résultat sur la documentation, en rapprochant physiquement tous les
+participants, en  poussant les réunions courtes mais régulières, et en
+écoutant les gens.&lt;/p&gt;
+
+&lt;p&gt;Passons maintenant au troisième point.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Le développement est une discipline&lt;/h2&gt;
+
+&lt;p&gt;Le développeur remis en selle comme moteur du développement, on lui demande
+en échange de maitriser son métier : on veut du logiciel qui fonctionne ! Il
+doit remettre sans cesse se remettre en cause, apprendre à faire mieux et à
+affiner ses techniques de développement.&lt;/p&gt;
+
+&lt;p&gt;Le milieu logiciel aime bien se traiter d&amp;rsquo;artisan (chaque profession aime se
+dépeindre avec élégance) mais cela est identique chez les livreurs, les
+boulangers, les cuisiniers, les musiciens&amp;hellip; Mis à part que le développement
+logiciel est un métier non seulement très complexe mais en plus à ces
+balbutiements : 60 ans. Cela est bien peu.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;agilité apporte beaucoup de solutions intéressantes : le TDD, les tests,
+la revue par les pairs, l&amp;rsquo;intégration continue ou le refactoring par exemple.
+Bien sûr un développeur peut très bien travailler correctement depuis très
+longtemps sans avoir jamais lu un seul livre sur l&amp;rsquo;agilité. Après tout Ken
+Beck et ses accolytes ont découvert ces techniques, pourquoi pas les autres ?
+Certes, mais se passer de l&amp;rsquo;agilité, c&amp;rsquo;est mettre de coté des années de
+réflexion sur les pratiques de développement logiciel et ca serait bien
+dommage.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Alors, pourquoi dire que l&amp;rsquo;Agile est mort ?&lt;/h2&gt;
+
+&lt;p&gt;je ne suis malheureusement pas assez vieux pour savoir ce qui se passait dans
+les années 70, 80 et 90 dans l&amp;rsquo;industrie du logiciel mais je ne crois pas me
+tromper en disant que l&amp;rsquo;agilité est une étape marquante. Je suis malgré
+tout un vieux Geek, j&amp;rsquo;achetais pas mal de livres sur la programmation voici 20
+ans et je n&amp;rsquo;ai aucun souvenir des livres (en France en tout cas !) qui
+ressemblaient peu ou prou à l&amp;rsquo;agilité, on apprenait plutôt en copiant le code
+des &lt;em&gt;maitres&lt;/em&gt; (en crackant des logiciels, en écoutant les démo-makers ou en
+bavardant sur les BBS). Des pratiques quasi inconnues voici 10 ans sont
+maintenant considérées comme des pratiques indispensables (vous faisiez
+beaucoup de tests unitaires en 2000 ?).&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;agilité a &lt;strong&gt;apporté la lumière à des milliers de développeurs&lt;/strong&gt;, dont moi,
+et à fait progresser notre connaissance de notre métier, en construisant
+pour la première fois un socle stable. Nous en sommes encore au début mais
+nous tentons chaque jour de mieux comprendre ce métier Ô combien difficile.&lt;/p&gt;
+
+&lt;p&gt;Mais vous savez quoi ? &lt;strong&gt;Tout le monde s&amp;rsquo;en fout !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;L&amp;rsquo;Agile est la nouvelle technique à la mode&lt;/h2&gt;
+
+&lt;p&gt;On s&amp;rsquo;aperçoit rapidement qu&amp;rsquo;une majorité d&amp;rsquo;organisations utilise l&amp;rsquo;Agile
+parce qu&amp;rsquo;ils ont entendus que ça marche mais se foutent royalement de ce
+qu&amp;rsquo;il y a dedans. Et pour cause, cela signifie aussi remettre à cause
+deux visions fondamentales dans nos entreprises :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;L&amp;rsquo;informatique est un coût, pas un investissement.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Les employés sont interchangeables, et non le socle de l&amp;rsquo;entreprise.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ne voulant pas remettre en cause ces deux postulats, il ne peut en
+résulter qu&amp;rsquo;un dévoiement du mouvement Agile. Et c&amp;rsquo;est ce qui se passe.
+&lt;strong&gt;L&amp;rsquo;Agile est donc une mode&lt;/strong&gt;, qui passe après le développement objet,
+les Design Patterns, le C++, Java, les frameworks, RUP et quelques
+autres. On verra dans quelques années fleurir de nouvelles modes quand les
+promesses des vendeurs Agiles se seront écrasé sur le mur de la réalité
+des entreprises.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Mais que font ils ?&lt;/h2&gt;
+
+&lt;p&gt;Du développement &lt;strong&gt;itératif et incrémental&lt;/strong&gt;. Ils découpent leurs
+développements en lots plus petits, avec vérification régulière. Le rapport
+avec l&amp;rsquo;Agile tel que je le décris au début du billet ? Aucun ! Faire
+confiance aux gens ? Soyons sérieux, ils pratiquent régulièrement
+le &lt;em&gt;command &amp;amp; control&lt;/em&gt;, technique qui consiste à faire travailler les
+gens comme des marionnettes, et les accuser de faire du mauvais
+boulot en cas de pépin. Voir le développement comme une discipline ? Vous
+parlez de ces directions des achats qui écrasent le prix journalier des
+développeurs vers le bas ? Quand à la recherche de la valeur, cela
+signifie remettre douloureusement en cause le fonctionnement de l&amp;rsquo;organisation.&lt;/p&gt;
+
+&lt;p&gt;Vous commencez à me comprendre ? Ce n&amp;rsquo;est d&amp;rsquo;ailleurs pas pour rien que l&amp;rsquo;on
+vend du Scrum, qui consiste à faire des lots (appelé itération) avec démo
+régulière qu&amp;rsquo;on soupoudre avec une réunion quotidienne et une rétrospective
+de temps en temps. Le tour est joué, on fait de l&amp;rsquo;Agile !&lt;/p&gt;
+
+&lt;p&gt;Dites moi si ces quelques exemples vous dit quelques choses :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Le Chef de projet est appellé ScrumMaster, parce qu&amp;rsquo;il a fait 2 jours de
+formation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On n&amp;rsquo;évalue pas la pertinence business d&amp;rsquo;une fonctionnalité.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On a pris des développeurs sous qualifiés ou inexpérimentés car par chers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Le pair-programming ou la revue de code ? Trop cher et inutile.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Le ScrumMaster assigne les tâches à chaque réunion quotidienne.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;La rétrospective se fait avec le client.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Un cahier des charges est construit avant de développer.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On ne prend jamais le temps de revoir les parties qui posent problèmes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On doit travailler tard pour rattraper le retard ou gérer les nouvelles
+demandes du marketing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Le projet va dans le mur mais on ne fait rien.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On micro-manage les gens.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On découpe le projet en équipe qui ne se voit pas.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On ne fait pas monter en compétence les membres de l&amp;rsquo;équipe.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je pourrais ajouter bien d&amp;rsquo;autres exemples, mais vous voyez l&amp;rsquo;idée. Où est la
+philosophie Agile ? Absente, car les organisations ne souhaitent pas changer
+leur vision du développement logiciel, encore moins leur mode de fonctionnement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Pourquoi en faire ?&lt;/h2&gt;
+
+&lt;p&gt;Parce que ça se vend, pardi ! Des sociétés de conseils se sont placés sur
+le marché, des associations se sont créés pour développer ce business. Alors
+ca se vend, et plutôt bien maintenant.&lt;/p&gt;
+
+&lt;p&gt;Mais comment faire de l&amp;rsquo;Agile :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;dans un environnement &lt;em&gt;command &amp;amp; control&lt;/em&gt; ?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dans une culture du blâme et de la recherche du coupable, ou chaque
+responsable sort son parapluie au moindre soucis ?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;quand on vous donne un cahier des charges sans remise en cause du besoin
+business ?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En le triturant pour que cela rentre dans les cases. Un exemple ? La grande
+&lt;strong&gt;tartuferie&lt;/strong&gt; du développement Agile au forfait. Regardons de plus près : le
+forfait consiste à définir une limite fonctionnelle, temporelle et numéraire
+d&amp;rsquo;un développement. Cela vous rappelle quelque chose ? Pas pour rien que le
+forfait agile est un serpent de mer dans toutes les conférences Agile depuis
+des années, tous les responsables de SSII se demandant comment en faire.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;L&amp;rsquo;Agile est mort en 2001&lt;/h2&gt;
+
+&lt;p&gt;Plus précisemment en &lt;strong&gt;février 2001&lt;/strong&gt;, à Snowbird Utah USA. C&amp;rsquo;est la
+création du &lt;em&gt;Manifeste Agile&lt;/em&gt; et de l&amp;rsquo;emploi du terme Agile. Plus généralement,
+c&amp;rsquo;est une volonté de mettre en place un &lt;strong&gt;modèle&lt;/strong&gt;, un cadre. C&amp;rsquo;est à partir
+de 2002 que l&amp;rsquo;on voit fleurir les livres avec le terme agile dans le titre.&lt;/p&gt;
+
+&lt;p&gt;Cela peut paraitre surprenant de dire cela, puisque c&amp;rsquo;est aussi le début du
+mouvement Agile. L&amp;rsquo;objectif de normaliser termes et principes, de les figer,
+est avant tout pour mieux le vendre. Il est curieux de voir &lt;strong&gt;17 consultants
+sur les 17 signataires du manifeste&lt;/strong&gt; : tous vendent des livres, tous vendent
+des formations. L&amp;rsquo;Agile Alliance fut créée dans la foulée pour en faire la
+promotion.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;Un modèle sclérosé&lt;/h2&gt;
+
+&lt;p&gt;Résultat en 2011 ? Malgré quelques avancées, le discours Agile officiel est
+proche de 2001. N&amp;rsquo;a t on rien appris en 10 ans ? Bien sûr que si : le
+développement par flux, la prise en compte de l&amp;rsquo;organisation dans le
+développement ne sont que deux  exemples fondamentaux. Mais pourtant, le modèle
+Agile reste assez hémertique à ces changements. On a bien vu quelques
+nouveautés mais rien de bien méchant. Pourquoi ? Parce qu&amp;rsquo;on est plus
+intéressé à vendre qu&amp;rsquo;à réfléchir, car pour réfléchir &lt;strong&gt;il faut avant tout
+faire&lt;/strong&gt; ! Ce n&amp;rsquo;est pas en écrivant des livres et en faisant du consulting
+qu&amp;rsquo;on peut produire. XP est le résultat de très nombreuses années de
+pratique de développement logiciel. Taiichi Ono (fondateur du &lt;em&gt;Toyota
+Production System&lt;/em&gt;) à passé plusieurs décennies pour perfectionner son
+organisation. Il ne faisait surement pas passer des certifications TPS 5 ans
+après avoir débuté sa nouvelle organisation !&lt;/p&gt;
+
+&lt;p&gt;Il y a bien eu un déplacement léger du développeur vers l&amp;rsquo;organisation. Même
+si le modèle Agile s&amp;rsquo;ouvre sur l&amp;rsquo;extérieur, cela reste limité : il suffit
+de voir le rôle du &lt;em&gt;PO&lt;/em&gt; (Product Owner), proxy du reste de la société, où
+se trouvent des &lt;em&gt;stakeholders&lt;/em&gt;. Ou est le marketing commercial ? Technique ?
+La recherche de nouveaux marchés ? Le déploiement ? L&amp;rsquo;opérationnel ?
+L&amp;rsquo;expérience utilisateur ? Le design ? En gros, où est tout le reste ?!
+Le vide, les têtes pensantes du modèle Agile sont encore à rabacher TDD et
+planning poker, la belle affaire !&lt;/p&gt;
+
+&lt;p&gt;Pire, ce léger déplacement est contre balancé par le &lt;strong&gt;mouvement craftmanship&lt;/strong&gt;,
+qui se veut un retour au source, auto-centré sur le développeur. La seule
+avancée intéressante vient de partir à l&amp;rsquo;eau ! Si vous voulez savoir pourquoi,
+regardez juste le business du fondateur de mouvement, Bob Martin, vendeur
+de livres et de formations&amp;hellip; sur le code. Forcément, l&amp;rsquo;organisation, ce n&amp;rsquo;est
+pas utile pour son business. Il est d&amp;rsquo;ailleurs marrant d&amp;rsquo;entendre certains se
+pâmer devant ce mouvement comme ci c&amp;rsquo;était nouveau. XP disait peu ou prou la
+même chose  voici 13 ans. Ce n&amp;rsquo;est d&amp;rsquo;ailleurs pas anodin que ce soit
+majoritairement des Scrumistes qui ont font (en France) la promotion, alors
+qu&amp;rsquo;ils critiquaient XP ouvertement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;J&amp;rsquo;espère avoir éclairci mon propos sur Twitter (140 caractères, c&amp;rsquo;est des
+fois trop court :). Non, il ne faut pas arrêter de faire des tests,
+du pair programming ou des réunions quotidiennes. Et non, il ne faut surtout
+pas minimiser l&amp;rsquo;impact de l&amp;rsquo;agilité sur notre métier, bien au contraire ! Je
+vous encourage à lire livres et blogs et à prendre ce dont vous avez besoin.&lt;/p&gt;
+
+&lt;p&gt;Il faut seulement avoir une vision systémique du mouvement, comprendre d&amp;rsquo;où
+il vient, pourquoi il a été créé et pourquoi certaines personnes vendent le
+modèle Agile. Cela permet par exemple de comprendre le &lt;em&gt;Manifeste Agile&lt;/em&gt;
+au lieu de répéter bêtement son contenu qui est loin d&amp;rsquo;être optimal en 2011.
+Cela permet aussi de comprendre que ce modèle créé en 2001 (Scrum en 96, XP
+en 99) et qui a mis du temps à se propager n&amp;rsquo;apporte plus rien de neuf
+depuis de nombreuses années. Si l&amp;rsquo;argent fut toujours le moteur, le modèle
+est maintenant dévoyé &lt;strong&gt;pour rentrer dans la matrice consulting&lt;/strong&gt;, loin des
+objectifs initiaux. Et ni les voix &lt;em&gt;officielles&lt;/em&gt; (Agile Alliance, Scrum
+Alliance), ni ses &lt;em&gt;têtes pensantes&lt;/em&gt; se sont élevés contre cela. Pire, elles
+ont participé activement à ce dévoiement (qui a dit certification ?).&lt;/p&gt;
+
+&lt;p&gt;Je pourrais résumer ma pensée ainsi : &lt;strong&gt;L&amp;rsquo;agilité est une avancée importante,
+mais le modèle Agile est inutile&lt;/strong&gt;. C&amp;rsquo;est peut être le destin de tout
+modèle. En tout cas il est temps que chaque organisation invente, à l&amp;rsquo;instar de
+Toyota, son propre modèle de production. Un modèle &lt;strong&gt;adapté à son business,
+ses clients, ses collaborateurs&lt;/strong&gt;. Un modèle qui &lt;strong&gt;prend en compte toutes les
+nouvelles avancées&lt;/strong&gt; que l&amp;rsquo;on peut trouver dans les mouvements tels que Devops,
+Lean, Lean startup ou Kanban. Un modèle &lt;strong&gt;qui évolue&lt;/strong&gt; sans cesse avec la
+maturité et la capacité de l&amp;rsquo;organisation à produire.&lt;/p&gt;
+
+&lt;p&gt;Mais pour essayer de le faire sans relâche depuis 4 ans, je vous concède que
+c&amp;rsquo;est bien plus difficile et pénible qu&amp;rsquo;une formation de 2 jours ou de
+répéter à l&amp;rsquo;envie ce que l&amp;rsquo;on a lu dans un livre&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

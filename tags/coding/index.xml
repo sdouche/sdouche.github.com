@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Coding on Ruminations From a Tortured Mind </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://douche.name/tags/coding/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 06 Nov 2011 18:51:00 &#43;0200</updated>
+    
+    <item>
+      <title>Les 5 niveaux de conscience d&#39;un développeur</title>
+      <link>http://douche.name/blog/les-5-niveaux-de-conscience-d-un-developpeur/</link>
+      <pubDate>Sun, 06 Nov 2011 18:51:00 &#43;0200</pubDate>
+      
+      <guid>http://douche.name/blog/les-5-niveaux-de-conscience-d-un-developpeur/</guid>
+      <description>
+
+&lt;p&gt;On peut juger un développeur sur la compréhension qu&amp;rsquo;il possède de son métier :
+5 niveaux qui détermine bien souvent sa plus value pour une organisation.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Niveau 0 : pisser de code&lt;/h2&gt;
+
+&lt;p&gt;Il pense que son boulot est de &lt;strong&gt;produire des lignes et des lignes et des lignes
+de code&lt;/strong&gt;. Généralement peu intéressé par ce qu&amp;rsquo;il fait, c&amp;rsquo;est juste un poste
+qui paye la soupe. Ou alors c&amp;rsquo;est un boulot temporaire avant de passer chef de
+projet.&lt;/p&gt;
+
+&lt;p&gt;Le développeur du niveau 0 se voit très fréquemment et forme le gros du bataillon
+des SSII. Chaque fois qu&amp;rsquo;on le rencontre, on se pince les lêvres pour ne pas lui
+demander pourquoi il fait ce métier. Mais il faut bien reconnaitre que c&amp;rsquo;est
+souvent ce que lui demande son chef de projet&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Niveau 1 : livrer du code&lt;/h2&gt;
+
+&lt;p&gt;Intéressé par la qualité du code, il pense qu&amp;rsquo;il doit &lt;strong&gt;livrer du code
+fonctionnel&lt;/strong&gt;. Il s&amp;rsquo;intéresse aux &lt;em&gt;Design Patterns&lt;/em&gt;, lit des livres sur le
+développement logiciel, refactore de temps en temps son code pour le rendre
+&lt;em&gt;plus beau&lt;/em&gt; et s&amp;rsquo;intéresse aux tests.&lt;/p&gt;
+
+&lt;p&gt;Celui ci peut se rencontrer dans les groupes de développeurs, dans les soirées
+consacrés aux codes&amp;hellip; &lt;strong&gt;Il a souvent la passion de son métier&lt;/strong&gt;. Il discute
+longuement de code, et lit régulièrement blogs et livres sur le sujet.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Niveau 2 : livrer un logiciel&lt;/h2&gt;
+
+&lt;p&gt;Le développeur &lt;strong&gt;livre un ensemble de code cohérent&lt;/strong&gt;, qui possède une
+structure et fonctionne comme un bloc uni. Il s&amp;rsquo;intéresse à la conception, à la
+robustesse, à l&amp;rsquo;architecture logicielle. Il sait que les tests sont très
+importants, autant unitaire que fonctionnel, avec une couverture suffisante
+pour être rassuré quand il modifie des pans entiers du logiciel.&lt;/p&gt;
+
+&lt;p&gt;Le niveau 2 est plus rare. Trop souvent, à la question &lt;em&gt;quel est ton métier&lt;/em&gt;,
+un développeur me répond :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Liver du code !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Et non, ton métier est &lt;strong&gt;au minimum&lt;/strong&gt; de livrer un logiciel. Avez vous déja
+vu un client satisfait d&amp;rsquo;une livraison d&amp;rsquo;un dépôt Git ?&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Niveau 3 : livrer un produit&lt;/h2&gt;
+
+&lt;p&gt;Le développeur livre plus qu&amp;rsquo;un logiciel, &lt;strong&gt;il livre un produit&lt;/strong&gt;. Il
+s&amp;rsquo;intéresse donc à la couche système, aux procédures d&amp;rsquo;installation et de mise
+à jour, à la reprise sur incident, à la mise en production. Il participe à la
+documentation utilisateur et se met à la place des admins.&lt;/p&gt;
+
+&lt;p&gt;Livrer un produit signifie souvent l&amp;rsquo;abandon du travail d&amp;rsquo;intégration pour un
+travail de conception, bien plus difficile. Il faut réfléchir avant
+tout à &lt;strong&gt;ses problématiques&lt;/strong&gt; (et non celles que le framework X à résolu pour
+vous), au développement sur le long terme et donc à l&amp;rsquo;évolution du produit.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Niveau 4 : livrer de la valeur&lt;/h2&gt;
+
+&lt;p&gt;Plus qu&amp;rsquo;un produit, même bien ficellé, le développeur apporte de la valeur.
+Car le réel objectif est &lt;strong&gt;d&amp;rsquo;améliorer le business du client&lt;/strong&gt;. Niveau ultime
+et de loin le plus difficile car il demande de bien comprendre le métier du
+client en plus de parfaitement maitriser le sein (le développement logiciel).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Constat&lt;/h2&gt;
+
+&lt;p&gt;Je vous concède que c&amp;rsquo;est un poil schématique. Une des particularités quand
+on travaille chez un éditeur logiciel est que le niveau minimum est&amp;hellip; 4.&lt;/p&gt;
+
+&lt;p&gt;Le niveau 3 est malheureusement rare alors que c&amp;rsquo;est pourtant le niveau que tout
+développeur devrait atteindre. Mais il faut bien avouer que le développement
+logiciel est un métier à la fois très exigeant et nouveau (moins de 40 ans !).&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;autre raison que la plupart des développeurs travaillent en France dans le
+service, et peu dans le monde de l&amp;rsquo;édition. Ce qui veut dire bien souvent
+être en cascade (peu ou prou, même ceux qui disent faire de l&amp;rsquo;agilité, voir
+mon article «l&amp;rsquo;agile est mort») avec un cahier des charges fixe. Il faut
+une collaboration étroite avec le client pour échanger sur son business et
+comprendre, au dela des besoins exprimés (qui sont le plus souvent des
+solutions exprimées et non des besoins), les besoins réels et utiles. Ce qui
+est rarement le cas en SSII ou la plupart des clients estiment que ce n&amp;rsquo;est
+pas &lt;strong&gt;votre&lt;/strong&gt; boulot de remettre en cause leurs besoins (comment voulez vous
+ensuite que les développeurs se sentent conernés ?).&lt;/p&gt;
+
+&lt;p&gt;Je raconte souvent cette anectode :
+En tant qu&amp;rsquo;éditeur, il nous a fallu pratiquement &lt;strong&gt;un an entre la première
+version commerciale et la version crédible&lt;/strong&gt;. Car nous avons trop misé sur
+des clients et partenaires incapables d&amp;rsquo;exprimer clairement des besoins, ce qui
+a affecté notre vision du produit. Nous avons donc sorti une version apportant
+peu de valeur. C&amp;rsquo;est en rencontrant des partenaires spécialisés et connaissant
+bien le métier que nous avons pu rectifier le tir et mieux comprendre ce dont
+ils avaient besoin.&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est évidemment de &lt;strong&gt;notre responsabilité&lt;/strong&gt;, et je ne rejète en aucun cas la
+faute sur des tierces personnes. Mais cela m&amp;rsquo;a bien un peu éloigné de la sainte
+croyance &lt;em&gt;qu&amp;rsquo;il faut écouter le client&lt;/em&gt;. Comme le disait Henry Ford :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Si j&amp;rsquo;avais demandé à mes clients ce qu&amp;rsquo;ils voulaient, ils m&amp;rsquo;auraient réclamé
+un meilleur cheval&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Au passage, c&amp;rsquo;est en rencontrant des partenaires et clients Suisses,
+Belges, Allemands&amp;hellip; (et non plus Français) que cela s&amp;rsquo;est amélioré :).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Etre éditeur logiciel, c&amp;rsquo;est être capable de livrer un produit robuste et
+fiable rapidement. Il faut maitriser le développement logiciel de bout en bout
+: le codage bien sûr mais aussi l&amp;rsquo;infrastructure, la conception, le packaging,
+le déploiement, la production, la documentation, le support&amp;hellip; Il faut être
+foncièrement multi-compétences et vouloir s&amp;rsquo;améliorer dans tous ces domaines.
+Mais ce qui rend le travail si intéressant et dur, c&amp;rsquo;est que vous devez
+&lt;strong&gt;aussi&lt;/strong&gt; maitriser votre coeur de métier. Là ou les niveaux 0 à 3 se
+focalisent uniquement sur la technique (qu&amp;rsquo;elle soit système, réseau,
+algorithmie, ihm, gestion de projet&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est pour cette raison que les &lt;em&gt;livreurs de code&lt;/em&gt;, même excellents, ne sont
+bons au final, qu&amp;rsquo;a produire de la dette technique car plus intéressés par la
+beauté d&amp;rsquo;un code que de trouver une finalité utile à celle ci.&lt;/p&gt;
+
+&lt;p&gt;Coder dans le cadre professionnel, ce n&amp;rsquo;est pas se faire plaisir avec le
+pattern X ou la techno Y, c&amp;rsquo;est avant comprendre un métier et apporter le
+maximum de valeur. Même si cela peut sembler inintéressant au premier abord,
+livrer un produit fonctionnel, fiable et robuste, utilisé par des clients
+heureux est le summum de la satisfaction, bien loin d&amp;rsquo;un algo lisible et
+performant. C&amp;rsquo;est ce qui fait tout le charme du métier d&amp;rsquo;éditeur.&lt;/p&gt;
+
+&lt;p&gt;Mais ne me faites pas dire ce que je n&amp;rsquo;ai pas dit, il faut aussi se faire
+plaisir en tant que développeur :).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nouveau blog avec Blogofile</title>
+      <link>http://douche.name/blog/nouveau-blog-avec-blogofile/</link>
+      <pubDate>Fri, 15 Jul 2011 02:00:00 CEST</pubDate>
+      
+      <guid>http://douche.name/blog/nouveau-blog-avec-blogofile/</guid>
+      <description>
+
+&lt;p&gt;Cela faisait quelques temps que cela me titillait : écrire des billets avec
+mon éditeur texte habituel, et de pousser en prod avec Git. C&amp;rsquo;est le blog
+de &lt;a href=&#34;http://gitfr.net/blog&#34;&gt;#gitfr&lt;/a&gt; qui m&amp;rsquo;a donné le courage de m&amp;rsquo;y mettre.
+Et c&amp;rsquo;est maintenant chose faites. Adieu Wordpress, boujour Blogofile !&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Mais qu&amp;rsquo;utilises tu ?&lt;/h2&gt;
+
+&lt;p&gt;Un générateur statique de site, autrement un outil qui transforme les
+documents textes (format &lt;code&gt;markdown&lt;/code&gt; ou &lt;code&gt;rst&lt;/code&gt;) en pages html, à l&amp;rsquo;aide de
+templates.&lt;/p&gt;
+
+&lt;p&gt;Beaucoup d&amp;rsquo;avantages :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tout se trouve dans des fichiers textes.&lt;/li&gt;
+&lt;li&gt;Plus besoin d&amp;rsquo;être en ligne.&lt;/li&gt;
+&lt;li&gt;Ecriture avec Vim et non un éditeur WYSIWIG dans un navigateur.&lt;/li&gt;
+&lt;li&gt;Maintenance pratiquement nulle.&lt;/li&gt;
+&lt;li&gt;Plus de problème de sécurité.&lt;/li&gt;
+&lt;li&gt;Sauvegarde automatique sur GitHub.&lt;/li&gt;
+&lt;li&gt;Liberté totale sur l&amp;rsquo;organisation du site.&lt;/li&gt;
+&lt;li&gt;Hébergement simplifiée (plus besoin de PHP, Python&amp;hellip;).&lt;/li&gt;
+&lt;li&gt;Et bien sûr, utilisation de Git pour gérer le site :).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En contre partie, vous n&amp;rsquo;avez plus la facilité de créer un joli site en 2
+clicks de souris. La, c&amp;rsquo;est à vous de créer votre template et de développer
+les services supplémentaires (affichage de tweets par exemple).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Un retour en arrière ?&lt;/h2&gt;
+
+&lt;p&gt;Je faisais du statique en 96 quand j&amp;rsquo;apprenais l&amp;rsquo;html 3 (ou 2 je ne sais
+plus), et voila que je refais du statique en 2011, est ce vraiment
+raisonnable ? Il y&amp;rsquo;a en fait un changement important qui permet ce retour
+aux sources : le &lt;strong&gt;cloud&lt;/strong&gt;. Pour disposer d&amp;rsquo;un blog, il faut un moteur de rendu
+de billets, mais aussi un système de commentaires, la gestion de flux RSS,
+le multi-compte, des droits et authorisations, etc.&lt;/p&gt;
+
+&lt;p&gt;Maintenant, vous pouvez externaliser tous les services importants :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;les commentaires : Disqus.&lt;/li&gt;
+&lt;li&gt;les flux RSS : Feedburner.&lt;/li&gt;
+&lt;li&gt;Suivi d&amp;rsquo;activité : Google Analytics.&lt;/li&gt;
+&lt;li&gt;Hébergement, backup, droit et travail collaboratif : GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cela permet de se concentrer sur l&amp;rsquo;essentiel : écrire du contenu.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Organisation&lt;/h2&gt;
+
+&lt;p&gt;Il me faut deux dépôts. Pourquoi deux ? Ce n&amp;rsquo;est pas obligatoire bien sûr,
+mais j&amp;rsquo;utilise le service d&amp;rsquo;hébergement gratuit de pages statiques de
+&lt;em&gt;GitHub&lt;/em&gt;. Ce dernier impose des contraintes, dont le nom du dépôt et
+l&amp;rsquo;emplacement des fichiers. Si vous hébergé vous même le site, un seul dépôt
+est suffisant.&lt;/p&gt;
+
+&lt;p&gt;Pour les utilisateurs de &lt;code&gt;Git&lt;/code&gt;, les &lt;em&gt;submodules&lt;/em&gt; font parfaitement
+l&amp;rsquo;affaire puisque la version générée se trouve dans un sous répertoire.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Un exemple ?&lt;/h2&gt;
+
+&lt;p&gt;La mise en production se fait comme suit :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ /path/to/blogofile/blogofile build
+$ git add _site/*
+$ git commit -m &amp;quot;nouveau billet sur Blogofile&amp;quot;
+$ git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(sans submodules, il suffit de copier le contenu manuellement).&lt;/p&gt;
+
+&lt;p&gt;Et voila ! Je vous laisse imaginer les possibilités intéressantes qu&amp;rsquo;offrent
+un DVCS comme &lt;em&gt;Git&lt;/em&gt; ou &lt;em&gt;Hg&lt;/em&gt; (si ce n&amp;rsquo;est pas le cas, vous êtes bon pour voir une
+de mes présentations Git ;) pour gérer votre site.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Pourquoi Blogofile ?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;il est en Python, et cela me permet de coder dans mon langage préféré
+et d&amp;rsquo;apprendre des moteurs de templates que je ne connaissais pas (&lt;em&gt;Mako&lt;/em&gt; et
+bientôt &lt;em&gt;jinja2&lt;/em&gt;).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;il est vraiment simple. Pas fioritures, il va à l&amp;rsquo;essentiel. Ecrire
+des controlleurs ne semblent vraiment pas dur et les quelques fonctionnalités
+dont j&amp;rsquo;avais besoin (Disqus, flux RSS et blog) sont là. Un site de base tiens
+dans 700 lignes de code Python, ce qui rend la compréhension aisé. Blogofile
+fait pour sa part 900 lignes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Il permet de gérer les documents drafts, le multi-auteur ou les
+transformations multiples.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parce que je sature un peu de Ruby. Utilisant pas mal d&amp;rsquo;outils codés en
+Ruby ces derniers temps, je commençais en avoir ras la casquette des
+erreurs d&amp;rsquo;installation ou des messages d&amp;rsquo;erreur complètement abscons. Mais
+des outils comme Jekyll ou Toto semblent pas mal du tout, j&amp;rsquo;ai fais joué
+ma fibre Pythonienne.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Alors, si vous avez un site à monter, je vous conseille fortement de jeter un oeil
+sur ces logiciels, cela peut vous intéresser ! :).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

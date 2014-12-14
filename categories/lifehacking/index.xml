@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Lifehacking on Ruminations From a Tortured Mind </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://douche.name/categories/lifehacking/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Fri, 01 Jan 2010 05:45:00 &#43;0200</updated>
+    
+    <item>
+      <title>Un retour sur Pomodoro</title>
+      <link>http://douche.name/blog/un-retour-sur-pomodoro/</link>
+      <pubDate>Fri, 01 Jan 2010 05:45:00 &#43;0200</pubDate>
+      
+      <guid>http://douche.name/blog/un-retour-sur-pomodoro/</guid>
+      <description>
+
+&lt;p&gt;Cela fait maintenant plusieurs semaines que j&amp;rsquo;utilise la technique &lt;a href=&#34;http://www.pomodorotechnique.com/&#34;&gt;Pomodoro&lt;/a&gt;, qui consiste (en gros) à découper le temps par tranche de 30 minutes : 25 minutes de travail puis 5 minutes de repos. D&amp;rsquo;abord trés sceptique, je suis devenu un partisan convaincu.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Pourquoi tenter Pomodoro ?&lt;/h2&gt;
+
+&lt;p&gt;Au boulot, j&amp;rsquo;ai constaté une dégradation progressive de mon efficacité, c&amp;rsquo;est à dire de ma capacité à produire de la valeur. Je dois selon les moments trouver des idées, réfléchir à des actions ou tout simplement agir. Pire, j&amp;rsquo;endosse différents rôles bien différent les uns des autres, ce qui accentue la difficulté : les tâches n&amp;rsquo;ont aucune relation entre elles, demande un état d&amp;rsquo;esprit adpaté, des connaissances différentes&amp;hellip; Bref,  ce n&amp;rsquo;est pas simple.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;ai tenté plusieurs approches sans réussite comme jouer un rôle par jour : pas vraiment réaliste, on arrive vite à des situations de gachis extrême (exemple : tâches trop peu nombreuses pour la journée). Autre technique, la procrastination :). En gros, laisser courir le plus longtemps possible. Facile, mais pas efficace pour un sou. Bref, rien de convainquant, en retournant ça dans tous les sens, je n&amp;rsquo;ai guère le choix : abondonner certains aspects de mon travail ou trouver une méthode plus efficace. C&amp;rsquo;est la que j&amp;rsquo;ai tenté cette technique.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Ce qui repousse à priori&lt;/h2&gt;
+
+&lt;p&gt;Le découpage en 25 minutes pardi ! &amp;ldquo;25 minutes, c&amp;rsquo;est bien trop court pour faire quoi que ce soit&amp;rdquo; est la première remarque qui vient à l&amp;rsquo;esprit. Ensuite le coté stressant de la chose, ce sentiment d&amp;rsquo;être minuté en permanence. Pas réjouissant. Enfin cet envie de repousser toute pratique qui demande à changer ses habitudes, surtout quand c&amp;rsquo;est 10 heures par jour&amp;hellip; tous les jours.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Un outillage adapté&lt;/h2&gt;
+
+&lt;p&gt;J&amp;rsquo;ai commencé par chercher une solution de chronométrage. L&amp;rsquo;idée d&amp;rsquo;avoir un chrono &amp;ldquo;physique&amp;rdquo; me semblait pas pratique, je ne me voyais pas en train de m&amp;rsquo;occuper du compteur régulièrement. J&amp;rsquo;ai donc cherché une version logicielle, fonctionnement bien sûr sous &lt;em&gt;Linux&lt;/em&gt; (natif ou web).&lt;/p&gt;
+
+&lt;p&gt;Après quelques dizaines de minutes et plusieurs tests non concluants, je suis tombé sur &lt;a href=&#34;http://www.workrave.org/welcome/&#34;&gt;Workrave&lt;/a&gt;. D&amp;rsquo;abord interloqué par la taille de l&amp;rsquo;engin (presque 7 Mo !), j&amp;rsquo;ai vite changé d&amp;rsquo;avis. Simple d&amp;rsquo;utilisation, il apporte quelques plus dont je n&amp;rsquo;avais pas imaginé en me lançant dans l&amp;rsquo;aventure :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;il bloque (option modifiable) le clavier pendant la pause, vous obligeant à vous arrêter. Cela semble ridicule mais quand on accepte difficilement de lâcher le clavier cela aide.&lt;/li&gt;
+&lt;li&gt;il affiche des exercices pendant la pause (je vous laisse deviner la tête de mes collègues :).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Les raisons du succès&lt;/h2&gt;
+
+&lt;p&gt;Mais alors, pourquoi cela marche ? Et bien c&amp;rsquo;est simple :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;il est difficile de garder sa concentration sur une longue période (les études disent souvent 45 minutes). Vous obliger à prendre une pause régulièrement vous rend plus efficace &lt;strong&gt;sur la journée&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;la pause de 5 minutes n&amp;rsquo;est pas suffisamment longue pour vous rendre inefficace en reprenant le travail. Surtout que cette pause programmée ne vous déconcentre pas car &lt;strong&gt;vous arrêtez non pas par fatigue mais par choix&lt;/strong&gt;. Et oui, en reprenant le travail, vous n&amp;rsquo;avez rien perdu de votre concentration, il ne faut pas 10 minutes pour reprendre le fil de vos pensées, mais seulement quelques secondes.&lt;/li&gt;
+&lt;li&gt;découper votre journée par tranche de 30 minutes ne veut pas dire que vous ne dépassez pas 30 minutes par tâches ! Rien ne vous interdit de passer 2 heures, ou 3, ou 4 ! Mais la, on voit &lt;strong&gt;le temps passer&lt;/strong&gt;. On sait parfaitement que l&amp;rsquo;on vient de passer 2 heures sur ce foutu rapport car c&amp;rsquo;est la 4ème pause.&lt;/li&gt;
+&lt;li&gt;enfin, un avantage intéressant et non visible au départ et la possibilité de &lt;strong&gt;laisser passer un tour&lt;/strong&gt;. Au mileu d&amp;rsquo;un travail j&amp;rsquo;ai envie de faire une pause, par exemple pour répondre à ce mail important ou alors lire Twitter. Au lieu de se sentir coupable de laisser une tâche, je me donne un tour (25 minutes) pour cela, en me disant que je reprendrais le travail aprés. Cela semble un poil stupide, mais ça marche pour moi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Voila un résumé sur l&amp;rsquo;avantage que je vois à Pomodoro. Il m&amp;rsquo;arrive encore d&amp;rsquo;oublier de lancer l&amp;rsquo;application le matin en arrivant au travail et je constate la différence. Pour moi c&amp;rsquo;est dorénavant jamais sans mon Pomodoro.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
