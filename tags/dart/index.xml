@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Dart on Ruminations From a Tortured Mind </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://douche.name/tags/dart/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 15 Dec 2014 07:29:44 CET</updated>
+    
+    <item>
+      <title>Pourquoi je crois (techniquement) en Google</title>
+      <link>http://douche.name/blog/pourquoi-je-crois-techniquement-en-google/</link>
+      <pubDate>Mon, 15 Dec 2014 07:29:44 CET</pubDate>
+      
+      <guid>http://douche.name/blog/pourquoi-je-crois-techniquement-en-google/</guid>
+      <description>
+
+&lt;p&gt;Si cela fait des années que je n&amp;rsquo;espère plus rien de Google sur le plan des
+libertés, je reste curieux de tout ce qu&amp;rsquo;ils font sur le plan technique,
+notamment pour Internet. Car c&amp;rsquo;est pour moi la seule (grosse) boite qui
+fait avancer sérieusement les choses. Explication.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;La différence de business model&lt;/h2&gt;
+
+&lt;p&gt;Pour expliquer mon point de vue, il faut d&amp;rsquo;abord parler de &lt;em&gt;business model&lt;/em&gt; :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quel est le &lt;em&gt;business model&lt;/em&gt; de Microsoft ? Vous faire utiliser les produits
+Microsoft.&lt;/li&gt;
+&lt;li&gt;Quel est le &lt;em&gt;business model&lt;/em&gt; d&amp;rsquo;Apple ? Vous faire utiliser les produits
+Apple.&lt;/li&gt;
+&lt;li&gt;Quel est le &lt;em&gt;business model&lt;/em&gt; de Facebook ? Vous faire utiliser les produits
+Facebook.&lt;/li&gt;
+&lt;li&gt;Et quel est le &lt;em&gt;business model&lt;/em&gt; de Google ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Arrêtez vous 30 secondes pour répondre à cette question. Ça y est ? Alors
+reprenons. Son &lt;em&gt;business model&lt;/em&gt; est de vous faire &lt;strong&gt;utiliser Internet&lt;/strong&gt;. Bien sûr,
+c&amp;rsquo;est mieux au travers de leurs services mais cela n&amp;rsquo;est pas une obligation.
+On l&amp;rsquo;oublie souvent, mais le CA de Google vient en &lt;strong&gt;grande partie&lt;/strong&gt; de la
+publicité (90% du CA, 30% du marché mondial de la publicité en ligne, loin
+devant Facebook et Yahoo). Ils gagnent donc de l&amp;rsquo;argent quand les gens
+vont sur le Net. Et plus l&amp;rsquo;expérience de navigation est plaisante, plus Google
+gagne de l&amp;rsquo;argent. Je me souviens d&amp;rsquo;un tweet qui m&amp;rsquo;avait marqué : «Quand
+Internet va &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt; de seconde plus vite, Google gagne 1 milliard de dollars de
+plus». Je ne peux pas valider son contenu mais j&amp;rsquo;ai trouvé à l&amp;rsquo;époque cette réflexion
+intéressante.&lt;/p&gt;
+
+&lt;p&gt;Cela explique toutes les initiatives de Google pour améliorer le Net, non pas
+par philanthropie, mais par besoin. Regardons de plus près ce que Google a fait.
+Voici une petite liste de mémoire (je pense que l&amp;rsquo;on peut en rajouter bien plus) :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La mise à disposition gratuite de CDN pour les librairies Javascript les
+plus populaires ainsi qu&amp;rsquo;une longue liste de fontes.&lt;/li&gt;
+&lt;li&gt;Le financement de nombreux Logiciels Libres par l&amp;rsquo;intermédiaire du Google
+Summer of Code.&lt;/li&gt;
+&lt;li&gt;Le développement du Javascript avec le projet v8. Rappelez vous l&amp;rsquo;état
+de délabrement du langage avant que Google s&amp;rsquo;en charge (un navigateur
+moderne va plus de 100x plus vite que Firefox 2 coté JS).&lt;/li&gt;
+&lt;li&gt;Le financement de successeur de HTTP1 (SPDY et HTTP2).&lt;/li&gt;
+&lt;li&gt;Le financement des «Web Components» pour standardiser le développement Web.&lt;/li&gt;
+&lt;li&gt;Le financement de 2 langages, un backend (Go), l&amp;rsquo;autre frontend (Dart).&lt;/li&gt;
+&lt;li&gt;Le financement du framework AngularJS.&lt;/li&gt;
+&lt;li&gt;Le financement de la fibre optique dans plusieurs régions des USA.&lt;/li&gt;
+&lt;li&gt;La mise à disposition gratuite d&amp;rsquo;une forge (Google Developers).&lt;/li&gt;
+&lt;li&gt;La mise à disposition gratuite des formats WebM et WebP, développés en
+interne.&lt;/li&gt;
+&lt;li&gt;La mise à disposition gratuite d&amp;rsquo;une suite bureautique.&lt;/li&gt;
+&lt;li&gt;La mise à disposition gratuite d&amp;rsquo;un large espace de stockage cloud.&lt;/li&gt;
+&lt;li&gt;Le développement d&amp;rsquo;un «OS Internet», ChromeOS, pour disposer d&amp;rsquo;un
+notebook pas cher.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sans compter le moteur de recherche qui a révolutionné l&amp;rsquo;utilisation du Net.
+Bref, je m&amp;rsquo;arrête la mais vous voyez le tableau. Google veut votre confort,
+car elle gagnera encore plus d&amp;rsquo;argent. C&amp;rsquo;est pour raison que Google est bien
+plus dangereux á mes yeux que Microsoft, ce dernier se bornant à vous
+bloquer dans leur techno. Il suffisait donc de trouver mieux (merci Linux
+et le Logiciel Libre) pour facilement se libérer. Mais pour Google, c&amp;rsquo;est
+une autre histoire. Qui aide autant les développeurs qu&amp;rsquo;eux ? Facebook ?
+Apple ? Mozilla ?&lt;/p&gt;
+
+&lt;p&gt;Maintenant regardons de plus près le dernier rebondissement : Angular 2.
+Suite à l&amp;rsquo;annonce de la nouvelle version du framework (qui ne sortira qu&amp;rsquo;en
+2016), des cris d&amp;rsquo;effroi et de rage se sont fait entendre : Google
+se fout de la gueule du monde en cassant la compatibilité et rendra
+orphelin tous les utilisateurs de la version 1. Alors prenons un peu de recul.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Petite note&lt;/h2&gt;
+
+&lt;p&gt;Tout d&amp;rsquo;abord, il est intéressant de noter que les projets techniques sont
+financés par Google, mais pas «dirigés» par elle. AngularJS est autonome,
+comme Go ou Dart. Savez vous ce qu&amp;rsquo;on dit les développeurs de Go quand la
+1.0 est sortie ? «Maintenant, on va tenter de &lt;strong&gt;convaincre&lt;/strong&gt; en interne». Bien
+que financé par Google (les &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; des core devs sont chez eux), cela ne veut
+pas dire que cela rentre dans un projet global. Google finance «pour voir»,
+et utilisera potentiellement le projet. C&amp;rsquo;est pour moi sa grande force.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;De GWT à Angular 2&lt;/h2&gt;
+
+&lt;p&gt;Voici, toujours de tête, un petit timeline :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2006 : GWT 1.0, un framework Java pour faire du développement Web.&lt;/li&gt;
+&lt;li&gt;2008 : Chrome 1.0 / v8 1.0.&lt;/li&gt;
+&lt;li&gt;2009 : AngularJS 1.0.&lt;/li&gt;
+&lt;li&gt;2011 : Disponibilité des technologies PNaCI / PNaCI.&lt;/li&gt;
+&lt;li&gt;2013 : Dart 1.0, tout nouveau langage pour le Web.&lt;/li&gt;
+&lt;li&gt;2013 : Parallèlement à Dart, travail sur les «Web Components» avec Dart Web UI.&lt;/li&gt;
+&lt;li&gt;2013 : Normalisation des «Web Components».&lt;/li&gt;
+&lt;li&gt;2013 : Lancement de Polymer, librairie de «Web Components» normalisés.&lt;/li&gt;
+&lt;li&gt;2013 : Lancement d&amp;rsquo;AngularDart, le pendant Dart d&amp;rsquo;AngularJS.&lt;/li&gt;
+&lt;li&gt;2013 : GWT est géré par la communauté (Google continue de payer des core devs).&lt;/li&gt;
+&lt;li&gt;2014 : Dart est normalisé (ECMA-408)&lt;/li&gt;
+&lt;li&gt;2016 : Angular 2 s&amp;rsquo;appuiera sur ES7/ES8 et l&amp;rsquo;expérience de Dart2JS pour transformer
+     le code en JS ou Dart. Il fusionnera les 2 projets AngularJS et AngularDart.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Au lieu de simplement s&amp;rsquo;appuyer sur ES5 (la dernière version officielle JS), l&amp;rsquo;équipe
+Angular saute plusieurs cases pour s&amp;rsquo;appuyer directement sur ES7/ES8. Cela fait suite au portage d&amp;rsquo;Angular sur Dart et de l&amp;rsquo;apprentissage qui en découle. D&amp;rsquo;abord dans la possibilité
+d&amp;rsquo;avoir un langage plus «moderne» et moins lourd, d&amp;rsquo;autres part dans la transformation
+automatique de code du projet Dart2JS (permettant de transformer du code Dart en code ES5).&lt;/p&gt;
+
+&lt;p&gt;Je trouve que c&amp;rsquo;est plutôt cohérent : d&amp;rsquo;un coté ils travaillent sur le futur, avec Dart
+comme base d&amp;rsquo;expérimentation, qui a permit notamment l&amp;rsquo;émergence des «Web Components» et
+l&amp;rsquo;utilisation de JS comme «assembleur» du Web. Et de l&amp;rsquo;autre, le présent avec le Javascript. Bien sur, il y&amp;rsquo;a pas mal de tâtonnements dans les projets mais globalement, les nouveaux projets pérennisent les avancées, ce qui me semble rassurant.&lt;/p&gt;
+
+&lt;p&gt;Et pour ceux qui ont misés sur AngularJS 1.x, je pense que le projet sera
+(à l&amp;rsquo;instar de GWT) transféré à la communauté tout en laissant quelques core devs. Il est
+déjà annoncé que AngularJS 1.3 aura 2 ans de support &lt;strong&gt;après&lt;/strong&gt; la sortie de la 2.0 (soit ~2018).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

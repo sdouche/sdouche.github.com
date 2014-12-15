@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Pourquoi je crois (techniquement) en Google &middot; Ruminations From a Tortured Mind</title>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
+        <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
+        <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="http://douche.name/apple-touch-icon-144-precomposed.png" sizes="144x144" />
+        <link rel="alternate" href="" type="application/rss+xml" title="Ruminations From a Tortured Mind" />
+    </head>
+    <body class="li-body">
+
+<header class="li-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-brand li-left">
+                <a href="http://douche.name">Ruminations From a Tortured Mind</a></div>
+                <div class="li-menu li-right">
+                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
+                    <ul id="menu2" class="li-menu-items">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <ul id="menu" class="li-menu-items li-menu-mobile">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">Pourquoi je crois (techniquement) en Google</h1>
+                        <span class="li-article-taxonomies">
+                            
+                                Posted in
+                                
+                                    <a href="http://douche.name/categories/rumination">rumination</a>
+                                
+                            
+
+                            
+                                with tags
+                                
+                                    <a href="http://douche.name/tags/google">google</a>
+                                
+                                    <a href="http://douche.name/tags/coding">coding</a>
+                                
+                                    <a href="http://douche.name/tags/javascript">javascript</a>
+                                
+                                    <a href="http://douche.name/tags/dart">dart</a>
+                                
+                            
+                        </span>
+                         - 
+                        <time class="li-article-date">Monday, December 15, 2014</time>
+                    </header>
+                    <section>
+                        
+
+<p>Si cela fait des années que je n&rsquo;espère plus rien de Google sur le plan des
+libertés, je reste curieux de tout ce qu&rsquo;ils font sur le plan technique,
+notamment pour Internet. Car c&rsquo;est pour moi la seule (grosse) boite qui
+fait avancer sérieusement les choses. Explication.</p>
+
+<h2 id="toc_0">La différence de business model</h2>
+
+<p>Pour expliquer mon point de vue, il faut d&rsquo;abord parler de <em>business model</em> :</p>
+
+<ul>
+<li>Quel est le <em>business model</em> de Microsoft ? Vous faire utiliser les produits
+Microsoft.</li>
+<li>Quel est le <em>business model</em> d&rsquo;Apple ? Vous faire utiliser les produits
+Apple.</li>
+<li>Quel est le <em>business model</em> de Facebook ? Vous faire utiliser les produits
+Facebook.</li>
+<li>Et quel est le <em>business model</em> de Google ?</li>
+</ul>
+
+<p>Arrêtez vous 30 secondes pour répondre à cette question. Ça y est ? Alors
+reprenons. Son <em>business model</em> est de vous faire <strong>utiliser Internet</strong>. Bien sûr,
+c&rsquo;est mieux au travers de leurs services mais cela n&rsquo;est pas une obligation.
+On l&rsquo;oublie souvent, mais le CA de Google vient en <strong>grande partie</strong> de la
+publicité (90% du CA, 30% du marché mondial de la publicité en ligne, loin
+devant Facebook et Yahoo). Ils gagnent donc de l&rsquo;argent quand les gens
+vont sur le Net. Et plus l&rsquo;expérience de navigation est plaisante, plus Google
+gagne de l&rsquo;argent. Je me souviens d&rsquo;un tweet qui m&rsquo;avait marqué : «Quand
+Internet va <sup>1</sup>&frasl;<sub>10</sub> de seconde plus vite, Google gagne 1 milliard de dollars de
+plus». Je ne peux pas valider son contenu mais j&rsquo;ai trouvé à l&rsquo;époque cette réflexion
+intéressante.</p>
+
+<p>Cela explique toutes les initiatives de Google pour améliorer le Net, non pas
+par philanthropie, mais par besoin. Regardons de plus près ce que Google a fait.
+Voici une petite liste de mémoire (je pense que l&rsquo;on peut en rajouter bien plus) :</p>
+
+<ul>
+<li>La mise à disposition gratuite de CDN pour les librairies Javascript les
+plus populaires ainsi qu&rsquo;une longue liste de fontes.</li>
+<li>Le financement de nombreux Logiciels Libres par l&rsquo;intermédiaire du Google
+Summer of Code.</li>
+<li>Le développement du Javascript avec le projet v8. Rappelez vous l&rsquo;état
+de délabrement du langage avant que Google s&rsquo;en charge (un navigateur
+moderne va plus de 100x plus vite que Firefox 2 coté JS).</li>
+<li>Le financement de successeur de HTTP1 (SPDY et HTTP2).</li>
+<li>Le financement des «Web Components» pour standardiser le développement Web.</li>
+<li>Le financement de 2 langages, un backend (Go), l&rsquo;autre frontend (Dart).</li>
+<li>Le financement du framework AngularJS.</li>
+<li>Le financement de la fibre optique dans plusieurs régions des USA.</li>
+<li>La mise à disposition gratuite d&rsquo;une forge (Google Developers).</li>
+<li>La mise à disposition gratuite des formats WebM et WebP, développés en
+interne.</li>
+<li>La mise à disposition gratuite d&rsquo;une suite bureautique.</li>
+<li>La mise à disposition gratuite d&rsquo;un large espace de stockage cloud.</li>
+<li>Le développement d&rsquo;un «OS Internet», ChromeOS, pour disposer d&rsquo;un
+notebook pas cher.</li>
+</ul>
+
+<p>Sans compter le moteur de recherche qui a révolutionné l&rsquo;utilisation du Net.
+Bref, je m&rsquo;arrête la mais vous voyez le tableau. Google veut votre confort,
+car elle gagnera encore plus d&rsquo;argent. C&rsquo;est pour raison que Google est bien
+plus dangereux á mes yeux que Microsoft, ce dernier se bornant à vous
+bloquer dans leur techno. Il suffisait donc de trouver mieux (merci Linux
+et le Logiciel Libre) pour facilement se libérer. Mais pour Google, c&rsquo;est
+une autre histoire. Qui aide autant les développeurs qu&rsquo;eux ? Facebook ?
+Apple ? Mozilla ?</p>
+
+<p>Maintenant regardons de plus près le dernier rebondissement : Angular 2.
+Suite à l&rsquo;annonce de la nouvelle version du framework (qui ne sortira qu&rsquo;en
+2016), des cris d&rsquo;effroi et de rage se sont fait entendre : Google
+se fout de la gueule du monde en cassant la compatibilité et rendra
+orphelin tous les utilisateurs de la version 1. Alors prenons un peu de recul.</p>
+
+<h2 id="toc_1">Petite note</h2>
+
+<p>Tout d&rsquo;abord, il est intéressant de noter que les projets techniques sont
+financés par Google, mais pas «dirigés» par elle. AngularJS est autonome,
+comme Go ou Dart. Savez vous ce qu&rsquo;on dit les développeurs de Go quand la
+1.0 est sortie ? «Maintenant, on va tenter de <strong>convaincre</strong> en interne». Bien
+que financé par Google (les <sup>3</sup>&frasl;<sub>4</sub> des core devs sont chez eux), cela ne veut
+pas dire que cela rentre dans un projet global. Google finance «pour voir»,
+et utilisera potentiellement le projet. C&rsquo;est pour moi sa grande force.</p>
+
+<h2 id="toc_2">De GWT à Angular 2</h2>
+
+<p>Voici, toujours de tête, un petit timeline :</p>
+
+<ul>
+<li>2006 : GWT 1.0, un framework Java pour faire du développement Web.</li>
+<li>2008 : Chrome 1.0 / v8 1.0.</li>
+<li>2009 : AngularJS 1.0.</li>
+<li>2011 : Disponibilité des technologies PNaCI / PNaCI.</li>
+<li>2013 : Dart 1.0, tout nouveau langage pour le Web.</li>
+<li>2013 : Parallèlement à Dart, travail sur les «Web Components» avec Dart Web UI.</li>
+<li>2013 : Normalisation des «Web Components».</li>
+<li>2013 : Lancement de Polymer, librairie de «Web Components» normalisés.</li>
+<li>2013 : Lancement d&rsquo;AngularDart, le pendant Dart d&rsquo;AngularJS.</li>
+<li>2013 : GWT est géré par la communauté (Google continue de payer des core devs).</li>
+<li>2014 : Dart est normalisé (ECMA-408)</li>
+<li>2016 : Angular 2 s&rsquo;appuiera sur ES7/ES8 et l&rsquo;expérience de Dart2JS pour transformer
+     le code en JS ou Dart. Il fusionnera les 2 projets AngularJS et AngularDart.</li>
+</ul>
+
+<p>Au lieu de simplement s&rsquo;appuyer sur ES5 (la dernière version officielle JS), l&rsquo;équipe
+Angular saute plusieurs cases pour s&rsquo;appuyer directement sur ES7/ES8. Cela fait suite au portage d&rsquo;Angular sur Dart et de l&rsquo;apprentissage qui en découle. D&rsquo;abord dans la possibilité
+d&rsquo;avoir un langage plus «moderne» et moins lourd, d&rsquo;autres part dans la transformation
+automatique de code du projet Dart2JS (permettant de transformer du code Dart en code ES5).</p>
+
+<p>Je trouve que c&rsquo;est plutôt cohérent : d&rsquo;un coté ils travaillent sur le futur, avec Dart
+comme base d&rsquo;expérimentation, qui a permit notamment l&rsquo;émergence des «Web Components» et
+l&rsquo;utilisation de JS comme «assembleur» du Web. Et de l&rsquo;autre, le présent avec le Javascript. Bien sur, il y&rsquo;a pas mal de tâtonnements dans les projets mais globalement, les nouveaux projets pérennisent les avancées, ce qui me semble rassurant.</p>
+
+<p>Et pour ceux qui ont misés sur AngularJS 1.x, je pense que le projet sera
+(à l&rsquo;instar de GWT) transféré à la communauté tout en laissant quelques core devs. Il est
+déjà annoncé que AngularJS 1.3 aura 2 ans de support <strong>après</strong> la sortie de la 2.0 (soit ~2018).</p>
+
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="row li-author">
+    <div class="sixteen columns">
+        Written by <strong>Sébastien Douche</strong>
+    </div>
+</div>
+
+<div id="disqus_thread"></div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "sdouche";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "sdouche";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    
+                        &nbsp;
+                    
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    
+                        Older article<br />
+                        <a href="http://douche.name/blog/catalogue-formation-2013/"> Catalogue formation 2013</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    Copyleft (c) 20010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+        var e = document.getElementById(id);
+        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
+    }
+    
+    </script>
+    <script type="text/javascript">
+    <!--
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', "UA-24575958-1"]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    -->
+    </script>
+    </body>
+</html>
+
