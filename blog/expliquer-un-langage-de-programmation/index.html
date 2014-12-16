@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Expliquer un langage de programmation &middot; Ruminations From a Tortured Mind</title>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
+        <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
+        <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="http://douche.name/apple-touch-icon-144-precomposed.png" sizes="144x144" />
+        <link rel="alternate" href="" type="application/rss+xml" title="Ruminations From a Tortured Mind" />
+    </head>
+    <body class="li-body">
+
+<header class="li-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-brand li-left">
+                <a href="http://douche.name">Ruminations From a Tortured Mind</a></div>
+                <div class="li-menu li-right">
+                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
+                    <ul id="menu2" class="li-menu-items">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <ul id="menu" class="li-menu-items li-menu-mobile">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">Expliquer un langage de programmation</h1>
+                        <span class="li-article-taxonomies">
+                            
+                                Posted in
+                                
+                                    <a href="http://douche.name/categories/rumination">rumination</a>
+                                
+                            
+
+                            
+                                with tags
+                                
+                                    <a href="http://douche.name/tags/coding">coding</a>
+                                
+                            
+                        </span>
+                         - 
+                        <time class="li-article-date">Tuesday, December 16, 2014</time>
+                    </header>
+                    <section>
+                        
+
+<p>Lors d&rsquo;une présentation d&rsquo;un langage de programmation, ou lors d&rsquo;une discussion entre développeurs, il arrive bien souvent que l&rsquo;on utilise les termes «avantage» et «inconvénient». Par exemple, cela peut donner comme argument pour Java : «Java c&rsquo;est cool, tu codes sur la JVM et cela fonctionne sur plusieurs plateformes». Hors pour moi, la JVM est loin d&rsquo;être un avantage. C&rsquo;est gros, lourd, géré par Oracle qui impose des restrictions alacon&hellip; L&rsquo;exemple illustre un défaut dans l&rsquo;argumentation : l&rsquo;utilisation d&rsquo;un <strong>argument subjectif présenté comme objectif</strong>. Un avantage pour l&rsquo;un peut être un défaut pour l&rsquo;autre, et vice-versa, et la conversation peut donc rapidement tourner à l&rsquo;affrontement stérile de ce qui est positif ou non.</p>
+
+<p>Pour contrer cela, je voudrais vous présenter une autre approche, qui part de l&rsquo;objectif (ou au moins tente de l&rsquo;être) pour aller vers le subjectif, en détachant bien les deux aspects. Explication.</p>
+
+<h2 id="toc_0">«Opportunité» vs «contrainte»</h2>
+
+<p>Je préfère remplacer avantage vs inconvénient par <strong>opportunité vs contrainte</strong>, ici avec l&rsquo;exemple de la JVM cité plus haut :</p>
+
+<ul>
+<li>Une contrainte est une <strong>obligation</strong>, on ne peut y échapper. Coder en Java oblige à utiliser la JVM.</li>
+<li>Une opportunité est une <strong>possibilité</strong> que l&rsquo;on peut profiter. Utiliser la JVM permet de faire fonctionner son code sur plusieurs plateformes comme Linux ou MacOS.</li>
+</ul>
+
+<p>Ces 2 points tentent d&rsquo;être objectifs, et peuvent être accepter par ceux qui aiment Java, comme par ses détracteurs. Si vous avez un consensus, alors il est possible de glisser vers la subjectivité car on partage maintenant un <strong>référentiel commun</strong>.</p>
+
+<p>C&rsquo;est dans l&rsquo;acceptation des contraintes ou dans la recherche d&rsquo;opportunités que le choix de chacun va se faire. Voici 2 courts exemples :</p>
+
+<ul>
+<li><p>Un amoureux de Scala va apprécier l&rsquo;opportunité de disposer d&rsquo;un code plus solide en production et de refactorer plus facilement son code. Pour cela il acceptera que le compilateur soit strict et lui renvoie de temps en temps des messages d&rsquo;erreur compliqués. Il acceptera aussi une courbe d&rsquo;apprentissage plus lourde et exigeante, une syntaxe un peu alambiquée et une sémantique chargée.</p></li>
+
+<li><p>Un amateur de Python va aimer la simplicité syntaxique, la sensation de productivité à court terme. Il devra par contre subir la GIL, être plus vigilant sur sa gestion des erreurs.</p></li>
+</ul>
+
+<p>Vous choisirez alors un langage parce que :</p>
+
+<ul>
+<li>les opportunités offertes sont intéressantes.</li>
+<li>les contraintes sont bloquantes.</li>
+</ul>
+
+<p>C&rsquo;est ici que la subjectivité intervient, et qu&rsquo;il fait prendre à chacun de nous des chemins différents. Si je parle de mes propres choix, je pourrais par exemple dire que j&rsquo;envie la capacité de gros refactoring que permet Scala, mais la complexité sémantique me rebute suffisamment pour éliminer le langage des mes choix. Et que si j&rsquo;ai apprécié développer en Python pendant 10 ans, certaines contraintes se font de plus en plus douloureusement ressentir. Nous sommes ici dans la plus parfaite subjectivité. Subjectivité qui dépend de notre expérience, de nos douleurs, de nos envies, de notre travail et de nos objectifs en tant que développeur&hellip;</p>
+
+<h2 id="toc_1">La volonté des concepteurs</h2>
+
+<p>Cette dualité «opportunité» vs «contrainte» mets aussi en lumière un point important : les concepteur d&rsquo;un langage de programmation naviguent en permanence entre un équilibre fragile d&rsquo;opportunités et de contraintes. Il est de plus très rare de disposer d&rsquo;une opportunité sans contrainte associée. Faire beaucoup de vérification à la compilation ? Dites alors adieu à une compilation ultra-rapide. Vous voulez un langage avec des concepts avancés de programmation ? Ne vous attendez pas alors à maitriser le langage en 1 an, mais plus en 5 ans, et d&rsquo;avoir de sérieux mal à la tête sur certains messages d&rsquo;erreurs. Tout est question d&rsquo;équilibre. A ma gauche des opportunités, á ma droite des contraintes.</p>
+
+<p>C&rsquo;est maintenant comme cela que je présente un langage, en faisant au préalable, en introduction, l’équivalent du texte que vous venez de lire. Non pas comme une liste d’avantages (que les auditeurs prendront ou nous comme tel), mais comme un ensemble de contraintes et d&rsquo;opportunités, et laissant chacun d&rsquo;entre eux faire leur opinion. Le plus important, je pense, est de montrer en quoi cet équilibre est intéressant.</p>
+
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="row li-author">
+    <div class="sixteen columns">
+        Written by <strong>Sébastien Douche</strong>
+    </div>
+</div>
+
+<div id="disqus_thread"></div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "sdouche";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "sdouche";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    
+                        &nbsp;
+                    
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    
+                        Older article<br />
+                        <a href="http://douche.name/blog/pourquoi-je-crois-techniquement-en-google/"> Pourquoi je crois (techniquement) en Google</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    Copyleft (c) 20010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+        var e = document.getElementById(id);
+        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
+    }
+    
+    </script>
+    <script type="text/javascript">
+    <!--
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', "UA-24575958-1"]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    -->
+    </script>
+    </body>
+</html>
+

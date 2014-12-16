@@ -7,7 +7,55 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 15 Dec 2014 07:29:44 CET</updated>
+    <updated>Tue, 16 Dec 2014 09:00:00 &#43;0200</updated>
+    
+    <item>
+      <title>Expliquer un langage de programmation</title>
+      <link>http://douche.name/blog/expliquer-un-langage-de-programmation/</link>
+      <pubDate>Tue, 16 Dec 2014 09:00:00 &#43;0200</pubDate>
+      
+      <guid>http://douche.name/blog/expliquer-un-langage-de-programmation/</guid>
+      <description>
+
+&lt;p&gt;Lors d&amp;rsquo;une présentation d&amp;rsquo;un langage de programmation, ou lors d&amp;rsquo;une discussion entre développeurs, il arrive bien souvent que l&amp;rsquo;on utilise les termes «avantage» et «inconvénient». Par exemple, cela peut donner comme argument pour Java : «Java c&amp;rsquo;est cool, tu codes sur la JVM et cela fonctionne sur plusieurs plateformes». Hors pour moi, la JVM est loin d&amp;rsquo;être un avantage. C&amp;rsquo;est gros, lourd, géré par Oracle qui impose des restrictions alacon&amp;hellip; L&amp;rsquo;exemple illustre un défaut dans l&amp;rsquo;argumentation : l&amp;rsquo;utilisation d&amp;rsquo;un &lt;strong&gt;argument subjectif présenté comme objectif&lt;/strong&gt;. Un avantage pour l&amp;rsquo;un peut être un défaut pour l&amp;rsquo;autre, et vice-versa, et la conversation peut donc rapidement tourner à l&amp;rsquo;affrontement stérile de ce qui est positif ou non.&lt;/p&gt;
+
+&lt;p&gt;Pour contrer cela, je voudrais vous présenter une autre approche, qui part de l&amp;rsquo;objectif (ou au moins tente de l&amp;rsquo;être) pour aller vers le subjectif, en détachant bien les deux aspects. Explication.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;«Opportunité» vs «contrainte»&lt;/h2&gt;
+
+&lt;p&gt;Je préfère remplacer avantage vs inconvénient par &lt;strong&gt;opportunité vs contrainte&lt;/strong&gt;, ici avec l&amp;rsquo;exemple de la JVM cité plus haut :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Une contrainte est une &lt;strong&gt;obligation&lt;/strong&gt;, on ne peut y échapper. Coder en Java oblige à utiliser la JVM.&lt;/li&gt;
+&lt;li&gt;Une opportunité est une &lt;strong&gt;possibilité&lt;/strong&gt; que l&amp;rsquo;on peut profiter. Utiliser la JVM permet de faire fonctionner son code sur plusieurs plateformes comme Linux ou MacOS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ces 2 points tentent d&amp;rsquo;être objectifs, et peuvent être accepter par ceux qui aiment Java, comme par ses détracteurs. Si vous avez un consensus, alors il est possible de glisser vers la subjectivité car on partage maintenant un &lt;strong&gt;référentiel commun&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est dans l&amp;rsquo;acceptation des contraintes ou dans la recherche d&amp;rsquo;opportunités que le choix de chacun va se faire. Voici 2 courts exemples :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Un amoureux de Scala va apprécier l&amp;rsquo;opportunité de disposer d&amp;rsquo;un code plus solide en production et de refactorer plus facilement son code. Pour cela il acceptera que le compilateur soit strict et lui renvoie de temps en temps des messages d&amp;rsquo;erreur compliqués. Il acceptera aussi une courbe d&amp;rsquo;apprentissage plus lourde et exigeante, une syntaxe un peu alambiquée et une sémantique chargée.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Un amateur de Python va aimer la simplicité syntaxique, la sensation de productivité à court terme. Il devra par contre subir la GIL, être plus vigilant sur sa gestion des erreurs.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vous choisirez alors un langage parce que :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;les opportunités offertes sont intéressantes.&lt;/li&gt;
+&lt;li&gt;les contraintes sont bloquantes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;C&amp;rsquo;est ici que la subjectivité intervient, et qu&amp;rsquo;il fait prendre à chacun de nous des chemins différents. Si je parle de mes propres choix, je pourrais par exemple dire que j&amp;rsquo;envie la capacité de gros refactoring que permet Scala, mais la complexité sémantique me rebute suffisamment pour éliminer le langage des mes choix. Et que si j&amp;rsquo;ai apprécié développer en Python pendant 10 ans, certaines contraintes se font de plus en plus douloureusement ressentir. Nous sommes ici dans la plus parfaite subjectivité. Subjectivité qui dépend de notre expérience, de nos douleurs, de nos envies, de notre travail et de nos objectifs en tant que développeur&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;La volonté des concepteurs&lt;/h2&gt;
+
+&lt;p&gt;Cette dualité «opportunité» vs «contrainte» mets aussi en lumière un point important : les concepteur d&amp;rsquo;un langage de programmation naviguent en permanence entre un équilibre fragile d&amp;rsquo;opportunités et de contraintes. Il est de plus très rare de disposer d&amp;rsquo;une opportunité sans contrainte associée. Faire beaucoup de vérification à la compilation ? Dites alors adieu à une compilation ultra-rapide. Vous voulez un langage avec des concepts avancés de programmation ? Ne vous attendez pas alors à maitriser le langage en 1 an, mais plus en 5 ans, et d&amp;rsquo;avoir de sérieux mal à la tête sur certains messages d&amp;rsquo;erreurs. Tout est question d&amp;rsquo;équilibre. A ma gauche des opportunités, á ma droite des contraintes.&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est maintenant comme cela que je présente un langage, en faisant au préalable, en introduction, l’équivalent du texte que vous venez de lire. Non pas comme une liste d’avantages (que les auditeurs prendront ou nous comme tel), mais comme un ensemble de contraintes et d&amp;rsquo;opportunités, et laissant chacun d&amp;rsquo;entre eux faire leur opinion. Le plus important, je pense, est de montrer en quoi cet équilibre est intéressant.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pourquoi je crois (techniquement) en Google</title>
