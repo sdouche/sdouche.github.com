@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Worse is better &middot; Ruminations From a Tortured Mind</title>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
+        <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
+        <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="http://douche.name/apple-touch-icon-144-precomposed.png" sizes="144x144" />
+        <link rel="alternate" href="" type="application/rss+xml" title="Ruminations From a Tortured Mind" />
+    </head>
+    <body class="li-body">
+
+<header class="li-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-brand li-left">
+                <a href="http://douche.name">Ruminations From a Tortured Mind</a></div>
+                <div class="li-menu li-right">
+                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
+                    <ul id="menu2" class="li-menu-items">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <ul id="menu" class="li-menu-items li-menu-mobile">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">Worse is better</h1>
+                        <span class="li-article-taxonomies">
+                            
+                                Posted in
+                                
+                                    <a href="http://douche.name/categories/rumination">rumination</a>
+                                
+                            
+
+                            
+                                with tags
+                                
+                                    <a href="http://douche.name/tags/coding">coding</a>
+                                
+                            
+                        </span>
+                         - 
+                        <time class="li-article-date">Thursday, December 18, 2014</time>
+                    </header>
+                    <section>
+                        
+
+<p>J&rsquo;ai lu voici quelques mois un billet qui s&rsquo;intitule <a href="http://dreamsongs.com/RiseOfWorseIsBetter.html">The Rise of Worse is Better</a> par Richard P. Gabriel, développeur Lisp (qui a d&rsquo;ailleurs monté une société autour de ce langage dans les années 80). Vieux billet puisqu&rsquo;il date de 1989 dans sa version original. Il est, à l&rsquo;origine, une section dans un essai nommé <a href="http://dreamsongs.com/WIB.html">Lisp: Good News, Bad News, How to Win Big</a>.</p>
+
+<p>Dans ce billet, Gabriel expose deux visions du développement logiciel qu&rsquo;il appelle la conception «The Right Thing» (approche MIT) et la conception «Worse is Better» (approche Stanford). Stanford et MIT se trouvant à San Francisco et l&rsquo;autre à Boston, cela donne un arrière gout de <em>East Coast</em> vs <em>West Coast</em>.</p>
+
+<p>Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), consistance (consistency) et complétude (completeness).</p>
+
+<h2 id="toc_0">Worse is Better</h2>
+
+<p>Voici les quatre points :</p>
+
+<ul>
+<li><p>La conception doit être simple. tant dans son implémentation que dans son interface. Mais la simplicité d&rsquo;<strong>implémentation</strong> est la plus importante.</p></li>
+
+<li><p>La conception doit être juste dans tous ses aspects observables, mais il est <strong>préférable d&rsquo;être simple que juste</strong>.</p></li>
+
+<li><p>La conception doit être consistante, mais on peut <strong>sacrifier dans certains cas la consistance pour la simplicité</strong>. De plus, il est préférable de supprimer des bouts de conception qui introduise de la complexité ou de l&rsquo;inconsistance.</p></li>
+
+<li><p>La conception doit couvrir autant de situations que possible, mais on peut <strong>sacrifier la complétude en faveur des autres caractéristiques</strong> comme l’exactitude ou la consistance, surtout
+si cela joue sur la complexité.</p></li>
+</ul>
+
+<p>En schématisant, nous avons :</p>
+
+<p>simplicité (implémentation) ❭ simplicité (interface) ❭ exactitude ❭ consistance ❭ complétude</p>
+
+<p>Nous pouvons voir que l&rsquo;approche de Stanford se focalise avant tout sur la simplicité d&rsquo;implémentation. La simplicité étant considérée comme l&rsquo;objectif plus important, il peut sacrifier de l&rsquo;exactitude. De même, il peut sacrifier de la consistance si cela augmente la complexité. Et de la complétude si cela améliore les points précédents.</p>
+
+<p>Gabriel décrit Unix et le langage C comme représentatif de cette approche.</p>
+
+<h2 id="toc_1">The Right Thing</h2>
+
+<p>Voici les quatre points :</p>
+
+<ul>
+<li><p>La conception doit être simple. tant dans son implémentation que dans son interface. Mais la simplicité d&rsquo;<strong>interface</strong> est la plus importante.</p></li>
+
+<li><p>La conception doit être juste dans tous ses aspects observables. <strong>L&rsquo;inexactitude n&rsquo;est pas permise</strong>.</p></li>
+
+<li><p>La conception doit être consistante. On peut <strong>sacrifier la simplicité et la complétude pour avoir la consistance</strong>.</p></li>
+
+<li><p>La conception doit couvrir le plus de situations utiles. Il est <strong>préférable d&rsquo;être complet que simple</strong>.</p></li>
+</ul>
+
+<p>En schématisant, nous avons :</p>
+
+<p>exactitude ❭ consistance ❭ complétude ❭ simplicité (interface) ❭ simplicité (implémentation)</p>
+
+<p>Au contraire de la première approche, l&rsquo;approche MIT se focalise sur l&rsquo;exactitude. La consistance et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et consistant).</p>
+
+<h2 id="toc_2">Son interprétation</h2>
+
+<p>Gabriel explique que l&rsquo;approche qui prône la simplicité produit de meilleur résultat sur le long terme, en prenant par exemple Unix, qui pouvait être porté bien plus facilement sur de nouvelles plateformes, ce qui a permis à ce dernier de se développer plus rapidement. Pour mieux exposer les différences, il raconte une petite histoire entre deux personnes (Bill Joy et Dan Weinreb si je ne dis pas de bêtise) :</p>
+
+<blockquote>
+<p>Two famous people, one from MIT and another from Berkeley (but working on Unix) once met to discuss operating system issues. The person from MIT was knowledgeable about ITS (the MIT AI Lab operating system) and had been reading the Unix sources. He was interested in how Unix solved the PC loser-ing problem. The PC loser-ing problem occurs when a user program invokes a system routine to perform a lengthy operation that might have significant state, such as IO buffers. If an interrupt occurs during the operation, the state of the user program must be saved. Because the invocation of the system routine is usually a single instruction, the PC of the user program does not adequately capture the state of the process. The system routine must either back out or press forward. The right thing is to back out and restore the user program PC to the instruction that invoked the system routine so that resumption of the user program after the interrupt, for example, re-enters the system routine. It is called PC loser-ing because the PC is being coerced into loser mode, where loser is the affectionate name for user at MIT.</p>
+
+<p>The MIT guy did not see any code that handled this case and asked the New Jersey guy how the problem was handled. The New Jersey guy said that the Unix folks were aware of the problem, but the solution was for the system routine to always finish, but sometimes an error code would be returned that signaled that the system routine had failed to complete its action. A correct user program, then, had to check the error code to determine whether to simply try the system routine again. The MIT guy did not like this solution because it was not the right thing.</p>
+
+<p>The New Jersey guy said that the Unix solution was right because the design philosophy of Unix was simplicity and that the right thing was too complex. Besides, programmers could easily insert this extra test and loop. The MIT guy pointed out that the implementation was simple but the interface to the functionality was complex. The New Jersey guy said that the right tradeoff has been selected in Unix-namely, implementation simplicity was more important than interface simplicity.</p>
+
+<p>The MIT guy then muttered that sometimes it takes a tough man to make a tender chicken, but the New Jersey guy didn&rsquo;t understand (I&rsquo;m not sure I do either).</p>
+</blockquote>
+
+<p>Il caricature l&rsquo;approche Stanford en l&rsquo;a nommant «Worse is Better» et non «Less is More» pour bien montrer que c&rsquo;est contre intuitif à ses yeux : On fait simple même si le résultat final n&rsquo;est pas aussi complet et consistant que l&rsquo;on pourrait espérer. Il dit d&rsquo;ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»</p>
+
+<h2 id="toc_3">Mon interprétation</h2>
+
+<p>Il faut savoir que ce texte a pas mal fait parlé de lui (et encore maintenant, la preuve avec ce billet). Gabriel à lui-même fait une critique (il dit ne sais pas savoir quoi en penser. Il est des fois pour, des fois contre). Si vous cherchez <a href="https://www.google.fr/#q=worse+is+better">Worse is better</a> dans votre moteur de recherche, vous tomberez sur plusieurs textes assassins, qui critiquent fortement cette philosophie pour avoir favorisée la médiocrité en développement logiciel. D&rsquo;autres critiques mettent en avant les contraintes économiques comme explication pour certaines évolutions comme Unix ou les processeurs x86. De plus, je pense qu&rsquo;il faut prendre ce texte sans y ajouter la notion de qualité. Car la plupart des critiques que j&rsquo;ai pu lire partait du principe que faire simple signifiait «gros hack», ce qui n&rsquo;est pas valable. La qualité est orthogonale à la discussion (on peut mal coder dans les deux philosophies).</p>
+
+<p>Pour ma part, je trouve ce texte intéressant car il formalise une vision du développement que j&rsquo;ai depuis longtemps, à savoir que la simplicité est la mère de toutes les vertus. Cela étant dit, faire simple ne veut pas dire simpliste, ou ne pas avoir de complexité à la fin. Mais de toujours chercher à obtenir un résultat le plus «dépouillé». Car cela sera plus simple à manipuler et à modifier par la suite.</p>
+
+<p>Gabriel parle de C et d&rsquo;Unix, je voudrais rajouter quelques exemples :</p>
+
+<ul>
+<li><p>Internet (la pile TCP/IP) a grandi en même temps qu&rsquo;un concurrent européen : X25 (développé à partir de 1976). Ce dernier était plus robuste et fiable puisque chaque hop s&rsquo;assurait de la validité des paquets. A contrario, TCP/IP ne fait aucune vérification pendant le transport, l&rsquo;intelligence se trouvant dans les extrémités du réseau (et non le cœur comme X25), rendant les hop bien plus facile à développer et moins couteux. Alors que TCP/IP fait tourner Internet, X25 était désuet en 1995&hellip;</p></li>
+
+<li><p>La micro-informatique est bien plus simple (voir pauvre pour certains) que les mainframes vendus depuis les années 60. Mais bien plus facile à comprendre et à manipuler, bien moins chers, ils se sont imposés un peu partout.</p></li>
+
+<li><p>Les réseaux locaux utilisent Ethernet, protocole assez basique inventé par Bob Metcalfe (au fameux centre Xerox Palto Alto. Il fonda plus tard 3Com). Il existait d&rsquo;autres protocoles plus fiables comme Token Ring d&rsquo;IBM. Mais bien plus couteux, le protocole Ethernet pris rapidement le pas. Et par sa conception simple, on est passé du 10BaseT au 10000BaseT.</p></li>
+
+<li><p>Git est un outil d&rsquo;une conception incroyablement simple (Linus Torvalds a utilisé Git pour ses besoins au bout de 5 jours). Basé sur une implémentation réussie du DAG et de la notion de référence, Git libère le programmeur du carcan SVN (bien plus complexe dans sa conception).</p></li>
+
+<li><p>Linux s&rsquo;est développé en noyau monolithique (conception simple), alors que certains lui prédisait une mort avec l&rsquo;arrivée des micro-noyaux, bien mieux sur bien des aspects. 20 ans après, on sait ce qui est advenu.</p></li>
+
+<li><p>Plus généralement, la philosophie du Libre se rapproche du <em>Worse is better</em>. Faire simple. D&rsquo;ailleurs Gabriel décrit dans un autre texte la proximité de son texte avec certaines idées de Richard Stallman.</p></li>
+</ul>
+
+<p>Bien sûr, les choses ne sont jamais blanc ou noir, et des décisions économiques, bureaucratiques ou d&rsquo;objectifs complexes, voir le hasard sont en partie à l&rsquo;origine de certains résultats. Mais je pense sincèrement que d&rsquo;avoir la simplicité d&rsquo;implémentation comme vecteur principal de son développement est intéressant. Les exemples ci dessus ne sont pas anodins, car provenant tous du même milieu (Internet et Unix sont étroitement liés, Stallman et Torvalds ont inventés un Unix-like), milieu qui a imposé pas mal de ses technologies.</p>
+
+<p>Et pour la petite histoire, Internet est aussi issu de la cote ouest, et ce n&rsquo;est pas anodin (mais cela nous mènerait bien trop loin, mais je vous engage à lire l&rsquo;histoire d&rsquo;Internet qui est fort instructif).</p>
+
+<h2 id="toc_4">Et alors ?</h2>
+
+<p>N&rsquo;est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l&rsquo;informatique) et surtout immature ? Est ce que les partisans de la conception <em>The Right Thing</em> n&rsquo;ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N&rsquo;est ce pas ma médiocrité intellectuelle qui me pousse dans les bras du <em>Worse is Better</em> car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d&rsquo;exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d&rsquo;excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du <em>Worse is Better</em> ?</p>
+
+<p>De plus, les études que j&rsquo;ai pu lire ne sont pas plus concluants (d&rsquo;ailleurs si vous en avez d&rsquo;autres je suis preneur car je n&rsquo;ai pas tout retrouvé) :</p>
+
+<ul>
+<li><a href="http://macbeth.cs.ucdavis.edu/lang_study.pdf">A Large Scale Study of Programming Languages and Code Quality in Github</a> (2014)</li>
+</ul>
+
+<blockquote>
+<p>«Most notably, it does appear that strong typing is modestly better than weak typing, and among functional languages, static typing is also somewhat better than dynamic typing. We also find that functional languages are somewhat better than procedural languages. It is worth noting that
+these modest effects arising from language design are overwhelmingly dominated by the process factors such as project size, team size, and commit size. However, we hasten to caution the reader
+that even these modest effects might quite possibly be due to other, intangible process factors, e.g., the preference of certain personality types for functional, static and strongly typed languages.»</p>
+</blockquote>
+
+<ul>
+<li><a href="http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1077&amp;context=honors">An Empirical Study of Student Programming Bugs</a> (2011)</li>
+</ul>
+
+<blockquote>
+<p>«By far, the most common frustration involved problem solving, i.e., students had difficulty understanding the problem statement on their assignment and designing a solution.»</p>
+</blockquote>
+
+<ul>
+<li><a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf">An Analysis of Production Failures in Distributed Data-Intensive Systems</a> (201)</li>
+</ul>
+
+<blockquote>
+<p>«We found the majority of catastrophic failures (ndlr: 92%) could easily have been prevented by performing simple testing on error handling code – the last line of defense – even without an understanding of the software design. We extracted three simple rules from the bugs that have lead to some of the catastrophic failures, and developed a static checker, Aspirato, capable of locating these bugs. Over 30% of the catastrophic failures would have been prevented had Aspirator been used and the identified bugs fixed. Running Aspirator on the code of 9 distributed systems located 143 bugs and bad practices that have been fixed or confirmed by the developers.»</p>
+</blockquote>
+
+<ul>
+<li><a href="http://dl.acm.org/authorize?6743202">An Empirical Study of the Influence of Static Type Systems on the Usability of Undocumented Software</a> (2012)</li>
+</ul>
+
+<blockquote>
+<p>«We report on a controlled experiment where 27 subjects performed programming tasks on an undocumented API with a static type system (requiring type annotations) as well as a dynamic type system (which does not). Our results show that forsome tasks, programmers had faster completion times using a static type system, while for others, the opposite held.»</p>
+</blockquote>
+
+<ul>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/de//pubs/archive/42184.pdf">Programmers’ Build Errors: A Case Study (at Google)</a> (2014)</li>
+</ul>
+
+<blockquote>
+<p>« An analysis of the errors found during the build process revealed that, independent of programming language, approximately 10 percent of the error types account for 90% of the build failures.»</p>
+</blockquote>
+
+<ul>
+<li><a href="http://madeyski.e-informatyka.pl/download/Madeyski07g.pdf">Impact of aspect-oriented programming on software development efficiency and design quality</a></li>
+</ul>
+
+<blockquote>
+<p>«It turned out that aspect-oriented programming approach did not significantly affect software design quality metrics i.e. Dn, W OM, CBM, RFM, LCO, NCLOC and NCLOC2. It means that the impact of aspect-oriented programming on software design modularity and size (related to the goal 1) was not confirmed. In fact, the impact of aspectoriented programming on class-level software quality metrics (W OM, CBM, RFM, LCO) as well as on NCLOC and NCLOC2 was extremely weak, as suggested by the obtained effect size &reg; values»</p>
+</blockquote>
+
+<p>Ces études sont perfectibles à bien des égards mais se pourrait il que les arguments tant vantés par la communauté <em>The Right Thing</em> ne reposent en fait que sur des impressions, des envies ou des expériences passées ? Ne pourrait elle pas s&rsquo;expliquer par une valorisation personnelle du type «j&rsquo;utilise un langage avec plein de concepts compliqués ce qui me valorise ou m&rsquo;amuse intellectuellent» ?</p>
+
+<p>Ma croyance est que la simplicité est la clé du développement logiciel, car les objectifs de compréhension, de relecture et de modification sont les plus importantes. Ce qui implique le moins de connaissances à acquérir. Et ce n&rsquo;est il pas finalement dans la recherche à 360 degrés de la simplicité (dans les techniques, les outils et l&rsquo;organisation) que l&rsquo;on peut puiser les meilleurs résultats et non un langage <em>The Right Thing</em> ? Par exemple :</p>
+
+<ul>
+<li>Un langage adapté aux besoins, possédant une petite spécification et qui ne demande pas de connaissances poussées en logique mathématique.</li>
+<li>La conception pilotée par les tests (TDD) qui pousse à réduire la complexité cyclomatique.</li>
+<li>La revue de code (et pair-programming) qui diminue le code «mappé du cerveau», car compréhensible par d&rsquo;autres.</li>
+<li>Le refactoring pour raffiner le code (cohésion, découplage, extraction ,etc).</li>
+<li>Une taille d&rsquo;équipe réduite et cohérente pour contrôler la complexité relationnelle.</li>
+<li>Le Kanban qui modélise une seule métrique organisationnelle (le temps de cycle)</li>
+<li>Le déploiement continue qui force à un déploiement maitrisé, donc simple.</li>
+<li>Garder une taille de code raisonnable.</li>
+</ul>
+
+<p>Et que donc, la qualité passe avant tout par une <strong>culture de la simplicité</strong> ? Culture qui doit être régulièrement questionnée et travaillée ?</p>
+
+<h2 id="toc_5">Un dernier mot sur Rust</h2>
+
+<p>Un dernier mot sur <a href="http://www.rust-lang.org/">Rust</a>, langage en court d&rsquo;élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéressante de rapprochement  de ces deux voies. Exact, complet, consistant mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0&hellip;</p>
+
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="row li-author">
+    <div class="sixteen columns">
+        Written by <strong>Sébastien Douche</strong>
+    </div>
+</div>
+
+<div id="disqus_thread"></div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "sdouche";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "sdouche";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    
+                        &nbsp;
+                    
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    
+                        Older article<br />
+                        <a href="http://douche.name/blog/expliquer-un-langage-de-programmation/"> Expliquer un langage de programmation</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    Copyleft (c) 20010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+        var e = document.getElementById(id);
+        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
+    }
+    
+    </script>
+    <script type="text/javascript">
+    <!--
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', "UA-24575958-1"]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    -->
+    </script>
+    </body>
+</html>
+
