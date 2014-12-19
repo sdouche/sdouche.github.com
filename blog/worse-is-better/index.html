@@ -75,7 +75,7 @@
 
 <p>Dans ce billet, Gabriel expose deux visions du développement logiciel qu&rsquo;il appelle la conception «The Right Thing» (approche MIT) et la conception «Worse is Better» (approche Stanford). Stanford et MIT se trouvant à San Francisco et l&rsquo;autre à Boston, cela donne un arrière gout de <em>East Coast</em> vs <em>West Coast</em>.</p>
 
-<p>Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), consistance (consistency) et complétude (completeness).</p>
+<p>Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), cohérence (consistency) et complétude (completeness).</p>
 
 <h2 id="toc_0">Worse is Better</h2>
 
@@ -86,17 +86,16 @@
 
 <li><p>La conception doit être juste dans tous ses aspects observables, mais il est <strong>préférable d&rsquo;être simple que juste</strong>.</p></li>
 
-<li><p>La conception doit être consistante, mais on peut <strong>sacrifier dans certains cas la consistance pour la simplicité</strong>. De plus, il est préférable de supprimer des bouts de conception qui introduise de la complexité ou de l&rsquo;inconsistance.</p></li>
+<li><p>La conception doit être cohérente, mais on peut <strong>sacrifier dans certains cas la cohérence pour la simplicité</strong>. De plus, il est préférable de supprimer des bouts de conception qui introduise de la complexité ou de l&rsquo;incohérence.</p></li>
 
-<li><p>La conception doit couvrir autant de situations que possible, mais on peut <strong>sacrifier la complétude en faveur des autres caractéristiques</strong> comme l’exactitude ou la consistance, surtout
-si cela joue sur la complexité.</p></li>
+<li><p>La conception doit couvrir autant de situations que possible, mais on peut <strong>sacrifier la complétude en faveur des autres caractéristiques</strong> comme l’exactitude ou la cohérence, surtout si cela joue sur la complexité.</p></li>
 </ul>
 
 <p>En schématisant, nous avons :</p>
 
-<p>simplicité (implémentation) ❭ simplicité (interface) ❭ exactitude ❭ consistance ❭ complétude</p>
+<p>simplicité (implémentation) ❭ simplicité (interface) ❭ exactitude ❭ cohérence ❭ complétude</p>
 
-<p>Nous pouvons voir que l&rsquo;approche de Stanford se focalise avant tout sur la simplicité d&rsquo;implémentation. La simplicité étant considérée comme l&rsquo;objectif plus important, il peut sacrifier de l&rsquo;exactitude. De même, il peut sacrifier de la consistance si cela augmente la complexité. Et de la complétude si cela améliore les points précédents.</p>
+<p>Nous pouvons voir que l&rsquo;approche de Stanford se focalise avant tout sur la simplicité d&rsquo;implémentation. La simplicité étant considérée comme l&rsquo;objectif plus important, il peut sacrifier de l&rsquo;exactitude. De même, il peut sacrifier de la cohérence si cela augmente la complexité. Et de la complétude si cela améliore les points précédents.</p>
 
 <p>Gabriel décrit Unix et le langage C comme représentatif de cette approche.</p>
 
@@ -109,16 +108,16 @@ si cela joue sur la complexité.</p></li>
 
 <li><p>La conception doit être juste dans tous ses aspects observables. <strong>L&rsquo;inexactitude n&rsquo;est pas permise</strong>.</p></li>
 
-<li><p>La conception doit être consistante. On peut <strong>sacrifier la simplicité et la complétude pour avoir la consistance</strong>.</p></li>
+<li><p>La conception doit être cohérente. On peut <strong>sacrifier la simplicité et la complétude pour avoir de la cohérence</strong>.</p></li>
 
 <li><p>La conception doit couvrir le plus de situations utiles. Il est <strong>préférable d&rsquo;être complet que simple</strong>.</p></li>
 </ul>
 
 <p>En schématisant, nous avons :</p>
 
-<p>exactitude ❭ consistance ❭ complétude ❭ simplicité (interface) ❭ simplicité (implémentation)</p>
+<p>exactitude ❭ cohérence ❭ complétude ❭ simplicité (interface) ❭ simplicité (implémentation)</p>
 
-<p>Au contraire de la première approche, l&rsquo;approche MIT se focalise sur l&rsquo;exactitude. La consistance et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et consistant).</p>
+<p>Au contraire de la première approche, l&rsquo;approche MIT se focalise sur l&rsquo;exactitude. La cohérence et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et cohérent).</p>
 
 <h2 id="toc_2">Son interprétation</h2>
 
@@ -134,7 +133,7 @@ si cela joue sur la complexité.</p></li>
 <p>The MIT guy then muttered that sometimes it takes a tough man to make a tender chicken, but the New Jersey guy didn&rsquo;t understand (I&rsquo;m not sure I do either).</p>
 </blockquote>
 
-<p>Il caricature l&rsquo;approche Stanford en l&rsquo;a nommant «Worse is Better» et non «Less is More» pour bien montrer que c&rsquo;est contre intuitif à ses yeux : On fait simple même si le résultat final n&rsquo;est pas aussi complet et consistant que l&rsquo;on pourrait espérer. Il dit d&rsquo;ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»</p>
+<p>Il caricature l&rsquo;approche Stanford en l&rsquo;a nommant «Worse is Better» et non «Less is More» pour bien montrer que c&rsquo;est contre intuitif à ses yeux : On fait simple même si le résultat final n&rsquo;est pas aussi complet et cohérent que l&rsquo;on pourrait espérer. Il dit d&rsquo;ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»</p>
 
 <h2 id="toc_3">Mon interprétation</h2>
 
@@ -164,7 +163,7 @@ si cela joue sur la complexité.</p></li>
 
 <h2 id="toc_4">Et alors ?</h2>
 
-<p>N&rsquo;est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l&rsquo;informatique) et surtout immature ? Est ce que les partisans de la conception <em>The Right Thing</em> n&rsquo;ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N&rsquo;est ce pas ma médiocrité intellectuelle qui me pousse dans les bras du <em>Worse is Better</em> car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d&rsquo;exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d&rsquo;excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du <em>Worse is Better</em> ?</p>
+<p>N&rsquo;est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l&rsquo;informatique) et surtout immature ? Est ce que les partisans de la conception <em>The Right Thing</em> n&rsquo;ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N&rsquo;est ce pas <strong>ma</strong> médiocrité intellectuelle qui me pousse dans les bras du <em>Worse is Better</em> car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d&rsquo;exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d&rsquo;excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du <em>Worse is Better</em> ?</p>
 
 <p>De plus, les études que j&rsquo;ai pu lire ne sont pas plus concluants (d&rsquo;ailleurs si vous en avez d&rsquo;autres je suis preneur car je n&rsquo;ai pas tout retrouvé) :</p>
 
@@ -220,7 +219,7 @@ that even these modest effects might quite possibly be due to other, intangible 
 
 <p>Ces études sont perfectibles à bien des égards mais se pourrait il que les arguments tant vantés par la communauté <em>The Right Thing</em> ne reposent en fait que sur des impressions, des envies ou des expériences passées ? Ne pourrait elle pas s&rsquo;expliquer par une valorisation personnelle du type «j&rsquo;utilise un langage avec plein de concepts compliqués ce qui me valorise ou m&rsquo;amuse intellectuellent» ?</p>
 
-<p>Ma croyance est que la simplicité est la clé du développement logiciel, car les objectifs de compréhension, de relecture et de modification sont les plus importantes. Ce qui implique le moins de connaissances à acquérir. Et ce n&rsquo;est il pas finalement dans la recherche à 360 degrés de la simplicité (dans les techniques, les outils et l&rsquo;organisation) que l&rsquo;on peut puiser les meilleurs résultats et non un langage <em>The Right Thing</em> ? Par exemple :</p>
+<p>Ma <strong>croyance</strong> est que la simplicité est la clé du développement logiciel, car les objectifs de compréhension, de relecture et de modification sont les plus importantes. Ce qui implique le moins de connaissances à acquérir. Et ce n&rsquo;est il pas finalement dans la recherche à 360 degrés de la simplicité (dans les techniques, les outils et l&rsquo;organisation) que l&rsquo;on peut puiser les meilleurs résultats et non un langage <em>The Right Thing</em> ? Par exemple :</p>
 
 <ul>
 <li>Un langage adapté aux besoins, possédant une petite spécification et qui ne demande pas de connaissances poussées en logique mathématique.</li>
@@ -237,7 +236,7 @@ that even these modest effects might quite possibly be due to other, intangible 
 
 <h2 id="toc_5">Un dernier mot sur Rust</h2>
 
-<p>Un dernier mot sur <a href="http://www.rust-lang.org/">Rust</a>, langage en court d&rsquo;élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéressante de rapprochement  de ces deux voies. Exact, complet, consistant mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0&hellip;</p>
+<p>Un dernier mot sur <a href="http://www.rust-lang.org/">Rust</a>, langage en court d&rsquo;élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéresasnte de rapprochement  de ces deux voies. Exact, complet, cohérent mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0&hellip;</p>
 
                     </section>
                 </article>
@@ -302,7 +301,7 @@ var disqus_shortname = "sdouche";
         <div class="row">
             <div class="sixteen columns">
                 <div class="li-page-footer-legal">
-                    Copyleft (c) 20010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
+                    Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
                 </div>
                 <div class="li-page-footer-theme">
                     <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
