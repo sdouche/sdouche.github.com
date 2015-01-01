@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Feedback on Ruminations From a Tortured Mind </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://douche.name/categories/feedback/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 01 Jan 2015 16:49:00 CET</updated>
+    
+    <item>
+      <title>Passage de GMail à Fastmail</title>
+      <link>http://douche.name/blog/passage-de-gmail-a-fastmail/</link>
+      <pubDate>Thu, 01 Jan 2015 16:49:00 CET</pubDate>
+      
+      <guid>http://douche.name/blog/passage-de-gmail-a-fastmail/</guid>
+      <description>
+
+&lt;p&gt;En 2004, un pote qui bosse chez Google me file une invitation pour tester un nouveau Webmail appelé GMail. 2014. Cela fait maintenant 10 ans que j&amp;rsquo;utilise GMail pour mes besoins (sur plusieurs comptes) en plus de l&amp;rsquo;utilisation du moteur de recherche Google, Google Maps, Google Calendar, Google+ et Android (et jusqu&amp;rsquo;en 2013 Google Reader). Il était temps de réduire ma dépendance envers Google. Dans un élan de volonté, je me suis décidé à trouver un nouvel hébergeur mail pour 2015. C&amp;rsquo;est maintenant chose faite.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Présentation de Fastmail&lt;/h2&gt;
+
+&lt;p&gt;Fastmail est une boite australienne, qui était un temps une division de la société &lt;em&gt;Opera Software&lt;/em&gt;, créatrice du navigateur web du même nom. Fin 2013, ils ont décidés de passer du modèle gratuit au modèle payant. Les serveurs se trouvent à New York et en Islande.&lt;/p&gt;
+
+&lt;p&gt;Il existe 3 offres :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Individuel (1 compte)&lt;/li&gt;
+&lt;li&gt;Famille (&amp;lt;9 comptes)&lt;/li&gt;
+&lt;li&gt;Entreprise (jusqu’à 1000 comptes)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dans l&amp;rsquo;offre individuel, vous avez 4 possibilités :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lite (10$ / an) : 250Mo mail / 100Mo fichier&lt;/li&gt;
+&lt;li&gt;Full (20$ / an) : 1Go  mail / 1Go fichier&lt;/li&gt;
+&lt;li&gt;Enhanced (40$ / an) : 15Go mail / 5Go fichier + calendrier + domaine perso&lt;/li&gt;
+&lt;li&gt;Premium (120 $/ an) : 60Go mail / 30Go fichier + calendrier + domaine perso&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voulant utiliser des domaines personnels et disposer d&amp;rsquo;une capacité identique à GMail, j&amp;rsquo;ai opté pour &lt;em&gt;Enhanced&lt;/em&gt;. Et 40$ me semble un prix fort raisonnable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; : Vous pouvez tester Fastmail 60 jours gratuitement (et sans avoir à donner sa CB). Par contre, certaines fonctionnalités sont désactivées comme les alias.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Interface&lt;/h2&gt;
+
+&lt;p&gt;Ce qui me rebutais pendant des années à partir de GMail était l&amp;rsquo;aspect assez repoussant des webmails concurrents. Alors que je me suis fait rapidement à l&amp;rsquo;interface de Fastmail. Claire et sobre, avec cette pointe de design qui fait la différence. Voici un exemple :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/fastmail1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;De plus, l&amp;rsquo;interface est &lt;strong&gt;rapide&lt;/strong&gt;, bien plus véloce que GMail. C&amp;rsquo;est très agréable ! Un déplacement de mails ou la navigation dans mes dossiers est instantané. Gros point positif ! Il faut noter que je n&amp;rsquo;ai pas encore des dossiers avec plus de 15 000 threads comme avec GMail (je n&amp;rsquo;ai pas transféré les 10Go de la cinquantaine de listes de diffusion dont je suis abonné). Par contre, cela manque de thèmes (seulement 4 mais dans la même gamme de couleur).&lt;/p&gt;
+
+&lt;p&gt;Très bon point, il existe de nombreux raccourcis claviers.&lt;/p&gt;
+
+&lt;p&gt;Par contre je n&amp;rsquo;apprécie pas du tout le fait qu&amp;rsquo;il existe 2 endroits différents pour configurer, appelés &lt;em&gt;settings&lt;/em&gt; et &lt;em&gt;advanced&lt;/em&gt;. Avoir plusieurs endroits pour faire la même chose est source de confusion car on ne sait jamais si c&amp;rsquo;est dans tel ou tel endroit. Et d&amp;rsquo;ailleurs, cela n&amp;rsquo;a pas manqué car il existe 2 écrans pour configurer ses signatures, la configuration de l&amp;rsquo;un semblant écraser l&amp;rsquo;autre. Il y aussi des incohérences dans la navigation. Par exemple :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Quand vous êtes dans l&amp;rsquo;application fichier, le menu principal n&amp;rsquo;est plus une dropbox comme partout ailleurs mais un menu traditionnel (et dans une position différente).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dans un écran de configuration «advanced», vous n&amp;rsquo;avez pas moyen de revenir à l&amp;rsquo;écran général (par exemple pour aller de l&amp;rsquo;écran &lt;em&gt;Folders&lt;/em&gt; à &lt;em&gt;Rules&lt;/em&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Toujours coté ergonomie, je n&amp;rsquo;ai plus de bouton &lt;em&gt;mark as read&lt;/em&gt; directement accessible, il faut que je passe par le menu &lt;em&gt;mark&lt;/em&gt; puis cliquer sur &lt;em&gt;read&lt;/em&gt;. Un clic de plus semble ridicule, sauf quand, comme moi, vous lisez des dizaines de listes de diffusion et que vous mettez les sujets qui ne vous intéressent pas en lus. Ce qui fait donc pas mal de clics en plus. Pour continuer coté ergonomie, les textes cités sont souvent fermés par défaut (comme GMail d&amp;rsquo;ailleurs), ce que je n&amp;rsquo;aime pas du tout.&lt;/p&gt;
+
+&lt;p&gt;Il y a un emplacement en haut à gauche de chaque mail pour un avatar mais il semble prendre uniquement ceux de Wordpress, autant dire que vous n&amp;rsquo;en voyez aucun&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Autre lacune, s&amp;rsquo;il existe la notion de &lt;em&gt;flag&lt;/em&gt;, il y&amp;rsquo;en a qu&amp;rsquo;un type. Contrairement à GMail qui possède une douzaine (appelés &lt;em&gt;stars&lt;/em&gt;), ce qui me permet de donner des sens différents selon l&amp;rsquo;action à mener. Par exemple le flag «?» signifie que j&amp;rsquo;attends une réponse alors que le flag «!» veut dire que je dois y répondre. Je perds donc une fonctionnalité très utile.&lt;/p&gt;
+
+&lt;p&gt;Il manque aussi la notion de &lt;em&gt;multiple inbox&lt;/em&gt; (plusieurs vues fusionnées sur le même écran), qui permettait de rajouter une vue avec critère. Par exemple, j&amp;rsquo;avais dans GMail en haut l&amp;rsquo;inbox classique et en bas une inbox qui listait tous les mails «flaggués», ce qui donc me listait toutes les actions á mener. Encore une fonctionnalité perdue.&lt;/p&gt;
+
+&lt;p&gt;Autre fonctionnalité perdue, j&amp;rsquo;ai configuré dans GMail l&amp;rsquo;envoi de mail au bout de 30 secondes, ce qui me laissait le temps de me relire une dernière fois. C&amp;rsquo;est fou le nombre de fautes que je rattrape au dernier moment (j&amp;rsquo;ai une sale manie de ré-écrire en permanence mes phrases, ce qui fait que je relis finalement assez rarement). Bon ok, il suffit de les mettre en draft et d&amp;rsquo;attendre un peu. C&amp;rsquo;est juste un changement de comportement :).&lt;/p&gt;
+
+&lt;p&gt;Fonctionnalité intéressante, vous pouvez envoyer un mail selon un template. Il suffit pour cela de créer un dossier «Templates», d&amp;rsquo;y déplacer un draft pour qui se transforme automatiquement en template. Simple et pratique.&lt;/p&gt;
+
+&lt;p&gt;Au final, je me suis fait rapidement à nouvelle interface mais cela manque d&amp;rsquo;ergonomie. Rien de bloquant mais légèrement déroutant de temps à autre. La seule fonctionnalité qui me manque vraiment est d&amp;rsquo;avoir plus de flags.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Gestion des dossiers&lt;/h2&gt;
+
+&lt;p&gt;Voila pour moi un point fort de Fastmail, il est possible d&amp;rsquo;avoir plusieurs niveaux de dossiers facilement. Je m&amp;rsquo;explique. J&amp;rsquo;aime bien catégoriser les mails, que ce soit des listes de diffusion (Go →go-nuts) ou pro (projet X→devis). C&amp;rsquo;est possible dans GMail mais le décalage visuel m&amp;rsquo;oblige à faire des noms de dossier court et ne pas avoir plus de 2 profondeurs (car l&amp;rsquo;interface ne permet pas d&amp;rsquo;agrandir la fenêtre des dossiers). UX quand tu nous tiens. Comme le décalage est léger dans Fastmail, je peux en avoir 3 ou 4 sans trop de soucis (et la fenêtre est ici déplaçable). Ce qui  fait que maintenant j&amp;rsquo;ai des dossiers racines comme «ml» et «pro». La visualisation et la navigation étant bien améliorées à mes yeux. De plus, et contrairement à GMail, on peut ordonner les dossiers dans l&amp;rsquo;ordre de son choix.&lt;/p&gt;
+
+&lt;p&gt;Rien de révolutionnaire mais un plus bien pratique, quand comme moi, vous atteignez la centaine de dossiers (car rappelez vous que l&amp;rsquo;un de mes objectifs est de fusionner trois comptes GMail). Voici un exemple avec une arborescence de 3 sous-dossiers (ml→Go→golang-nuts) :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/fastmail2.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Par contre, l&amp;rsquo;ordre des dossiers se fait par glisser - déplacer et c&amp;rsquo;est un véritable enfer. On sent l&amp;rsquo;outil développé pour quelques dossiers mais pas &lt;strong&gt;du tout&lt;/strong&gt; pensé pour le cas où il faut glisser en dehors de l&amp;rsquo;écran. Et la encore, on a un écran de configuration dans &lt;em&gt;settings&lt;/em&gt; qui gère l&amp;rsquo;ordre mais marche mal avec beaucoup de dossiers et un écran dans &lt;em&gt;advanced&lt;/em&gt; qui gère bien le fait d&amp;rsquo;avoir plein de dossiers mais qui ne gère pas l&amp;rsquo;ordre&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Dossier vs label&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;utilisation de Fastmail me renvoie 10 ans en arrière, car il n&amp;rsquo;implémente pas la notion de &lt;em&gt;label&lt;/em&gt;. Ici, on a affaire à de bêtes dossiers, ce qui veut dire que contrairement à GMail, il n&amp;rsquo;est pas possible de «tagguer» plusieurs fois un mail, soit pour le rendre visible dans plusieurs dossiers, soit pour lui donner plus de sens. Cela pose soucis si par exemple on utilise une sorte de «méthode GTD», en labellisant les mails («en attente», «en cours», «action», etc). J&amp;rsquo;ai trouvé que la notion de label est, avec la vue par défaut en mode conversation, les deux plus grosses avancées de GMail quand j&amp;rsquo;ai commencé à l&amp;rsquo;utiliser en 2004. Je pense néanmoins que je pourrais m&amp;rsquo;en passer sans trop de larmes.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Filtre&lt;/h2&gt;
+
+&lt;p&gt;Le classement de ses mails se fait à travers des classiques filtres. Ces filtres permettent de supprimer, transmettre ou déplacer des mails. Les critères sont :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Always — the rule always applies to every message.&lt;/li&gt;
+&lt;li&gt;The sender&amp;rsquo;s — looks at the From address of the message.&lt;/li&gt;
+&lt;li&gt;A recipient&amp;rsquo;s — looks at the names and addresses in the To and Cc fields.&lt;/li&gt;
+&lt;li&gt;The subject — looks at the Subject of the message.&lt;/li&gt;
+&lt;li&gt;The message text — looks at the body of the message.&lt;/li&gt;
+&lt;li&gt;The mailing list ID — looks at the List-Id header of the message.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;De plus, on peut utiliser un &lt;em&gt;glob&lt;/em&gt; ou une &lt;em&gt;regexp&lt;/em&gt; pour des besoins plus évoluer. Et surtout, on peut utiliser le langage &lt;a href=&#34;http://www.wikiwand.com/en/Sieve_(mail_filtering_language)&#34;&gt;Sieve&lt;/a&gt; qui permet de décrire ses filtres sous forme de DSL. Le premier avantage étant de pouvoir facilement importer, modifier et exporter l&amp;rsquo;ensemble de ses filtres. Voici un exemple :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if header :contains [&amp;quot;list-id&amp;quot;, &amp;quot;list-post&amp;quot;] &amp;quot;&amp;lt;rust-dev.mozilla.org&amp;gt;&amp;quot; {
+  fileinto &amp;quot;INBOX.ml.Rust.rust-dev&amp;quot;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Par contre, j&amp;rsquo;ai un gros soucis : je me retrouve avec plusieurs fois le même mail dans un dossier car c&amp;rsquo;est un fait un mail à plusieurs destinations (mail se trouvant sur plusieurs listes de diffusion). Si par exemple j&amp;rsquo;envoie un mail à &lt;em&gt;go-nuts&lt;/em&gt; et &lt;em&gt;go-dev&lt;/em&gt;, il va se retrouver en double dans le dossier «ml/go/go-nuts» car le filtre idoine se trouve avant le filtre qui classe dans «ml/go/go-dev». Gênant. En regardant les règles Sieve, je m&amp;rsquo;aperçois que c&amp;rsquo;est un gros bloc &lt;em&gt;if/else&lt;/em&gt;. Ça se trouve, en ne mettant que des &lt;em&gt;if&lt;/em&gt;, cela résout le problème. A tester.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Moteur de recherche&lt;/h2&gt;
+
+&lt;p&gt;Gros point fort de GMail, à tel point que certains utilisateurs ne rangent jamais leurs mails et passe systématiquement par le moteur de recherche. De ce que je peux en juger, le moteur de recherche de Fastmail semble aussi de très bonne facture, trouvant immédiatement les mails que je recherche. Et comme GMail, on peut utiliser un DSL :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;in:&lt;foldername&gt;&lt;/li&gt;
+&lt;li&gt;from:&lt;phrase&gt;&lt;/li&gt;
+&lt;li&gt;to:&lt;phrase&gt; (searches both To and Cc)&lt;/li&gt;
+&lt;li&gt;subject:&lt;phrase&gt;&lt;/li&gt;
+&lt;li&gt;body:&lt;phrase&gt;&lt;/li&gt;
+&lt;li&gt;list:&lt;phrase&gt; (searches the List-Id header)&lt;/li&gt;
+&lt;li&gt;header:&amp;rdquo;&lt;headername&gt;: &lt;phrase&gt;&amp;ldquo;&lt;/li&gt;
+&lt;li&gt;substr:(&lt;other search terms&gt;)&lt;/li&gt;
+&lt;li&gt;since|after|newer:&lt;date&gt;&lt;/li&gt;
+&lt;li&gt;before|older:&lt;date&gt;&lt;/li&gt;
+&lt;li&gt;date:&lt;date&gt;&lt;/li&gt;
+&lt;li&gt;smaller|maxsize:&lt;size&gt;&lt;/li&gt;
+&lt;li&gt;bigger|larger|minsize:&lt;size&gt;&lt;/li&gt;
+&lt;li&gt;has|is:&lt;boolean&gt;&lt;/li&gt;
+&lt;li&gt;filetype:image|document|spreadsheet|presentation|pdf&lt;/li&gt;
+&lt;li&gt;flag:&lt;flag name&gt;&lt;/li&gt;
+&lt;li&gt;msgid:&lt;id&gt;&lt;/li&gt;
+&lt;li&gt;imap:&lt;raw imap search&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les booléens peuvent être :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;read or seen&lt;/li&gt;
+&lt;li&gt;unread or unseen&lt;/li&gt;
+&lt;li&gt;pinned or flagged&lt;/li&gt;
+&lt;li&gt;unpinned or unflagged&lt;/li&gt;
+&lt;li&gt;replied or answered&lt;/li&gt;
+&lt;li&gt;unreplied or unanswered&lt;/li&gt;
+&lt;li&gt;attachment or hasatt&lt;/li&gt;
+&lt;li&gt;noattachment or hasnoatt or noatt&lt;/li&gt;
+&lt;li&gt;draft&lt;/li&gt;
+&lt;li&gt;undraft&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On peu appliquer des opérateurs :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AND&lt;/li&gt;
+&lt;li&gt;OR&lt;/li&gt;
+&lt;li&gt;NOT&lt;/li&gt;
+&lt;li&gt;() - grouping&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Comme vous le constater, c&amp;rsquo;est fort complet. De plus vous pouvez sauvegarder une recherche qui se modélisera sous forme de dossier : cliquer dessus et vous verrez le résultat de la recherche. Top !&lt;/p&gt;
+
+&lt;p&gt;Encore un défaut d&amp;rsquo;ergonomie, je trouve la fenêtre de recherche bien trop petite.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Utilisation de domaines DNS&lt;/h2&gt;
+
+&lt;p&gt;Je voulais profiter de la migration pour utiliser des domaines personnels (ce qui est possible avec &lt;em&gt;Google Apps&lt;/em&gt;, j&amp;rsquo;avais d&amp;rsquo;ailleurs mon mail pro la dessus).
+Pour cela 2 solutions :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;transférer le domaine chez eux. Vous contrôlez ensuite vos entrées DNS directement dans l&amp;rsquo;interface Fastmail. Vous avez par défaut tout un tas d&amp;rsquo;entrées pré-configurées (MX, JABBER, CALDAV, etc).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;spécifier les MX Fastmail. Il faudra alors ajouter manuellement certaines entrées comme le &lt;em&gt;DKIM&lt;/em&gt;. Rien de compliqué.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;J&amp;rsquo;ai opté pour la première solution.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;utilise donc maintenant un domaine personnel pour chaque adresse mail que j&amp;rsquo;utilise (avec un seul compte Fastmail), les «identités» faisant le reste. Du classique.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;Alias&lt;/h2&gt;
+
+&lt;p&gt;En plus des domaines virtuels, il est possible de créer des alias à partir de l&amp;rsquo;énorme liste de domaines que possède Fastmail, comme fastmail.mx, fastmail.net, eml.cc ou encore mm.st. Au total une bonne centaine je pense ! J&amp;rsquo;ai donc créer un alias pour un usage «poubelle», histoire de pas donner mon véritable mail quand je teste des services (mais qui à l&amp;rsquo;avantage de ne pas s&amp;rsquo;appeler &lt;em&gt;sdouche@junk.org&lt;/em&gt;, il fait «vrai»). Il suffit d&amp;rsquo;en changer de temps en temps si le spam augmente. Et comme c&amp;rsquo;est un alias, cela tombe au même endroit.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;Adresse avec +&lt;/h2&gt;
+
+&lt;p&gt;Comme avec GMail, il est possible d&amp;rsquo;utiliser le symbole + dans votre adresse mail, ce qui permet de distinguer les émetteurs. Par exemple, mettre &lt;em&gt;nom+service@domaine.com&lt;/em&gt; permet de savoir qui a revendu votre mail à des spammeurs :). Si vous avez un dossier qui correspond a ce qui suit le symbole + (service dans l&amp;rsquo;exemple précédent), il sera automatiquement rangé dedans. Mieux, vous pouvez utiliser l&amp;rsquo;adresse &lt;em&gt;nom@service.domaine.com&lt;/em&gt;, ce qui sera automatiquement transformer en &lt;em&gt;nom+service@montld.com&lt;/em&gt;. Utile pour ne montrer que vous fournissez une adresse personnalisée.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;SPAM&lt;/h2&gt;
+
+&lt;p&gt;Voila un gros plus de GMail ! je recevais moins d&amp;rsquo;une dizaine de spams par semaine, dont un non taggué. Ce qui est pas mal pour un mail abondamment utilisé pendant 10 ans sans faire attention. C&amp;rsquo;est encore trop tôt pour donner une indication pour Fastmail, il faudra quelques mois pour cela. Par contre j&amp;rsquo;ai remarqué qu&amp;rsquo;en plus d&amp;rsquo;une base de connaissance globale, vous avez aussi une base personnelle que vous pouvez entrainer avec les boutons &lt;em&gt;Report spam&lt;/em&gt; et &lt;em&gt;Report non-spam&lt;/em&gt;. De plus vous avez plusieurs profils de protection :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Basic : Known insecure email hosts/relays are always blocked (xbl)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Normal : Known insecure email hosts/relays are always blocked (xbl). Likely spam is placed in your &amp;lsquo;Junk Mail&amp;rsquo; folder. Email from people in your address book is definite not spam. No email is discarded by the spam filter.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Aggressive : Known insecure email hosts/relays are always blocked (xbl). Possible spam is placed in your &amp;lsquo;Junk Mail&amp;rsquo; folder. Extremely probable spam is discarded without you seeing it. Email from people in your address book is definite not spam.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;White list only : Known insecure email hosts/relays are always blocked (xbl). Only email that comes from someone listed in your address book is let through. All other email is discarded.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Custom : Known insecure email hosts/relays are always blocked (xbl). Completely customise all other spam settings&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L&amp;rsquo;option liste blanche est intéressante pour ceux qui n&amp;rsquo;utilise le mail qu&amp;rsquo;avec des personnes identifiées. J&amp;rsquo;ai choisi &lt;em&gt;Normal&lt;/em&gt; pour l&amp;rsquo;instant.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Phishing&lt;/h2&gt;
+
+&lt;p&gt;Autre point fort de GMail, je n&amp;rsquo;ai rien vu de ce coté là. Néanmoins, étant un utilisateur averti (et qui n&amp;rsquo;hésite pas à lire les entêtes mail), ce n&amp;rsquo;est pas trop un souci. Mais cela reste un point faible par rapport à GMail.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;Calendrier&lt;/h2&gt;
+
+&lt;p&gt;Le calendrier est vraiment pas mal, sobre et agréable à l’œil, tant pour la vision générale (sur plusieurs semaines) qu&amp;rsquo;en détail (la semaine en cours). On peut en créer plusieurs et assigner des couleurs différentes, et importer des calendriers publics (format ICS). Mais s&amp;rsquo;il est possible d&amp;rsquo;assigner 3 rappels du type mail ou alerte web, il n&amp;rsquo;y pas de SMS ! Ce qui est bien pratique quand on ne reçoit pas de données (3G/4G), comme par exemple dans certains locaux. Utile certes mais pas indispensable.&lt;/p&gt;
+
+&lt;p&gt;Et bien sur, pas de lien avec Google Maps, qui permettait en autre de valider l&amp;rsquo;adresse insérée.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;Espace de stockage&lt;/h2&gt;
+
+&lt;p&gt;Votre espace de stockage est accessible par DAV ou FTP. Vous pouvez même le personnaliser avec des sous-domaines ou disposer de galeries photo, ajouter un mot de passe ou faire du &lt;em&gt;throttling&lt;/em&gt; (limiter la bande passante). Pas la fonctionnalité du siècle mais toujours utile pour mettre à disposition des fichiers sans activer un service supplémentaire comme Dropbox.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_13&#34;&gt;Chat&lt;/h2&gt;
+
+&lt;p&gt;Vous avez en plus un compte Jabber pour le chat. Je n&amp;rsquo;ai pas encore testé car je n&amp;rsquo;arrive pas à le faire fonctionner (les paramètres sont bons mais le client mouline dans le vide).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_14&#34;&gt;Login alternatifs&lt;/h2&gt;
+
+&lt;p&gt;J&amp;rsquo;ai trouvé cette fonctionnalité intéressante. Vous pouvez créer un autre login, comme par exemple OTP (usage unique) ou utilisable 24h avec envoi du mot de passe par SMS. Cela peut être pratique quand on se trouve dans un endroit pas très sur. Par exemple, j&amp;rsquo;utilise des mots de passe OTP pour les connexions FTP.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_15&#34;&gt;Alias de diffusion&lt;/h2&gt;
+
+&lt;p&gt;On peut créer un alias qui enverra un mail à chaque membre d&amp;rsquo;un groupe. Cela ressemble à une liste de diffusion mais sans logiciel spécifique (pour s&amp;rsquo;abonner, se désabonner ou choisir des modes de réception). Cela se résume à un alias vers N personnes. Cela peut être utile.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_16&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;En plus du mail, du stockage de fichiers et du chat, vous avez aussi une petite application de prise de notes (très basique). Comme j&amp;rsquo;utilise d&amp;rsquo;autres applications pour ce besoin, je n&amp;rsquo;en dirais pas plus.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_17&#34;&gt;Application Android&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;application Android est pas mal, bien que moins réactive que celle de GMail (je pense que cette dernière met en cache les mails inbox et pas Fastmail). Un petit bémol sur l&amp;rsquo;ergonomie pour distinguer les mails non-lus des mails lus : dans les 2 cas le titre est en gras, ce qui me gène pour les distinguer (c&amp;rsquo;est un flag bleu qui joue le marqueur). Une question d&amp;rsquo;habitude je pense. Par contre, il n&amp;rsquo;existe pas de widget Calendar ! Il faut donc ouvrir l&amp;rsquo;application et faire 4 clics avant de l&amp;rsquo;avoir, ce qui est clairement inintéressant. Heureusement il existe l&amp;rsquo;application &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.dmfs.caldav.lib&#34;&gt;CalDAV-Sync&lt;/a&gt; qui permet de récupérer et intégrer vos évènements dans Android. Merci le service CalDAV ! Pour information il existe une application similaire pour les contacts (qui va taper lui sur le service CardDAV).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_18&#34;&gt;Migration&lt;/h2&gt;
+
+&lt;p&gt;Un mot sur la migration, qui est incroyablement simple : vous spécifiez le serveur (&lt;em&gt;imap.GMail.com&lt;/em&gt; pour GMail), le login, le mot de passe est les dossiers à migrer et vous attendez. Cela a pris quelques heures pour moi. Simple et efficace.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_19&#34;&gt;Et GMail ?&lt;/h2&gt;
+
+&lt;p&gt;Je garde pour l&amp;rsquo;instant mon ancien compte GMail, car c&amp;rsquo;est toujours utile d&amp;rsquo;en avoir un (par exemple pour gérer les Google Groups). Surtout qu&amp;rsquo;il est utilisé depuis 10 ans, il est donc dans les contacts de pas mal de connaissances. J&amp;rsquo;ai donc ajouté un &lt;em&gt;forward&lt;/em&gt; automatique pour éviter de me connecter.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_20&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Malgré les quelques défauts que j&amp;rsquo;ai pu voir, &lt;strong&gt;je suis satisfait&lt;/strong&gt; de mon passage chez Fastmail. Malgré quelques légers bugs, une ergonomie perfectible et surtout quelques écrans de configuration à revoir, le service est de qualité et surtout rapide ! Certaines fonctionnalités montrent qu&amp;rsquo;ils ciblent aussi des utilisateurs avancées, ce qui me va fort bien. Et je reste confiant sur des futures améliorations, le passage récent au modèle payant permettant d&amp;rsquo;avoir bien plus de moyens.&lt;/p&gt;
+
+&lt;p&gt;Je suis content d&amp;rsquo;utiliser un service qui mise sur des &lt;strong&gt;formats ouverts&lt;/strong&gt; : POP, IMAP, XMPP, CardDAV, CalDAV, FTP, WebDAV, LDAP. De plus, ils utilisent intensivement les &lt;strong&gt;Logiciels Libres&lt;/strong&gt; et développent activement le serveur mail Libre Cyrus IMAP. Ils ont aussi libérer du code, notamment leur framework Javascript.&lt;/p&gt;
+
+&lt;p&gt;Content aussi de sortir un peu des griffes de Google puisque j&amp;rsquo;utilise deux services en moins (Google Mail et Google Calendar). De plus, j&amp;rsquo;appréciais de moins en moins les évolutions dans GMail : interface plus lourde, ergonomie en baisse, nouvelles fonctionnalités plutôt orientées noob (&lt;em&gt;important mail&lt;/em&gt; comme le futur &lt;em&gt;Inbox&lt;/em&gt; qui semblent se focaliser plutôt sur les gens qui ont du mal avec le mail, alors que je fais de l&amp;rsquo;inbox zéro depuis 10 ans).&lt;/p&gt;
+
+&lt;p&gt;Dommage que les serveurs principaux se trouvent aux USA (même si la loi ne s&amp;rsquo;applique pas de même façon car c&amp;rsquo;est une boite non américaine). Espérons qu&amp;rsquo;un hébergeur européen de cette qualité voit le jour pour héberger mes mails en Europe, ou que Fastmail donne la possibilité de choisir ses serveurs.&lt;/p&gt;
+
+&lt;p&gt;Et si vous connaissez quelqu&amp;rsquo;un chez eux, n&amp;rsquo;hésitez pas à transmettre mes remarques :).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
