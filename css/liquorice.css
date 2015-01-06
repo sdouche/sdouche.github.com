@@ -1,7 +1,7 @@
 /**
  * https://github.com/eliasson/liquorice/
  *
- * Copyright © 2014. Markus Eliasson <markus.eliasson.gmail.com> 
+ * Copyright © 2014. Markus Eliasson <markus.eliasson.gmail.com>
  *
  * Liquorice is released under the MIT license.
  *
@@ -10,7 +10,7 @@
  *   Skeleton V1.2
  *   Copyright 2011, Dave Gamache
  *   www.getskeleton.com
- *   Free to use under the MIT license. 
+ *   Free to use under the MIT license.
  */
 
 /** States ******************************************************************/
@@ -37,6 +37,15 @@ a:visited {
     font-weight: bold;
 }
 
+/*a,
+a:active,
+a:hover,
+a:visited,
+a:focus {
+  color: #345292;
+  text-decoration: underline;
+}
+*/
 h1,h2,h3,h4,h5,h6 {
     color: #202020;
     font-weight: lighter;
@@ -215,7 +224,7 @@ ul.li-article-list {
 
 /*
  * Skelton grid (www.getskeleton.com)
- */ 
+ */
 
 /** Desktop (960px) **********************************************************/
 .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
@@ -427,4 +436,110 @@ or wrap each row of columns in a <div class="row"> */
     visibility: hidden;
     width: 0;
     height: 0;
+}
+
+/** Custom
+
+/* Code */
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+/* Tables */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
 }

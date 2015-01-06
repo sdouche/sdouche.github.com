@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Python on Ruminations From a Tortured Mind </title>
+      <title>Presentation on Ruminations From a Tortured Mind </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://douche.name/tags/python/index.xml/</link>
+    <link>http://douche.name/categories/presentation/index.xml/</link>
     <language>en-us</language>
     
     
@@ -248,118 +248,6 @@ $ pyenv versions
 &lt;h2 id=&#34;toc_5&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;Cela fait des années que j&amp;rsquo;utilise avec succès ce type d&amp;rsquo;outil (pyenv maintenant, pythonbrew avant), autant en perso qu&amp;rsquo;en pro sans souci particulier. L&amp;rsquo;association pyenv + pyenv-virtualenv permet de toujours avoir un environnement propre, n&amp;rsquo;hésitant pas à multiplier les environnements virtualisés pour chaque besoin particulier. Et je peux aisément tester mon code avec plusieurs versions de Python et changer de version quand j&amp;rsquo;en ai besoin. Bref un outil de &lt;strong&gt;base&lt;/strong&gt; dans ma panoplie.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nouveau blog avec Blogofile</title>
-      <link>http://douche.name/blog/nouveau-blog-avec-blogofile/</link>
-      <pubDate>Fri, 15 Jul 2011 02:00:00 CEST</pubDate>
-      
-      <guid>http://douche.name/blog/nouveau-blog-avec-blogofile/</guid>
-      <description>
-
-&lt;p&gt;Cela faisait quelques temps que cela me titillait : écrire des billets avec
-mon éditeur texte habituel, et de pousser en prod avec Git. C&amp;rsquo;est le blog
-de &lt;a href=&#34;http://gitfr.net/blog&#34;&gt;#gitfr&lt;/a&gt; qui m&amp;rsquo;a donné le courage de m&amp;rsquo;y mettre.
-Et c&amp;rsquo;est maintenant chose faites. Adieu Wordpress, boujour Blogofile !&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Mais qu&amp;rsquo;utilises tu ?&lt;/h2&gt;
-
-&lt;p&gt;Un générateur statique de site, autrement un outil qui transforme les
-documents textes (format &lt;code&gt;markdown&lt;/code&gt; ou &lt;code&gt;rst&lt;/code&gt;) en pages html, à l&amp;rsquo;aide de
-templates.&lt;/p&gt;
-
-&lt;p&gt;Beaucoup d&amp;rsquo;avantages :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tout se trouve dans des fichiers textes.&lt;/li&gt;
-&lt;li&gt;Plus besoin d&amp;rsquo;être en ligne.&lt;/li&gt;
-&lt;li&gt;Ecriture avec Vim et non un éditeur WYSIWIG dans un navigateur.&lt;/li&gt;
-&lt;li&gt;Maintenance pratiquement nulle.&lt;/li&gt;
-&lt;li&gt;Plus de problème de sécurité.&lt;/li&gt;
-&lt;li&gt;Sauvegarde automatique sur GitHub.&lt;/li&gt;
-&lt;li&gt;Liberté totale sur l&amp;rsquo;organisation du site.&lt;/li&gt;
-&lt;li&gt;Hébergement simplifiée (plus besoin de PHP, Python&amp;hellip;).&lt;/li&gt;
-&lt;li&gt;Et bien sûr, utilisation de Git pour gérer le site :).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En contre partie, vous n&amp;rsquo;avez plus la facilité de créer un joli site en 2
-clicks de souris. La, c&amp;rsquo;est à vous de créer votre template et de développer
-les services supplémentaires (affichage de tweets par exemple).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Un retour en arrière ?&lt;/h2&gt;
-
-&lt;p&gt;Je faisais du statique en 96 quand j&amp;rsquo;apprenais l&amp;rsquo;html 3 (ou 2 je ne sais
-plus), et voila que je refais du statique en 2011, est ce vraiment
-raisonnable ? Il y&amp;rsquo;a en fait un changement important qui permet ce retour
-aux sources : le &lt;strong&gt;cloud&lt;/strong&gt;. Pour disposer d&amp;rsquo;un blog, il faut un moteur de rendu
-de billets, mais aussi un système de commentaires, la gestion de flux RSS,
-le multi-compte, des droits et authorisations, etc.&lt;/p&gt;
-
-&lt;p&gt;Maintenant, vous pouvez externaliser tous les services importants :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;les commentaires : Disqus.&lt;/li&gt;
-&lt;li&gt;les flux RSS : Feedburner.&lt;/li&gt;
-&lt;li&gt;Suivi d&amp;rsquo;activité : Google Analytics.&lt;/li&gt;
-&lt;li&gt;Hébergement, backup, droit et travail collaboratif : GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cela permet de se concentrer sur l&amp;rsquo;essentiel : écrire du contenu.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Organisation&lt;/h2&gt;
-
-&lt;p&gt;Il me faut deux dépôts. Pourquoi deux ? Ce n&amp;rsquo;est pas obligatoire bien sûr,
-mais j&amp;rsquo;utilise le service d&amp;rsquo;hébergement gratuit de pages statiques de
-&lt;em&gt;GitHub&lt;/em&gt;. Ce dernier impose des contraintes, dont le nom du dépôt et
-l&amp;rsquo;emplacement des fichiers. Si vous hébergé vous même le site, un seul dépôt
-est suffisant.&lt;/p&gt;
-
-&lt;p&gt;Pour les utilisateurs de &lt;code&gt;Git&lt;/code&gt;, les &lt;em&gt;submodules&lt;/em&gt; font parfaitement
-l&amp;rsquo;affaire puisque la version générée se trouve dans un sous répertoire.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Un exemple ?&lt;/h2&gt;
-
-&lt;p&gt;La mise en production se fait comme suit :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ /path/to/blogofile/blogofile build
-$ git add _site/*
-$ git commit -m &amp;quot;nouveau billet sur Blogofile&amp;quot;
-$ git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;(sans submodules, il suffit de copier le contenu manuellement).&lt;/p&gt;
-
-&lt;p&gt;Et voila ! Je vous laisse imaginer les possibilités intéressantes qu&amp;rsquo;offrent
-un DVCS comme &lt;em&gt;Git&lt;/em&gt; ou &lt;em&gt;Hg&lt;/em&gt; (si ce n&amp;rsquo;est pas le cas, vous êtes bon pour voir une
-de mes présentations Git ;) pour gérer votre site.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Pourquoi Blogofile ?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;il est en Python, et cela me permet de coder dans mon langage préféré
-et d&amp;rsquo;apprendre des moteurs de templates que je ne connaissais pas (&lt;em&gt;Mako&lt;/em&gt; et
-bientôt &lt;em&gt;jinja2&lt;/em&gt;).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;il est vraiment simple. Pas fioritures, il va à l&amp;rsquo;essentiel. Ecrire
-des controlleurs ne semblent vraiment pas dur et les quelques fonctionnalités
-dont j&amp;rsquo;avais besoin (Disqus, flux RSS et blog) sont là. Un site de base tiens
-dans 700 lignes de code Python, ce qui rend la compréhension aisé. Blogofile
-fait pour sa part 900 lignes.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Il permet de gérer les documents drafts, le multi-auteur ou les
-transformations multiples.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Parce que je sature un peu de Ruby. Utilisant pas mal d&amp;rsquo;outils codés en
-Ruby ces derniers temps, je commençais en avoir ras la casquette des
-erreurs d&amp;rsquo;installation ou des messages d&amp;rsquo;erreur complètement abscons. Mais
-des outils comme Jekyll ou Toto semblent pas mal du tout, j&amp;rsquo;ai fais joué
-ma fibre Pythonienne.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Alors, si vous avez un site à monter, je vous conseille fortement de jeter un oeil
-sur ces logiciels, cela peut vous intéresser ! :).&lt;/p&gt;
 </description>
     </item>
     
