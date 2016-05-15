@@ -7,7 +7,195 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 18 Dec 2014 15:19:00 CET</updated>
+    <updated>Wed, 29 Jul 2015 09:00:00 CEST</updated>
+    
+    <item>
+      <title>Mon arrivée chez un éditeur logiciel</title>
+      <link>http://douche.name/blog/mon-arrivee-chez-un-editeur/</link>
+      <pubDate>Wed, 29 Jul 2015 09:00:00 CEST</pubDate>
+      
+      <guid>http://douche.name/blog/mon-arrivee-chez-un-editeur/</guid>
+      <description>&lt;p&gt;Dans une ancienne vie, j&amp;rsquo;ai travaillé pour un éditeur logiciel. Il est temps de vous raconter le début de cet aventure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; : je parle d&amp;rsquo;un temps ancien, les choses ont bien changées depuis.&lt;/p&gt;
+
+&lt;p&gt;A cette époque, je travaille dans une SSII et je cherche depuis quelques mois à changer de poste. Comme on dit dans les milieux autorisés, je suis en &lt;em&gt;recherche active&lt;/em&gt;. Mes dirigeants veulent que je me casse mais sans me licencier. Parce qu&amp;rsquo;en plus d&amp;rsquo;être cons, ce sont aussi des pingres. Bref, je cherche. Cela fait des années que j&amp;rsquo;ai abandonné l&amp;rsquo;idée de me remettre au développement logiciel, n&amp;rsquo;aimant pas les langages en vue comme PHP ou Java. Quant aux technos Microsoft, c&amp;rsquo;est hors de question. Les possibilités
+sont donc limitées. Je cherche donc du coté de l&amp;rsquo;admin système Unix, ou de la
+gestion de projet. Au cas où, je vais quand même regarder les offres Python en
+France : j&amp;rsquo;en trouve cinq sur Monster. Je vais répondre à quatre. La cinquième étant pour un poste de junior. Vous comprendrez à la fin pourquoi j&amp;rsquo;en parle. Pour la petite histoire, je regarde aussi les offres d&amp;rsquo;emplois US pour développeur Python : les entreprises sont la NASA, Disney, Google, ILM&amp;hellip; Je pleure.&lt;/p&gt;
+
+&lt;p&gt;Parallèlement, je suis contacté par un chasseur de tête qui a vu mon profil sur
+Viadeo, profil que j&amp;rsquo;ai activé peu de temps avant. Ses mots clé étaient
+&lt;strong&gt;Python&lt;/strong&gt; et &lt;strong&gt;Scrum&lt;/strong&gt; (j&amp;rsquo;entends d&amp;rsquo;ici les rires de certains, private joke).
+Et à l&amp;rsquo;époque, il n&amp;rsquo;y avait pas beaucoup de gens avec ces mots clés sur
+leur CV. Bon contact au téléphone, on décide de se rencontrer. J&amp;rsquo;étais déjà à
+l&amp;rsquo;époque dans mon trip &lt;em&gt;entreprise apprenante&lt;/em&gt;, &lt;em&gt;qualité organisationnelle&lt;/em&gt; et
+tout le toutim. Je suis donc franco sur ce que je cherche. L&amp;rsquo;entretien se passe
+bien, le feeling passe, ils comprennent vite et plutôt bien (et pour en avoir rencontré une palanquée de chasseurs de tête, j&amp;rsquo;étais assez surpris). Ils me rappelleront plus tard pour me dire que la boite veut me voir.&lt;/p&gt;
+
+&lt;p&gt;La rencontre avec mes 2 futurs boss se passent plutôt bien. Je suis le premier
+candidat. On parle de développement logiciel et d&amp;rsquo;agilité. Le mot Scrum revient
+assez souvent dans leur bouche et j&amp;rsquo;apprendrais plus tard que c&amp;rsquo;est un bon pote
+du PDG, lui aussi serial-entrepreneur qui est passé à Scrum quelques temps
+auparavant, et qui lui a conseillé. On discute à bâton rompu sur le profil
+recherché : une personne qui connait bien Python puisque c&amp;rsquo;est la techno
+dominante, Linux, les Logiciels Libres, l&amp;rsquo;agilité et qui a une expérience en
+management. Et comme il y avait tout ça sur mon CV (utilisateur de Linux depuis 95, Python 99, XP 2001 et «manager» du pôle Logiciel Libre dans ma boite de l&amp;rsquo;époque), ça tombait bien.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;apprends aussi que l&amp;rsquo;entreprise est en grande difficulté avec son nouveau
+développement, qui dure depuis des mois sans voir le bout du tunnel. Et
+pour corser le tout, la relation avec l&amp;rsquo;équipe technique est très tendue et la
+tension palpable. Ce qui rend le boulot très intéressant mais difficile : ce
+genre de souci est le reflet d&amp;rsquo;une organisation défaillante (&lt;strong&gt;le produit
+est le résultat de son organisation&lt;/strong&gt; est une de mes phrases préférées),
+ce qui sous entend des problèmes organisationnels, techniques et humains à
+résoudre. C&amp;rsquo;est d&amp;rsquo;ailleurs la principale information que je noterais sur mon
+Mindmap : que se cache t&amp;rsquo;il vraiment derrière ce problème de développement ? Je sentais qu&amp;rsquo;on me disait pas tout, et d&amp;rsquo;ailleurs j&amp;rsquo;avais noté un détail qui en disait long à mes yeux : les locaux étaient constitués principalement de 2 pièces. Une petite qui contenait les commerciaux, et une grande avec les développeurs, le support, l&amp;rsquo;avant vente et l&amp;rsquo;office. Et où était exactement les développeurs ?  En plein milieu de la pièce ! Aucune protection contre les allées venues, ni le bruit. Ce n&amp;rsquo;est pas comme si Tom DeMarco avait écrit dans son livre &lt;em&gt;Peopleware&lt;/em&gt; qu&amp;rsquo;il y a une relation directe entre productivité d&amp;rsquo;un développeur et la qualité de son environnement.  Livre écrit en&amp;hellip; 1987.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;aurais un deuxième entretien, puis rapidement une réponse positive.
+J&amp;rsquo;apprendrais plus tard que j&amp;rsquo;étais le plus crédible des candidats concernant
+l&amp;rsquo;agilité mais je ne suis pas sûr que cela soit vraiment un compliment.
+Je vais en fait me rendre compte en moins de six mois que je ne sais rien (la
+lecture de livres, aussi nombreuses soient-elles n&amp;rsquo;apportent pas d&amp;rsquo;expérience,
+mais juste des voies à explorer), et il me faudra trois ans pour me construire
+une expérience qui tienne la route. Mais ceci est une autre histoire.&lt;/p&gt;
+
+&lt;p&gt;Je me donne trois ans pour redresser la barre : non seulement sortir le
+nouveau produit mais rendre la R&amp;amp;D capable de livrer régulièrement des releases
+de qualité. Et pour moi trois ans c&amp;rsquo;est loin ! A cette époque, j&amp;rsquo;avais fait
+dix sociétés en sept ans (oui 10), la plupart quittée car je n&amp;rsquo;étais pas du tout adapté au modèle de pensée dominant. Faut dire que j&amp;rsquo;avais fait dix
+SSII, ceci explique en partie cela.&lt;/p&gt;
+
+&lt;p&gt;Mon poste est officiellement celui de&lt;em&gt;coach R&amp;amp;D&lt;/em&gt;. Au bout de ces trois
+ans, je me poserai la question de mon utilité dans l&amp;rsquo;organisation. Trois ans pour redresser une société de développement au fond du gouffre était un challenge intéressant à mes yeux :).&lt;/p&gt;
+
+&lt;p&gt;Avant d&amp;rsquo;aller plus loin et de vous raconter mes premières semaines, je vais vous rappeler quelques points :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;C&amp;rsquo;est la 1ere fois que je travaille chez un éditeur logiciel. J&amp;rsquo;ai bien eu
+une toute petite expérience dans une boite qui mixait éditeur et SSII (une startup où j&amp;rsquo;étais le seul techos) mais elle faisait éditeur sur son &lt;em&gt;temps libre&lt;/em&gt; (une SSII quoi). Et puis c&amp;rsquo;était y&amp;rsquo;a fort longtemps.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;C&amp;rsquo;est la 1ere fois que je travaille comme coach. J&amp;rsquo;ai bien une
+expérience &lt;em&gt;livresque&lt;/em&gt; de l&amp;rsquo;agilité mais je ne peux pas vraiment dire que
+c&amp;rsquo;est une expérience terrain. J&amp;rsquo;ai bossé en SSII hein, ça ne fait pas d&amp;rsquo;agilité. Mon boulot précédent de responsable du pôle Logiciel Libre m&amp;rsquo;a donné un premier aperçu du management, mais dans un cadre SSII, cela se résume plutôt à de l&amp;rsquo;avancement de tâches.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;C&amp;rsquo;est la première fois que je travaille dans le domaine d&amp;rsquo;expertise de la société.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Cela fait longtemps que je ne développe plus à plein temps, ayant au travers
+des années multiplié les expériences : responsable technique, développeur,
+administrateur système, administrateur sécurité, chef de projet, etc. le peu
+de développement effectué ces derniers années sont plutôt de l&amp;rsquo;intégration.
+Je n&amp;rsquo;ai pas l&amp;rsquo;expérience requise pour prendre le développement à 100% sur &lt;em&gt;mes épaules&lt;/em&gt;, je sais donc pertinemment que je dois m&amp;rsquo;appuyer sur une équipe de développeurs.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Autant dire que je n&amp;rsquo;ai pas une grande expérience du boulot qui m&amp;rsquo;est confié et
+que je pars d&amp;rsquo;assez bas, mais heureusement pour moi l&amp;rsquo;environnement est assez
+familier. Si j&amp;rsquo;avais dû travailler sous Windows en Java en mode RUP,
+le problème aurait été tout autre :). Et puis j&amp;rsquo;adore apprendre, sans compter ma veille permanente dans pas mal de domaines depuis 10 ans qui peut m&amp;rsquo;aider.&lt;/p&gt;
+
+&lt;p&gt;Maintenant parlons de la &lt;strong&gt;première semaine&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Comme je pouvais en douter, c&amp;rsquo;est l&amp;rsquo;organisation dans son ensemble qui pose le
+plus gros souci : peu tournée vers le développement, elle se focalise sur la
+réussite commerciale à court terme. Le résultat s&amp;rsquo;en ressent : développement
+baclé, fonctionnalités peu étudiées&amp;hellip; La disposition physique que j&amp;rsquo;évoquais
+plus haut était révélatrice : les commerciaux vont voir sans cesse les
+développeurs pour leurs demander des fonctionnalités et des corrections. Le
+commercial est roi et le développeur pédale. La nouvelle version  est promise depuis un an déjà, les clients demandant sans cesse où en est le développement. Autre signe révélateur, les commerciaux (et le DG) rigole assez souvent du fait de «vendre du vent». Jamais su si c&amp;rsquo;était une mauvaise blague ou une putain de fierté mal placée de commercial, mais j&amp;rsquo;avais une envie de foutre des baffes.&lt;/p&gt;
+
+&lt;p&gt;Ces pratiques ne m&amp;rsquo;étonne pas car elles sont sous jacentes d&amp;rsquo;une certaine
+mentalité que je rencontrais assez fréquemment dans mes postes précédents : une
+incompréhension forte du développement logiciel, avec son cortège d&amp;rsquo;erreurs
+(profil des développeurs, absence de refactoring et des tests, manque de vision
+partagée, etc) et une absence de réflexion organisationnelle. Pour savoir tout
+ce qu&amp;rsquo;il ne faut pas faire, rien de mieux que la SSII (malheureusement, savoir
+ce qui ne faut pas faire n&amp;rsquo;apprend &lt;strong&gt;absolument pas&lt;/strong&gt; à savoir faire, comme je
+l&amp;rsquo;entends trop souvent. Ôtez vous une bonne fois pour toute cette connerie de
+votre tête). L&amp;rsquo;équipe de développement du nouveau produit est constitué de cinq personnes. Un expérimenté qui fait du Python, un petit jeune qui fait du C, un stagiaire en alternance touche à tout, un «vieux» qui s&amp;rsquo;est reconverti au développement logiciel et le directeur R&amp;amp;D, à l&amp;rsquo;origine du produit. Je m&amp;rsquo;aperçois très vite du climat délétère. Les deux premiers sont en confrontation directeavec le management, en position de «combat». Ils s&amp;rsquo;amusent par exemple à les critiquer violemment en réunion R&amp;amp;D en sachant parfaitement qu&amp;rsquo;ils seront entendus. Attitude incompréhensible alors qu&amp;rsquo;ils pouvaient se barrer et trouver du boulot ailleurs assez facilement et gagner un bien meilleur salaire. Avec le recul, je ne comprends toujours pas. Les gens s&amp;rsquo;entêtent des fois dans des voies sans issues et préfèrent se briser sur des rochers plutôt que rebondir.&lt;/p&gt;
+
+&lt;p&gt;Voici une autre anecdote : Il y avait plusieurs balles dans la pièce (vous
+savez, ces conneries de balles soit disant déstressantes), balles qu&amp;rsquo;ils
+s&amp;rsquo;amusaient à s&amp;rsquo;envoyer les uns sur les autres. A plusieurs reprise, je m&amp;rsquo;en
+suis prise une sur la figure. Je me souviens encore me demander si j&amp;rsquo;allais
+pas en prendre un et lui exploser la gueule.&lt;/p&gt;
+
+&lt;p&gt;D&amp;rsquo;ailleurs cela n&amp;rsquo;a pas manqué, le responsable R&amp;amp;D et le jeune en sont presque
+arrivés aux mains lors d&amp;rsquo;une réunion en tête à tête. Le responsable était
+d&amp;rsquo;ailleurs au bout des nerfs, prenait des cachets pour dormir et on sentait
+bien qu&amp;rsquo;il n&amp;rsquo;allait pas tenir longtemps. je passais d&amp;rsquo;ailleurs des heures chaque jour à l&amp;rsquo;écouter, tellement il était en souffrance. Il s&amp;rsquo;est énormément investi mais s&amp;rsquo;est rendu compte qu&amp;rsquo;il &lt;strong&gt;détestait&lt;/strong&gt; manager des développeurs. Il est du genre à tout prendre sur ses épaules mais c&amp;rsquo;était bien trop. Bon admin réseau, avec une réelle vision produit (qualité rare), il a échoué à créer une équipe de développement et à partager sa vision. Il avait échoué et le savait, ce qui le minait terriblement.&lt;/p&gt;
+
+&lt;p&gt;Le stagiaire attendait patiemment son diplôme dans 3 mois pour se barrer. Bien
+que stagiaire, il était la depuis des années car la société lui a payé en
+partie ses études supérieures et avait donc une grande connaissance de
+l&amp;rsquo;histoire du projet, ce qui était capital pour la réussite de ma démarche.
+C&amp;rsquo;était le seul à avoir cette connaissance avec le responsable R&amp;amp;D, et si les
+deux partent, je me retrouve vierge de toute connaissance du produit actuel.&lt;/p&gt;
+
+&lt;p&gt;Et pour corser le tout, le dernier de la liste, c&amp;rsquo;est à dire le reconverti en
+développeur est mauvais. J&amp;rsquo;ai voulu le tester en lui demandant de coder une
+petit code Python d&amp;rsquo;envoi de mail, chose qui doit prendre 30 minutes en allant vite, une heure avec la doc. En cinq jours, il n&amp;rsquo;avait pas terminé. Il n&amp;rsquo;avait
+même pas cherché sur PyPI (index des projets Python) qui ne connaissait
+d&amp;rsquo;ailleurs pas.&lt;/p&gt;
+
+&lt;p&gt;En ce qui concerne le produit actuellement vendu, il est tellement bancal que
+le stagiaire à comme boulot de faire du support &lt;strong&gt;toute la journée&lt;/strong&gt; pour corriger l&amp;rsquo;application des clients (en prod donc) qui tombent en panne. Rassurant ! Je demande l&amp;rsquo;url du dépôt SVN pour voir le code, on me répond que «&lt;strong&gt;cela fait des mois que plus personnes ne commit dedans&lt;/strong&gt;». Ce qui veut dire qu&amp;rsquo;il n&amp;rsquo;existe aucune trace des modifications faites en prod. Chaque client à donc sa propre version. Une sorte de code personnalisé en sommes :). J’apprends donc que nos clients sont en «3.2 quelque chose».&lt;/p&gt;
+
+&lt;p&gt;Pour coder, chacun à sa sonde et il n&amp;rsquo;y &lt;strong&gt;aucune procédure d&amp;rsquo;installation&lt;/strong&gt;.
+Impossible donc de travailler sur sa machine directement ou de connaitre l&amp;rsquo;état
+exact du sonde. En regardant directement une sonde, le code est principalement
+en PHP. Mais du code PHP qui rendrait celui de PHPBB un sommet de qualité et de
+perfection. La plupart du HTML est rendu par des &lt;em&gt;print&lt;/em&gt;, il y a même souvent du code PHP qui génère du JS qui génère du PHP qui génère du HTML ! Le reste est fait de scripts Python 2.3 ou 2.4 (en double voir triple exemplaires,
+on ne sait pas qui est vraiment utilisé). Le tout lancé et relancé en
+permanence par &lt;em&gt;daemontools&lt;/em&gt; car la plupart des scripts se plantent plusieurs
+fois par jours. Car si le PHP était dans un état de délabrement avancé, c&amp;rsquo;était
+aussi le cas du code Python. Je n&amp;rsquo;arrive pas à savoir comment certaines données sont calculées. La base MySQL tombe sans arrêt, ce qui fait perdre instantanément des données. L&amp;rsquo;ergonomie est disons&amp;hellip;l’œuvre de développeurs.Le résultat est donc un produit qui marche «on ne sait comment». Seul point positif (mais important), il est simple et accessible.&lt;/p&gt;
+
+&lt;p&gt;Pour faire une release, ils utilisent un outil de création d&amp;rsquo;image : ils
+appliquent les modifications sur une sonde puis enregistre une image. Il suffit
+ensuite de déployer de nouvelles sondes pour travailler. Simple certes mais
+faut être extrêmement vigilant et bien documenter chaque évolution. Comme
+cela n&amp;rsquo;est pas fait, on ne sait pas reproduire l&amp;rsquo;image en question.  Ah et
+pour corser le tout, c&amp;rsquo;est une &lt;em&gt;Debian Sarge&lt;/em&gt; bancale : impossible de toucher à
+dpkg car &lt;strong&gt;des paquets sont cassés&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cerise sur le couscous, une version anglaise existe en plus de la version
+française. i18n me direz vous ? Que nenni ! Ils ont fait la trad à coup
+de sed ! Il existe donc &lt;strong&gt;deux bases de code&lt;/strong&gt;, une à jour en française
+et une qui a un sérieux retard en anglais.&lt;/p&gt;
+
+&lt;p&gt;Je me rends compte que le produit est dans un tel état qu&amp;rsquo;il sera
+&lt;strong&gt;impossible de faire du substantielle évolution&lt;/strong&gt;. Il ne me reste que le code
+de la nouvelle version pour me sauver d&amp;rsquo;un désastre annoncé. Cette fois ci il
+existe un SVN à jour, avec un répertoire par&amp;hellip; développeur. Cela retranscrit
+assez bien je crois l&amp;rsquo;organisation de l&amp;rsquo;équipe : chacun chez soi et parlons
+nous le moins possible. Je rappelle que cette nouvelle version est développée
+depuis un an. Et si le code est de meilleure qualité, il est inutilisable et
+loin du périmêtre fonctionnelle attendu. Il y&amp;rsquo;a encore des mois de boulot.&lt;/p&gt;
+
+&lt;p&gt;Au bout &lt;strong&gt;d&amp;rsquo;une semaine&lt;/strong&gt;, le DG et le PDG me viennent me voir pour me poser
+une question : «Alors, on les vire ?». «Uh?! Je viens à peine d&amp;rsquo;arriver,
+laissez moi le temps !». Je leur demande une semaine pour prendre une décision,
+même si au fond de moi je n&amp;rsquo;y crois plus trop. Une semaine plus tard, la
+décision est prise de virer tous les développeurs sauf le stagiaire. C&amp;rsquo;était la
+première fois que je prenais la décision de virer quelqu&amp;rsquo;un (même si
+officiellement je n&amp;rsquo;avais pas la responsabilité). Je savais que ca serait dur pour le «vieux» de retrouver du taff à son âge et sa faible connaissance et
+expertise. Je suis descendu au rez de chaussée et j&amp;rsquo;ai pleuré un coup. Ah, tant
+qu&amp;rsquo;a être dans les bonnes nouvelles, j&amp;rsquo;annonce par la même occasion que tout le
+code du futur produit (trois années / homme l&amp;rsquo;air de rien). est à jeté et qu&amp;rsquo;on
+tiendra pas longtemps avec l&amp;rsquo;actuel.&lt;/p&gt;
+
+&lt;p&gt;Je me retrouve donc au bout de deux semaines sans (presque) personne et sans
+code, à devoir reconstruire manu militari une toute nouvelle équipe afin de
+développer un tout nouveau produit dans un métier que je ne connais pas. Si ce
+n&amp;rsquo;est pas du challenge&amp;hellip; Beaucoup de gens vous le diront, redévelopper à
+partir de zéro (&lt;em&gt;from scratch&lt;/em&gt;) est le plus gros danger qu&amp;rsquo;une boite peut
+faire. Surtout quand c&amp;rsquo;est pour remplacer le produit qui fait 100% du chiffre
+d&amp;rsquo;affaire.&lt;/p&gt;
+
+&lt;p&gt;Vous connaissez maintenant mes deux premières semaines. Ah, et l&amp;rsquo;histoire des cinq annonces Python du début me diriez vous ? Et ben, la cinquième annonce, celle sur le développeur junior était&amp;hellip; de ma nouvelle boite. Et plus rigolo encore, j&amp;rsquo;ai passé un entretien dans l&amp;rsquo;une des quatre autres, entretien catastrophique avec un PDG d&amp;rsquo;une extrême froideur. Ce même PDG qui viendra me demander conseil deux ans après car eux aussi avaient le même problème de livraison. Pourquoi moi ? Car lui et mon PDG se connaissaient
+puisque ayant fondés la société&amp;hellip; ensemble. Rigolo non ?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Worse is better</title>
