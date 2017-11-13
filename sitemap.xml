@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://douche.name/blog/nomenclature-des-tests-logiciels/</loc>
+    <lastmod>2017-11-13T20:34:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://douche.name/blog/conseils-pour-monter-une-equipe/</loc>
+    <lastmod>2016-05-16T01:16:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://douche.name/blog/mon-arrivee-chez-un-editeur/</loc>
     <lastmod>2015-07-29T09:00:00+02:00</lastmod>
   </url>
@@ -65,7 +75,7 @@
   
   <url>
     <loc>http://douche.name/blog/</loc>
-    <lastmod>2015-07-29T09:00:00+02:00</lastmod>
+    <lastmod>2017-11-13T20:34:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -82,7 +92,7 @@
   
   <url>
     <loc>http://douche.name/categories/coding/</loc>
-    <lastmod>2011-11-06T18:51:00+02:00</lastmod>
+    <lastmod>2017-11-13T20:34:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,7 +104,7 @@
   
   <url>
     <loc>http://douche.name/categories/feedback/</loc>
-    <lastmod>2015-01-06T08:30:00+01:00</lastmod>
+    <lastmod>2016-05-16T01:16:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,6 +157,12 @@
   </url>
   
   <url>
+    <loc>http://douche.name/tags/management/</loc>
+    <lastmod>2016-05-16T01:16:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://douche.name/tags/me/</loc>
     <lastmod>2015-07-29T09:00:00+02:00</lastmod>
     <priority>0</priority>
@@ -184,13 +200,19 @@
   
   <url>
     <loc>http://douche.name/</loc>
-    <lastmod>2015-07-29T09:00:00+02:00</lastmod>
+    <lastmod>2017-11-13T20:34:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://douche.name/tags/</loc>
     <lastmod>2011-08-08T03:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://douche.name/tags/testing/</loc>
+    <lastmod>2017-11-13T20:34:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   

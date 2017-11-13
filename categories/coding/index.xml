@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND</copyright>
-    <lastBuildDate>Sun, 06 Nov 2011 18:51:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Nov 2017 20:34:00 +0100</lastBuildDate>
     
 	<atom:link href="http://douche.name/categories/coding/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nomenclature des tests logiciels</title>
+      <link>http://douche.name/blog/nomenclature-des-tests-logiciels/</link>
+      <pubDate>Mon, 13 Nov 2017 20:34:00 +0100</pubDate>
+      
+      <guid>http://douche.name/blog/nomenclature-des-tests-logiciels/</guid>
+      <description>Lors de discussion sur les tests logiciels, je suis régulièrement surpris d&amp;rsquo;entendre que cela se résume à test unitaire, test d&amp;rsquo;intégration et test fonctionnel. En schématisant, le premier permet de tester le code, le deuxième l&amp;rsquo;intéraction de composants et le troisième le logiciel dans son ensemble. Hors, cette liste est largement incomplète.
+Objectif d&amp;rsquo;un test Avant de tenter une classification, il me semble opportun de s&amp;rsquo;interroger sur l&amp;rsquo;objectif d&amp;rsquo;un test :</description>
+    </item>
     
     <item>
       <title>Les 5 niveaux de conscience d&#39;un développeur</title>

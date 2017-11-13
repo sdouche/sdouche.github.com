@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND</copyright>
-    <lastBuildDate>Tue, 06 Jan 2015 08:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 May 2016 01:16:00 +0100</lastBuildDate>
     
 	<atom:link href="http://douche.name/categories/feedback/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conseils pour monter une équipe</title>
+      <link>http://douche.name/blog/conseils-pour-monter-une-equipe/</link>
+      <pubDate>Mon, 16 May 2016 01:16:00 +0100</pubDate>
+      
+      <guid>http://douche.name/blog/conseils-pour-monter-une-equipe/</guid>
+      <description>Cela fait maintenant une dizaine d&amp;rsquo;années que je monte des équipes. J&amp;rsquo;en ai tiré une ligne de conduite que je vous propose dans ce billet.
+Votre équipe doit vous survivre A la création d&amp;rsquo;une équipe, je pars du postulat suivant : dans quelques mois (généralement de 12 à 36 mois selon la difficulté à monter l&amp;rsquo;équipe), je n&amp;rsquo;en serai plus le manager. Le fait de se le dire dès sa conception permet de graver dans ses gènes l&amp;rsquo;apprentissage de son autonomie, d&amp;rsquo;une création d&amp;rsquo;une vision à long terme et de sa légitimité pour y aller.</description>
+    </item>
     
     <item>
       <title>Installer Python à partir des sources</title>
