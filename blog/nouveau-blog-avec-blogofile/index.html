@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
     <head>
         
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
         <title>Nouveau blog avec Blogofile &middot; Ruminations From a Tortured Mind</title>
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
         <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
         <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
         <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
@@ -80,7 +80,7 @@ mon éditeur texte habituel, et de pousser en prod avec Git. C&rsquo;est le blog
 de <a href="http://gitfr.net/blog">#gitfr</a> qui m&rsquo;a donné le courage de m&rsquo;y mettre.
 Et c&rsquo;est maintenant chose faites. Adieu Wordpress, boujour Blogofile !</p>
 
-<h2 id="toc_0">Mais qu&rsquo;utilises tu ?</h2>
+<h2 id="mais-qu-utilises-tu">Mais qu&rsquo;utilises tu ?</h2>
 
 <p>Un générateur statique de site, autrement un outil qui transforme les
 documents textes (format <code>markdown</code> ou <code>rst</code>) en pages html, à l&rsquo;aide de
@@ -104,7 +104,7 @@ templates.</p>
 clicks de souris. La, c&rsquo;est à vous de créer votre template et de développer
 les services supplémentaires (affichage de tweets par exemple).</p>
 
-<h2 id="toc_1">Un retour en arrière ?</h2>
+<h2 id="un-retour-en-arrière">Un retour en arrière ?</h2>
 
 <p>Je faisais du statique en 96 quand j&rsquo;apprenais l&rsquo;html 3 (ou 2 je ne sais
 plus), et voila que je refais du statique en 2011, est ce vraiment
@@ -124,7 +124,7 @@ le multi-compte, des droits et authorisations, etc.</p>
 
 <p>Cela permet de se concentrer sur l&rsquo;essentiel : écrire du contenu.</p>
 
-<h2 id="toc_2">Organisation</h2>
+<h2 id="organisation">Organisation</h2>
 
 <p>Il me faut deux dépôts. Pourquoi deux ? Ce n&rsquo;est pas obligatoire bien sûr,
 mais j&rsquo;utilise le service d&rsquo;hébergement gratuit de pages statiques de
@@ -135,7 +135,7 @@ est suffisant.</p>
 <p>Pour les utilisateurs de <code>Git</code>, les <em>submodules</em> font parfaitement
 l&rsquo;affaire puisque la version générée se trouve dans un sous répertoire.</p>
 
-<h2 id="toc_3">Un exemple ?</h2>
+<h2 id="un-exemple">Un exemple ?</h2>
 
 <p>La mise en production se fait comme suit :</p>
 
@@ -151,7 +151,7 @@ $ git push
 un DVCS comme <em>Git</em> ou <em>Hg</em> (si ce n&rsquo;est pas le cas, vous êtes bon pour voir une
 de mes présentations Git ;) pour gérer votre site.</p>
 
-<h2 id="toc_4">Pourquoi Blogofile ?</h2>
+<h2 id="pourquoi-blogofile">Pourquoi Blogofile ?</h2>
 
 <ul>
 <li><p>Parce qu&rsquo;il est en Python, et cela me permet de coder dans mon langage préféré
@@ -241,7 +241,7 @@ var disqus_shortname = "sdouche";
         <div class="row">
             <div class="sixteen columns">
                 <div class="li-page-footer-legal">
-                    Copyleft (c) 2010 - 2016, Sébastien Douche. Licence CC-BY-NC-ND
+                    Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
                 </div>
                 <div class="li-page-footer-theme">
                     <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
@@ -259,19 +259,7 @@ var disqus_shortname = "sdouche";
     }
     
     </script>
-    <script type="text/javascript">
-    <!--
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', "UA-24575958-1"]);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    -->
-    </script>
+    
     </body>
 </html>
 

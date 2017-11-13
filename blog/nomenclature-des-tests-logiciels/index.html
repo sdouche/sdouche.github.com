@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Nomenclature des tests logiciels &middot; Ruminations From a Tortured Mind</title>
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
+        <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
+        <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="http://douche.name/apple-touch-icon-144-precomposed.png" sizes="144x144" />
+        <link rel="alternate" href="" type="application/rss+xml" title="Ruminations From a Tortured Mind" />
+    </head>
+    <body class="li-body">
+
+<header class="li-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-brand li-left">
+                <a href="http://douche.name">Ruminations From a Tortured Mind</a></div>
+                <div class="li-menu li-right">
+                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
+                    <ul id="menu2" class="li-menu-items">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <ul id="menu" class="li-menu-items li-menu-mobile">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">Nomenclature des tests logiciels</h1>
+                        <span class="li-article-taxonomies">
+                            
+                                Posted in
+                                
+                                    <a href="http://douche.name/categories/coding">coding</a>
+                                
+                            
+
+                            
+                                with tags
+                                
+                                    <a href="http://douche.name/tags/coding">coding</a>
+                                
+                                    <a href="http://douche.name/tags/testing">testing</a>
+                                
+                            
+                        </span>
+                         - 
+                        <time class="li-article-date">Sunday, November 12, 2017</time>
+                    </header>
+                    <section>
+                        
+
+<p>Je suis toujours surpris d&rsquo;entendre parler de tests logiciels : cela semble bien souvent se résumer à <em>test unitaire</em>, <em>test d&rsquo;intégration</em> et <em>test fonctionnel</em>. En schématisant un peu, le premier permet de tester le code, le deuxième l&rsquo;intéraction de composants et le troisième le logiciel dans son ensemble. Hors, cette liste est largement incomplète.</p>
+
+<h2 id="objectif-d-un-test">Objectif d&rsquo;un test</h2>
+
+<p>Avant de tenter une classification, il me semble opportun de s&rsquo;interroger sur l&rsquo;objectif d&rsquo;un test :</p>
+
+<ul>
+<li><strong>Qui</strong> exécute les tests ?</li>
+<li><strong>Òu</strong> sont exécutés les tests ?</li>
+<li><strong>Comment</strong> sont exécutés les tests ?</li>
+<li><strong>Quand</strong> sont exécutés les tests ?</li>
+<li>Et enfin, qui est le principal <strong>intéressé</strong> par les résultats ?</li>
+</ul>
+
+<p>Répondre à ces questions donne à mon sens une meilleure compréhension de ce que l&rsquo;on cible, qui se retrouvera bien souvent dans la qualité des tests. Nous y reviendrons. Néanmoins je vous en parle dés maintenant pour vous pousser à répondre à ces questions à chaque type de test que vous allez lire par la suite dans ce billet. C&rsquo;est un exercice certes un peu long mais à mon sens utile voir nécessaire pour mieux les appréhender. Je vous incite aussi à chercher ci et là d&rsquo;autres nomenclatures pour complèter votre vision du sujet.</p>
+
+<h2 id="introduction-à-la-classification">Introduction à la classification</h2>
+
+<p>Il existe différentes charactéristiques que je tente humblement de lister, les critères n&rsquo;étant pas simples à définir. Il existe surement d&rsquo;autres critères ou de type de tests, je tente ici de donner ce qui me semble les plus importants.</p>
+
+<p><strong>Note</strong> : Je ne tente pas d&rsquo;expliquer en détail chaque test, la documentation abondante sur le Net vous donnera largement satisfaction à ce sujet. Je laisse d&rsquo;ailleurs la terminologie anglaise à cette fin.</p>
+
+<h2 id="isolation">Isolation</h2>
+
+<p>C&rsquo;est la caractéristique la plus usitée, qui correspond à l&rsquo;introduction de ce billet : quelles sont mes dépendances ? J&rsquo;aime à mettre en avant le terme isolation, même si je lis souvent <em>level testing</em> pour définir ce critère.</p>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Component testing</em></td>
+<td>test sans aucune dépendance hormis le langage</td>
+</tr>
+
+<tr>
+<td><em>Integration testing</em></td>
+<td>test d&rsquo;intéraction sur plusieurs composants afin de tester les interfaces</td>
+</tr>
+
+<tr>
+<td><em>System testing</em></td>
+<td>test avec l&rsquo;ensemble des composants</td>
+</tr>
+
+<tr>
+<td><em>Operational acceptance testing</em></td>
+<td>test qui inclus l&rsquo;environnement de production</td>
+</tr>
+</tbody>
+</table>
+
+<p>On voit souvent le terme de <em>end-to-end testing</em> (test de bout en bout) pour parler de tests qui cible l&rsquo;ensemble des composants.</p>
+
+<p>Le niveau integration est vaste, cela peut concerner du code comme des services. A noter que l&rsquo;on trouve</p>
+
+<h2 id="connaissance">Connaissance</h2>
+
+<p>Quel est le niveau de connaissance du <em>SUT</em> (System Under Test, terme consacré voulant dire « le truc que l&rsquo;on teste ») ?</p>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>White-box testing</em></td>
+<td>test en me connectant directement à l&rsquo;implémentation</td>
+</tr>
+
+<tr>
+<td><em>Black-box testing</em></td>
+<td>test sans aucune connaisance de l&rsquo;implémentation mais seulement du comportement extérieur</td>
+</tr>
+
+<tr>
+<td><em>Grey-box testing</em></td>
+<td>test black-box tout en connaissant l&rsquo;implémentation ou un mélange des 2 types de tests</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="période">Période</h2>
+
+<p>Je regroupe ici les tests dont la temporalité joue : à quel moment est-il important d&rsquo;avoir le résultat ?</p>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Acceptance testing</em></td>
+<td>test de validation une demande de fonctionnalité utilisateur</td>
+</tr>
+
+<tr>
+<td><em>Regression testing</em></td>
+<td>test (sur un code déjà testé) de validation de la correction d&rsquo;un bug ou d&rsquo;un changement involontaire</td>
+</tr>
+
+<tr>
+<td><em>Alpha testing</em></td>
+<td>test très en amont pour tester des idées sur un petit panel d&rsquo;utilisateurs volontaires</td>
+</tr>
+
+<tr>
+<td><em>Beta testing</em></td>
+<td>test en amont sur un nombre restreint d&rsquo;utilisateurs volontaires avant la livraison officielle</td>
+</tr>
+
+<tr>
+<td><em>Canary testing</em></td>
+<td>déploiement sur un petit nombre d&rsquo;utilisateurs pour valider les changements</td>
+</tr>
+
+<tr>
+<td><em>A/B testing</em></td>
+<td>test permettant de deployer plusieurs versions d&rsquo;un élément pour tester le comportement utilisateur</td>
+</tr>
+
+<tr>
+<td><em>Sanity testing</em></td>
+<td>sous-ensemble de tests quand le temps manque pour jouer l&rsquo;ensemble des tests</td>
+</tr>
+
+<tr>
+<td><em>Smoke testing</em></td>
+<td>test d&rsquo;un sous-ensemble des cas d&rsquo;utilisation qui couvre les fonctionnalités de base</td>
+</tr>
+</tbody>
+</table>
+
+<p>Quel est la différence entre <em>smoke</em> et <em>sanity</em> ? Les tests sanity sont le plus souvent lancés soit par manque de temps ou suite à de nombreux aller / retour en interne, permettant de tester la partie modifiée de l&rsquo;application. Smoke est une approche plus « globale », par exemple en lançant tous les jours pour vérifier que l&rsquo;ensemble des fonctionnalités de base est opérationnel.</p>
+
+<h2 id="automatisation">Automatisation</h2>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Manual testing</em></td>
+<td>test manuel</td>
+</tr>
+
+<tr>
+<td><em>Automation testing</em></td>
+<td>test automatisé</td>
+</tr>
+
+<tr>
+<td><em>Semi-automation testing</em></td>
+<td>test automatisé qui demande une interprétation manuelle des résultats</td>
+</tr>
+</tbody>
+</table>
+
+<p>Les tests automatisés sont le saint graal que l&rsquo;on doit atteindre. Mais il ne faut pas négliger le <strong>coût</strong> que cela peut atteindre, notamment en ce qui concerne les tests d&rsquo;interface graphique, très lourd à maintenir. Dans ces conditions, il arrive souvent que des équipes optent pour un mélange de tests manuels, automatiques et semi-automatiques.</p>
+
+<h2 id="couplage">Couplage</h2>
+
+<p>Je ne suis pas sûr du terme mais c&rsquo;est pourtant celui qui, à mon sens, décrit le mieux la relation entre le code et le test.</p>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Functional testing</em></td>
+<td>le test dépend du code</td>
+</tr>
+
+<tr>
+<td><em>Non-functional testing</em></td>
+<td>le test ne dépend pas du code</td>
+</tr>
+</tbody>
+</table>
+
+<p>« Test fonctionnel » est un des termes les plus mal employés. Pour mieux le définir, il est intéressant de partir de son contraire : le test non-fonctionnel. Nous pouvons lister par exemple les tests de type :</p>
+
+<ul>
+<li>performance / scalabilité</li>
+<li>configuration</li>
+<li>sécurité</li>
+<li>documentation</li>
+<li>UX</li>
+<li>interface graphique</li>
+<li>l10 / i18n</li>
+</ul>
+
+<p>L&rsquo;écriture de ces tests ne dépendent pas d&rsquo;une action particuliére de l&rsquo;utilisateur ou d&rsquo;une fonction spécifique : écrire un test de peformance peut se faire quelque soit la technologie employée, idem pour un test de sécurité. Il est intéressant de noter que les tests non-fonctionnels donnent généralement une bonne idée de la qualité globale du produit, la faillite de ces dernières pouvant se traduire bien souvent par des problèmes systémiques.</p>
+
+<p>On peut lister dans les tests fonctionnels :</p>
+
+<ul>
+<li>installation / mise-à-jour</li>
+<li>données / base de données</li>
+<li>fonctionnalité</li>
+</ul>
+
+<h2 id="positivité">Positivité</h2>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Positive testing</em></td>
+<td>test pour aider les développeurs</td>
+</tr>
+
+<tr>
+<td><em>Negative testing</em></td>
+<td>test pour casser le code ou le produit</td>
+</tr>
+</tbody>
+</table>
+
+<p>On voit souvent le terme de <em>destructive testing</em> pour ce dernier.</p>
+
+<p>Je trouve ce critère fort intéressant et peu mis en avant. Si bien souvent les développeurs écrivent des tests pour se rassurer, proposer dans sa chaine de production des tests négatifs est un gros plus. On peut ici parler de <em>fuzzing testing</em> et de <em>monkey testing</em> (ou <em>chaos testing</em>) qui consistent à trouver des erreurs en proposant un « comportement anormal » (du code, de l&rsquo;utilisateur ou de l&rsquo;environnement). Je vous engage à lire les résultats de tests de fuzzing qui sont souvent assez impressionnants, voir vous pousser à utiliser de temps en temps ce type de tests.</p>
+
+<p>De même, une équipe qualité doit avant tout être dans une mentalité de casser le produit qu&rsquo;elle teste pour le bien de tous (car il vaut mieux trouver une erreur avant que le client final). Et à titre personnel, j&rsquo;attends aussi d&rsquo;une revue de code une volonté de le casser, car c&rsquo;est une autre façon de démontrer sa qualité.</p>
+
+<h2 id="exemples">Exemples</h2>
+
+<p>Que peut on tirer de tout cela ? Prenons deux exemples très simples, en commençant par le test unitaire :</p>
+
+<ul>
+<li>Qui ? Le développeur.</li>
+<li>Òu ? Sur sa machine.</li>
+<li>Comment ? En lançant le framework de test unitaire.</li>
+<li>Quand ? À chaque fois que le développeur veut tester son code, idéalement à chaque modification.</li>
+<li>Intéressé ? Les développeurs.</li>
+</ul>
+
+<p>Un test unitaire est donc un test écrit par ĺe développeur <strong>pour</strong> le développeur. Il est donc utile si ce dernier est lancé à chaque fois que le développeur en ressent le besoin, en étant rapide et facile à exécuter. Idèalement cela donne des tests qui se lance <strong>dans</strong> l&rsquo;environnement de développement et dans le même langage de programmation que le code, et être inclus dans le workflow de ce dernier (revue de code, intégration continue, etc). En reprenant les caractéristiques listés précédemment, un test unitaire est de type :</p>
+
+<ul>
+<li>composant car le plus bas possible.</li>
+<li>automatique car c&rsquo;est du code lancé par un framework de test (intégré ou non au langage).</li>
+<li>boite blanche car je connais l&rsquo;implémentation du code puisque c&rsquo;est exactement cela qui est testé.</li>
+<li>fonctionnel car dépendant de l&rsquo;implémentation.</li>
+</ul>
+
+<p>Essayons de réfléchir à un autre type de test, les tests d&rsquo;acceptations :</p>
+
+<ul>
+<li>Qui ? Le PO (ou tout rôle qui conçoit les fonctionnalités utilisateur).</li>
+<li>Òu ? Dans un environnement complet.</li>
+<li>Comment ? En simulant un utilisateur.</li>
+<li>Quand ? À la livraison de la fonctionnalité.</li>
+<li>Intéressé ? Le PO.</li>
+</ul>
+
+<p>Ah, c&rsquo;est ici moins évident. Tout d&rsquo;abord ce test peut-être écrit par le PO ou par le développeur. Il peut-être manuel ou automatisé. Ce dont on est sûre :</p>
+
+<ul>
+<li>boite noire car je me place du point de vue de l&rsquo;utilisateur.</li>
+<li>fonctionnel car je teste la fonctionnalité.</li>
+</ul>
+
+<p>Je laisse comme exercice au lecteur de définir les autres type de tests, par exemple le smoke testing et le sanity testing afin de mieux cerner les différences.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>J&rsquo;espère que cet article sans prétention vous a donné envie d&rsquo;en savoir plus sur le sujet passionnant qu&rsquo;est le test logiciel et d&rsquo;avoir un vocabulaire plus étoffé. Pour finir, un petit mot sur la norme ISO/CEI 9126 (remplacé par la 25010) qui définit un langage pour modéliser les qualités d&rsquo;un logiciel appelée <em>SQuaRE</em> (software quality requirements and evaluation). Vous y trouverez peut-être une source d&rsquo;inspiration:</p>
+
+<ul>
+<li>Functionality (existence de l&rsquo;ensemble des fonctionnalités qui satisfont les besoins exprimés) : Suitability, Accuracy, Interoperability, Security, Functionality compliance.</li>
+<li>Reliability (capacité à maintenir un niveau de performance dans certaines conditions ou de durée) : Maturity Fault tolerance Recoverability Reliability compliance.</li>
+<li>Usability (effort pour utiliser) : Understandability, Learnability, Operability, Attractiveness, Usability compliance.</li>
+<li>Efficiency (relation entre niveau de performance et ressources utilisées) : Time behaviour, Resource utilization, Efficiency compliance.</li>
+<li>Maintainability (effort pour effectuer des modifications) : Analyzability, Changeability, Stability, Testability, Maintainability compliance.</li>
+<li>Portability (capacité à transférer d&rsquo;un environnement à un autre) : Adaptability, Installability, Co-existence, Replaceability, Portability compliance.</li>
+</ul>
+
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="row li-author">
+    <div class="sixteen columns">
+        Written by <strong>Sébastien Douche</strong>
+    </div>
+</div>
+
+<div id="disqus_thread"></div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "sdouche";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "sdouche";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    
+                        &nbsp;
+                    
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    
+                        Older article<br />
+                        <a href="http://douche.name/blog/mon-arrivee-chez-un-editeur/"> Mon arrivée chez un éditeur logiciel</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+        var e = document.getElementById(id);
+        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
+    }
+    
+    </script>
+    
+    </body>
+</html>
+

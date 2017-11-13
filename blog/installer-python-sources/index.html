@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
     <head>
         
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
         <title>Installer Python à partir des sources &middot; Ruminations From a Tortured Mind</title>
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
         <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
         <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
         <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
@@ -125,7 +125,7 @@ To find the necessary bits, look in setup.py in detect_modules() for the module'
 
 <p>Et comme je suis fainéant, j&rsquo;utilise un outil pour me simplifier la vie : pyenv.</p>
 
-<h2 id="toc_0">Présentation de pyenv</h2>
+<h2 id="présentation-de-pyenv">Présentation de pyenv</h2>
 
 <p>Pyenv (<a href="https://github.com/yyuu/pyenv">lien</a>) est un outil qui permet :</p>
 
@@ -136,7 +136,7 @@ To find the necessary bits, look in setup.py in detect_modules() for the module'
 <li>de lancer une version précise pour un besoin ponctuel.</li>
 </ul>
 
-<h2 id="toc_1">Installation</h2>
+<h2 id="installation">Installation</h2>
 
 <p>L&rsquo;installation sous Linux est triviale :</p>
 
@@ -166,7 +166,7 @@ See `pyenv help &lt;command&gt;' for information on a specific command.
 For full documentation, see: https://github.com/yyuu/pyenv#readme
 </code></pre>
 
-<h2 id="toc_2">Fonctionnement</h2>
+<h2 id="fonctionnement">Fonctionnement</h2>
 
 <p>Le principe de pyenv est d&rsquo;utiliser un <em>shim</em>, autrement dit d&rsquo;intercepter les commandes que vous tapez pour les rediriger le bon interpréteur en lisant sa configuration. Cela fonctionne de la même façon pour tout logiciel que vous installez avec lui :</p>
 
@@ -176,7 +176,7 @@ $ which pip
 /home/sdouche/.pyenv/shims/pip
 </code></pre>
 
-<h2 id="toc_3">Utilisation</h2>
+<h2 id="utilisation">Utilisation</h2>
 
 <p>Vous avez beaucoup de versions à votre portée :</p>
 
@@ -285,7 +285,7 @@ $ pyenv versions
 
 <p>N&rsquo;oubliez pas de taper la commande <code>pyenv rehash</code> quand vous installez des applications.</p>
 
-<h2 id="toc_4">Couplage avec Virtualenv</h2>
+<h2 id="couplage-avec-virtualenv">Couplage avec Virtualenv</h2>
 
 <p>Pyenv possède une extension pour virtualenv, permettant d&rsquo;utiliser un environnement virtualisé comme un envionnement classique pyenv.</p>
 
@@ -303,7 +303,7 @@ $ pyenv versions
   venv342
 </code></pre>
 
-<h2 id="toc_5">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 <p>Cela fait des années que j&rsquo;utilise avec succès ce type d&rsquo;outil (pyenv maintenant, pythonbrew avant), autant en perso qu&rsquo;en pro sans souci particulier. L&rsquo;association pyenv + pyenv-virtualenv permet de toujours avoir un environnement propre, n&rsquo;hésitant pas à multiplier les environnements virtualisés pour chaque besoin particulier. Et je peux aisément tester mon code avec plusieurs versions de Python et changer de version quand j&rsquo;en ai besoin. Bref un outil de <strong>base</strong> dans ma panoplie.</p>
 
@@ -371,7 +371,7 @@ var disqus_shortname = "sdouche";
         <div class="row">
             <div class="sixteen columns">
                 <div class="li-page-footer-legal">
-                    Copyleft (c) 2010 - 2016, Sébastien Douche. Licence CC-BY-NC-ND
+                    Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
                 </div>
                 <div class="li-page-footer-theme">
                     <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
@@ -389,19 +389,7 @@ var disqus_shortname = "sdouche";
     }
     
     </script>
-    <script type="text/javascript">
-    <!--
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', "UA-24575958-1"]);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    -->
-    </script>
+    
     </body>
 </html>
 

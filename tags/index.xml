@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ruminations From a Tortured Mind</title>
+    <link>http://douche.name/tags/</link>
+    <description>Recent content in Tags on Ruminations From a Tortured Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND</copyright>
+    <lastBuildDate>Mon, 08 Aug 2011 03:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://douche.name/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile</title>
+      <link>http://douche.name/tags/agile/</link>
+      <pubDate>Mon, 08 Aug 2011 03:00:00 +0200</pubDate>
+      
+      <guid>http://douche.name/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>http://douche.name/tags/coding/</link>
+      <pubDate>Thu, 18 Dec 2014 15:19:00 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dart</title>
+      <link>http://douche.name/tags/dart/</link>
+      <pubDate>Mon, 15 Dec 2014 07:29:44 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/dart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formation</title>
+      <link>http://douche.name/tags/formation/</link>
+      <pubDate>Mon, 17 Dec 2012 12:44:00 +0200</pubDate>
+      
+      <guid>http://douche.name/tags/formation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>http://douche.name/tags/google/</link>
+      <pubDate>Mon, 15 Dec 2014 07:29:44 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet</title>
+      <link>http://douche.name/tags/internet/</link>
+      <pubDate>Thu, 01 Jan 2015 16:49:00 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://douche.name/tags/javascript/</link>
+      <pubDate>Mon, 15 Dec 2014 07:29:44 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifehacking</title>
+      <link>http://douche.name/tags/lifehacking/</link>
+      <pubDate>Fri, 01 Jan 2010 05:45:00 +0200</pubDate>
+      
+      <guid>http://douche.name/tags/lifehacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mail</title>
+      <link>http://douche.name/tags/mail/</link>
+      <pubDate>Thu, 01 Jan 2015 16:49:00 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Me</title>
+      <link>http://douche.name/tags/me/</link>
+      <pubDate>Wed, 29 Jul 2015 09:00:00 +0200</pubDate>
+      
+      <guid>http://douche.name/tags/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://douche.name/tags/python/</link>
+      <pubDate>Tue, 06 Jan 2015 08:30:00 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rumination</title>
+      <link>http://douche.name/tags/rumination/</link>
+      <pubDate>Mon, 08 Aug 2011 03:00:00 +0200</pubDate>
+      
+      <guid>http://douche.name/tags/rumination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://douche.name/tags/tools/</link>
+      <pubDate>Tue, 06 Jan 2015 08:30:00 +0100</pubDate>
+      
+      <guid>http://douche.name/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

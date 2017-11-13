@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
     <head>
         
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
         <title>Worse is better &middot; Ruminations From a Tortured Mind</title>
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
         <link rel="stylesheet" href="http://douche.name/libraries/normalize.3.0.1.css" />
         <link rel="stylesheet" href="http://douche.name/css/liquorice.css" />
         <link rel="shortcut icon" href="http://douche.name/favicon.ico" />
@@ -77,7 +77,7 @@
 
 <p>Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), cohérence (consistency) et complétude (completeness).</p>
 
-<h2 id="toc_0">Worse is Better</h2>
+<h2 id="worse-is-better">Worse is Better</h2>
 
 <p>Voici les quatre points :</p>
 
@@ -99,7 +99,7 @@
 
 <p>Gabriel décrit Unix et le langage C comme représentatif de cette approche.</p>
 
-<h2 id="toc_1">The Right Thing</h2>
+<h2 id="the-right-thing">The Right Thing</h2>
 
 <p>Voici les quatre points :</p>
 
@@ -119,7 +119,7 @@
 
 <p>Au contraire de la première approche, l&rsquo;approche MIT se focalise sur l&rsquo;exactitude. La cohérence et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et cohérent).</p>
 
-<h2 id="toc_2">Son interprétation</h2>
+<h2 id="son-interprétation">Son interprétation</h2>
 
 <p>Gabriel explique que l&rsquo;approche qui prône la simplicité produit de meilleur résultat sur le long terme, en prenant par exemple Unix, qui pouvait être porté bien plus facilement sur de nouvelles plateformes, ce qui a permis à ce dernier de se développer plus rapidement. Pour mieux exposer les différences, il raconte une petite histoire entre deux personnes (Bill Joy et Dan Weinreb si je ne dis pas de bêtise) :</p>
 
@@ -135,7 +135,7 @@
 
 <p>Il caricature l&rsquo;approche Stanford en l&rsquo;a nommant «Worse is Better» et non «Less is More» pour bien montrer que c&rsquo;est contre intuitif à ses yeux : On fait simple même si le résultat final n&rsquo;est pas aussi complet et cohérent que l&rsquo;on pourrait espérer. Il dit d&rsquo;ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»</p>
 
-<h2 id="toc_3">Mon interprétation</h2>
+<h2 id="mon-interprétation">Mon interprétation</h2>
 
 <p>Il faut savoir que ce texte a pas mal fait parlé de lui (et encore maintenant, la preuve avec ce billet). Gabriel à lui-même fait une critique (il dit ne sais pas savoir quoi en penser. Il est des fois pour, des fois contre). Si vous cherchez <a href="https://www.google.fr/#q=worse+is+better">Worse is better</a> dans votre moteur de recherche, vous tomberez sur plusieurs textes assassins, qui critiquent fortement cette philosophie pour avoir favorisée la médiocrité en développement logiciel. D&rsquo;autres critiques mettent en avant les contraintes économiques comme explication pour certaines évolutions comme Unix ou les processeurs x86. De plus, je pense qu&rsquo;il faut prendre ce texte sans y ajouter la notion de qualité. Car la plupart des critiques que j&rsquo;ai pu lire partait du principe que faire simple signifiait «gros hack», ce qui n&rsquo;est pas valable. La qualité est orthogonale à la discussion (on peut mal coder dans les deux philosophies).</p>
 
@@ -161,7 +161,7 @@
 
 <p>Et pour la petite histoire, Internet est aussi issu de la cote ouest, et ce n&rsquo;est pas anodin (mais cela nous mènerait bien trop loin, mais je vous engage à lire l&rsquo;histoire d&rsquo;Internet qui est fort instructif).</p>
 
-<h2 id="toc_4">Et alors ?</h2>
+<h2 id="et-alors">Et alors ?</h2>
 
 <p>N&rsquo;est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l&rsquo;informatique) et surtout immature ? Est ce que les partisans de la conception <em>The Right Thing</em> n&rsquo;ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N&rsquo;est ce pas <strong>ma</strong> médiocrité intellectuelle qui me pousse dans les bras du <em>Worse is Better</em> car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d&rsquo;exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d&rsquo;excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du <em>Worse is Better</em> ?</p>
 
@@ -234,7 +234,7 @@ that even these modest effects might quite possibly be due to other, intangible 
 
 <p>Et que donc, la qualité passe avant tout par une <strong>culture de la simplicité</strong> ? Culture qui doit être régulièrement questionnée et travaillée ?</p>
 
-<h2 id="toc_5">Un dernier mot sur Rust</h2>
+<h2 id="un-dernier-mot-sur-rust">Un dernier mot sur Rust</h2>
 
 <p>Un dernier mot sur <a href="http://www.rust-lang.org/">Rust</a>, langage en court d&rsquo;élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéresasnte de rapprochement  de ces deux voies. Exact, complet, cohérent mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0&hellip;</p>
 
@@ -302,7 +302,7 @@ var disqus_shortname = "sdouche";
         <div class="row">
             <div class="sixteen columns">
                 <div class="li-page-footer-legal">
-                    Copyleft (c) 2010 - 2016, Sébastien Douche. Licence CC-BY-NC-ND
+                    Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND
                 </div>
                 <div class="li-page-footer-theme">
                     <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
@@ -320,19 +320,7 @@ var disqus_shortname = "sdouche";
     }
     
     </script>
-    <script type="text/javascript">
-    <!--
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', "UA-24575958-1"]);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    -->
-    </script>
+    
     </body>
 </html>
 

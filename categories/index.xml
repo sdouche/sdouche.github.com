@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ruminations From a Tortured Mind</title>
+    <link>http://douche.name/categories/</link>
+    <description>Recent content in Categories on Ruminations From a Tortured Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND</copyright>
+    
+	<atom:link href="http://douche.name/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding</title>
+      <link>http://douche.name/categories/coding/</link>
+      <pubDate>Sun, 06 Nov 2011 18:51:00 +0200</pubDate>
+      
+      <guid>http://douche.name/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>http://douche.name/categories/feedback/</link>
+      <pubDate>Tue, 06 Jan 2015 08:30:00 +0100</pubDate>
+      
+      <guid>http://douche.name/categories/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formation</title>
+      <link>http://douche.name/categories/formation/</link>
+      <pubDate>Mon, 17 Dec 2012 12:44:00 +0200</pubDate>
+      
+      <guid>http://douche.name/categories/formation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifehacking</title>
+      <link>http://douche.name/categories/lifehacking/</link>
+      <pubDate>Fri, 01 Jan 2010 05:45:00 +0200</pubDate>
+      
+      <guid>http://douche.name/categories/lifehacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>http://douche.name/categories/presentation/</link>
+      <pubDate>Tue, 06 Jan 2015 08:30:00 +0100</pubDate>
+      
+      <guid>http://douche.name/categories/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://douche.name/categories/python/</link>
+      <pubDate>Fri, 15 Jul 2011 02:00:00 +0200</pubDate>
+      
+      <guid>http://douche.name/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rumination</title>
+      <link>http://douche.name/categories/rumination/</link>
+      <pubDate>Wed, 29 Jul 2015 09:00:00 +0200</pubDate>
+      
+      <guid>http://douche.name/categories/rumination/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,614 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Coding on Ruminations From a Tortured Mind </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://douche.name/tags/coding/index.xml/</link>
+    <title>Coding on Ruminations From a Tortured Mind</title>
+    <link>http://douche.name/tags/coding/</link>
+    <description>Recent content in Coding on Ruminations From a Tortured Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyleft (c) 2010 - 2014, Sébastien Douche. Licence CC-BY-NC-ND</copyright>
+    <lastBuildDate>Thu, 18 Dec 2014 15:19:00 +0100</lastBuildDate>
     
+	<atom:link href="http://douche.name/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Thu, 18 Dec 2014 15:19:00 CET</updated>
     
     <item>
       <title>Worse is better</title>
       <link>http://douche.name/blog/worse-is-better/</link>
-      <pubDate>Thu, 18 Dec 2014 15:19:00 CET</pubDate>
+      <pubDate>Thu, 18 Dec 2014 15:19:00 +0100</pubDate>
       
       <guid>http://douche.name/blog/worse-is-better/</guid>
-      <description>
-
-&lt;p&gt;J&amp;rsquo;ai lu voici quelques mois un billet qui s&amp;rsquo;intitule &lt;a href=&#34;http://dreamsongs.com/RiseOfWorseIsBetter.html&#34;&gt;The Rise of Worse is Better&lt;/a&gt; par Richard P. Gabriel, développeur Lisp (qui a d&amp;rsquo;ailleurs monté une société autour de ce langage dans les années 80). Vieux billet puisqu&amp;rsquo;il date de 1989 dans sa version original. Il est, à l&amp;rsquo;origine, une section dans un essai nommé &lt;a href=&#34;http://dreamsongs.com/WIB.html&#34;&gt;Lisp: Good News, Bad News, How to Win Big&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Dans ce billet, Gabriel expose deux visions du développement logiciel qu&amp;rsquo;il appelle la conception «The Right Thing» (approche MIT) et la conception «Worse is Better» (approche Stanford). Stanford et MIT se trouvant à San Francisco et l&amp;rsquo;autre à Boston, cela donne un arrière gout de &lt;em&gt;East Coast&lt;/em&gt; vs &lt;em&gt;West Coast&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), cohérence (consistency) et complétude (completeness).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Worse is Better&lt;/h2&gt;
-
-&lt;p&gt;Voici les quatre points :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;La conception doit être simple. tant dans son implémentation que dans son interface. Mais la simplicité d&amp;rsquo;&lt;strong&gt;implémentation&lt;/strong&gt; est la plus importante.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La conception doit être juste dans tous ses aspects observables, mais il est &lt;strong&gt;préférable d&amp;rsquo;être simple que juste&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La conception doit être cohérente, mais on peut &lt;strong&gt;sacrifier dans certains cas la cohérence pour la simplicité&lt;/strong&gt;. De plus, il est préférable de supprimer des bouts de conception qui introduise de la complexité ou de l&amp;rsquo;incohérence.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La conception doit couvrir autant de situations que possible, mais on peut &lt;strong&gt;sacrifier la complétude en faveur des autres caractéristiques&lt;/strong&gt; comme l’exactitude ou la cohérence, surtout si cela joue sur la complexité.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En schématisant, nous avons :&lt;/p&gt;
-
-&lt;p&gt;simplicité (implémentation) ❭ simplicité (interface) ❭ exactitude ❭ cohérence ❭ complétude&lt;/p&gt;
-
-&lt;p&gt;Nous pouvons voir que l&amp;rsquo;approche de Stanford se focalise avant tout sur la simplicité d&amp;rsquo;implémentation. La simplicité étant considérée comme l&amp;rsquo;objectif plus important, il peut sacrifier de l&amp;rsquo;exactitude. De même, il peut sacrifier de la cohérence si cela augmente la complexité. Et de la complétude si cela améliore les points précédents.&lt;/p&gt;
-
-&lt;p&gt;Gabriel décrit Unix et le langage C comme représentatif de cette approche.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;The Right Thing&lt;/h2&gt;
-
-&lt;p&gt;Voici les quatre points :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;La conception doit être simple. tant dans son implémentation que dans son interface. Mais la simplicité d&amp;rsquo;&lt;strong&gt;interface&lt;/strong&gt; est la plus importante.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La conception doit être juste dans tous ses aspects observables. &lt;strong&gt;L&amp;rsquo;inexactitude n&amp;rsquo;est pas permise&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La conception doit être cohérente. On peut &lt;strong&gt;sacrifier la simplicité et la complétude pour avoir de la cohérence&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La conception doit couvrir le plus de situations utiles. Il est &lt;strong&gt;préférable d&amp;rsquo;être complet que simple&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En schématisant, nous avons :&lt;/p&gt;
-
-&lt;p&gt;exactitude ❭ cohérence ❭ complétude ❭ simplicité (interface) ❭ simplicité (implémentation)&lt;/p&gt;
-
-&lt;p&gt;Au contraire de la première approche, l&amp;rsquo;approche MIT se focalise sur l&amp;rsquo;exactitude. La cohérence et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et cohérent).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Son interprétation&lt;/h2&gt;
-
-&lt;p&gt;Gabriel explique que l&amp;rsquo;approche qui prône la simplicité produit de meilleur résultat sur le long terme, en prenant par exemple Unix, qui pouvait être porté bien plus facilement sur de nouvelles plateformes, ce qui a permis à ce dernier de se développer plus rapidement. Pour mieux exposer les différences, il raconte une petite histoire entre deux personnes (Bill Joy et Dan Weinreb si je ne dis pas de bêtise) :&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Two famous people, one from MIT and another from Berkeley (but working on Unix) once met to discuss operating system issues. The person from MIT was knowledgeable about ITS (the MIT AI Lab operating system) and had been reading the Unix sources. He was interested in how Unix solved the PC loser-ing problem. The PC loser-ing problem occurs when a user program invokes a system routine to perform a lengthy operation that might have significant state, such as IO buffers. If an interrupt occurs during the operation, the state of the user program must be saved. Because the invocation of the system routine is usually a single instruction, the PC of the user program does not adequately capture the state of the process. The system routine must either back out or press forward. The right thing is to back out and restore the user program PC to the instruction that invoked the system routine so that resumption of the user program after the interrupt, for example, re-enters the system routine. It is called PC loser-ing because the PC is being coerced into loser mode, where loser is the affectionate name for user at MIT.&lt;/p&gt;
-
-&lt;p&gt;The MIT guy did not see any code that handled this case and asked the New Jersey guy how the problem was handled. The New Jersey guy said that the Unix folks were aware of the problem, but the solution was for the system routine to always finish, but sometimes an error code would be returned that signaled that the system routine had failed to complete its action. A correct user program, then, had to check the error code to determine whether to simply try the system routine again. The MIT guy did not like this solution because it was not the right thing.&lt;/p&gt;
-
-&lt;p&gt;The New Jersey guy said that the Unix solution was right because the design philosophy of Unix was simplicity and that the right thing was too complex. Besides, programmers could easily insert this extra test and loop. The MIT guy pointed out that the implementation was simple but the interface to the functionality was complex. The New Jersey guy said that the right tradeoff has been selected in Unix-namely, implementation simplicity was more important than interface simplicity.&lt;/p&gt;
-
-&lt;p&gt;The MIT guy then muttered that sometimes it takes a tough man to make a tender chicken, but the New Jersey guy didn&amp;rsquo;t understand (I&amp;rsquo;m not sure I do either).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Il caricature l&amp;rsquo;approche Stanford en l&amp;rsquo;a nommant «Worse is Better» et non «Less is More» pour bien montrer que c&amp;rsquo;est contre intuitif à ses yeux : On fait simple même si le résultat final n&amp;rsquo;est pas aussi complet et cohérent que l&amp;rsquo;on pourrait espérer. Il dit d&amp;rsquo;ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Mon interprétation&lt;/h2&gt;
-
-&lt;p&gt;Il faut savoir que ce texte a pas mal fait parlé de lui (et encore maintenant, la preuve avec ce billet). Gabriel à lui-même fait une critique (il dit ne sais pas savoir quoi en penser. Il est des fois pour, des fois contre). Si vous cherchez &lt;a href=&#34;https://www.google.fr/#q=worse+is+better&#34;&gt;Worse is better&lt;/a&gt; dans votre moteur de recherche, vous tomberez sur plusieurs textes assassins, qui critiquent fortement cette philosophie pour avoir favorisée la médiocrité en développement logiciel. D&amp;rsquo;autres critiques mettent en avant les contraintes économiques comme explication pour certaines évolutions comme Unix ou les processeurs x86. De plus, je pense qu&amp;rsquo;il faut prendre ce texte sans y ajouter la notion de qualité. Car la plupart des critiques que j&amp;rsquo;ai pu lire partait du principe que faire simple signifiait «gros hack», ce qui n&amp;rsquo;est pas valable. La qualité est orthogonale à la discussion (on peut mal coder dans les deux philosophies).&lt;/p&gt;
-
-&lt;p&gt;Pour ma part, je trouve ce texte intéressant car il formalise une vision du développement que j&amp;rsquo;ai depuis longtemps, à savoir que la simplicité est la mère de toutes les vertus. Cela étant dit, faire simple ne veut pas dire simpliste, ou ne pas avoir de complexité à la fin. Mais de toujours chercher à obtenir un résultat le plus «dépouillé». Car cela sera plus simple à manipuler et à modifier par la suite.&lt;/p&gt;
-
-&lt;p&gt;Gabriel parle de C et d&amp;rsquo;Unix, je voudrais rajouter quelques exemples :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Internet (la pile TCP/IP) a grandi en même temps qu&amp;rsquo;un concurrent européen : X25 (développé à partir de 1976). Ce dernier était plus robuste et fiable puisque chaque hop s&amp;rsquo;assurait de la validité des paquets. A contrario, TCP/IP ne fait aucune vérification pendant le transport, l&amp;rsquo;intelligence se trouvant dans les extrémités du réseau (et non le cœur comme X25), rendant les hop bien plus facile à développer et moins couteux. Alors que TCP/IP fait tourner Internet, X25 était désuet en 1995&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;La micro-informatique est bien plus simple (voir pauvre pour certains) que les mainframes vendus depuis les années 60. Mais bien plus facile à comprendre et à manipuler, bien moins chers, ils se sont imposés un peu partout.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Les réseaux locaux utilisent Ethernet, protocole assez basique inventé par Bob Metcalfe (au fameux centre Xerox Palto Alto. Il fonda plus tard 3Com). Il existait d&amp;rsquo;autres protocoles plus fiables comme Token Ring d&amp;rsquo;IBM. Mais bien plus couteux, le protocole Ethernet pris rapidement le pas. Et par sa conception simple, on est passé du 10BaseT au 10000BaseT.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Git est un outil d&amp;rsquo;une conception incroyablement simple (Linus Torvalds a utilisé Git pour ses besoins au bout de 5 jours). Basé sur une implémentation réussie du DAG et de la notion de référence, Git libère le programmeur du carcan SVN (bien plus complexe dans sa conception).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Linux s&amp;rsquo;est développé en noyau monolithique (conception simple), alors que certains lui prédisait une mort avec l&amp;rsquo;arrivée des micro-noyaux, bien mieux sur bien des aspects. 20 ans après, on sait ce qui est advenu.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Plus généralement, la philosophie du Libre se rapproche du &lt;em&gt;Worse is better&lt;/em&gt;. Faire simple. D&amp;rsquo;ailleurs Gabriel décrit dans un autre texte la proximité de son texte avec certaines idées de Richard Stallman.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bien sûr, les choses ne sont jamais blanc ou noir, et des décisions économiques, bureaucratiques ou d&amp;rsquo;objectifs complexes, voir le hasard sont en partie à l&amp;rsquo;origine de certains résultats. Mais je pense sincèrement que d&amp;rsquo;avoir la simplicité d&amp;rsquo;implémentation comme vecteur principal de son développement est intéressant. Les exemples ci dessus ne sont pas anodins, car provenant tous du même milieu (Internet et Unix sont étroitement liés, Stallman et Torvalds ont inventés un Unix-like), milieu qui a imposé pas mal de ses technologies.&lt;/p&gt;
-
-&lt;p&gt;Et pour la petite histoire, Internet est aussi issu de la cote ouest, et ce n&amp;rsquo;est pas anodin (mais cela nous mènerait bien trop loin, mais je vous engage à lire l&amp;rsquo;histoire d&amp;rsquo;Internet qui est fort instructif).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Et alors ?&lt;/h2&gt;
-
-&lt;p&gt;N&amp;rsquo;est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l&amp;rsquo;informatique) et surtout immature ? Est ce que les partisans de la conception &lt;em&gt;The Right Thing&lt;/em&gt; n&amp;rsquo;ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N&amp;rsquo;est ce pas &lt;strong&gt;ma&lt;/strong&gt; médiocrité intellectuelle qui me pousse dans les bras du &lt;em&gt;Worse is Better&lt;/em&gt; car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d&amp;rsquo;exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d&amp;rsquo;excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du &lt;em&gt;Worse is Better&lt;/em&gt; ?&lt;/p&gt;
-
-&lt;p&gt;De plus, les études que j&amp;rsquo;ai pu lire ne sont pas plus concluants (d&amp;rsquo;ailleurs si vous en avez d&amp;rsquo;autres je suis preneur car je n&amp;rsquo;ai pas tout retrouvé) :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://macbeth.cs.ucdavis.edu/lang_study.pdf&#34;&gt;A Large Scale Study of Programming Languages and Code Quality in Github&lt;/a&gt; (2014)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;«Most notably, it does appear that strong typing is modestly better than weak typing, and among functional languages, static typing is also somewhat better than dynamic typing. We also find that functional languages are somewhat better than procedural languages. It is worth noting that
-these modest effects arising from language design are overwhelmingly dominated by the process factors such as project size, team size, and commit size. However, we hasten to caution the reader
-that even these modest effects might quite possibly be due to other, intangible process factors, e.g., the preference of certain personality types for functional, static and strongly typed languages.»&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1077&amp;amp;context=honors&#34;&gt;An Empirical Study of Student Programming Bugs&lt;/a&gt; (2011)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;«By far, the most common frustration involved problem solving, i.e., students had difficulty understanding the problem statement on their assignment and designing a solution.»&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf&#34;&gt;An Analysis of Production Failures in Distributed Data-Intensive Systems&lt;/a&gt; (201)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;«We found the majority of catastrophic failures (ndlr: 92%) could easily have been prevented by performing simple testing on error handling code – the last line of defense – even without an understanding of the software design. We extracted three simple rules from the bugs that have lead to some of the catastrophic failures, and developed a static checker, Aspirato, capable of locating these bugs. Over 30% of the catastrophic failures would have been prevented had Aspirator been used and the identified bugs fixed. Running Aspirator on the code of 9 distributed systems located 143 bugs and bad practices that have been fixed or confirmed by the developers.»&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dl.acm.org/authorize?6743202&#34;&gt;An Empirical Study of the Influence of Static Type Systems on the Usability of Undocumented Software&lt;/a&gt; (2012)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;«We report on a controlled experiment where 27 subjects performed programming tasks on an undocumented API with a static type system (requiring type annotations) as well as a dynamic type system (which does not). Our results show that forsome tasks, programmers had faster completion times using a static type system, while for others, the opposite held.»&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://static.googleusercontent.com/media/research.google.com/de//pubs/archive/42184.pdf&#34;&gt;Programmers’ Build Errors: A Case Study (at Google)&lt;/a&gt; (2014)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;« An analysis of the errors found during the build process revealed that, independent of programming language, approximately 10 percent of the error types account for 90% of the build failures.»&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://madeyski.e-informatyka.pl/download/Madeyski07g.pdf&#34;&gt;Impact of aspect-oriented programming on software development efficiency and design quality&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;«It turned out that aspect-oriented programming approach did not significantly affect software design quality metrics i.e. Dn, W OM, CBM, RFM, LCO, NCLOC and NCLOC2. It means that the impact of aspect-oriented programming on software design modularity and size (related to the goal 1) was not confirmed. In fact, the impact of aspectoriented programming on class-level software quality metrics (W OM, CBM, RFM, LCO) as well as on NCLOC and NCLOC2 was extremely weak, as suggested by the obtained effect size &amp;reg; values»&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ces études sont perfectibles à bien des égards mais se pourrait il que les arguments tant vantés par la communauté &lt;em&gt;The Right Thing&lt;/em&gt; ne reposent en fait que sur des impressions, des envies ou des expériences passées ? Ne pourrait elle pas s&amp;rsquo;expliquer par une valorisation personnelle du type «j&amp;rsquo;utilise un langage avec plein de concepts compliqués ce qui me valorise ou m&amp;rsquo;amuse intellectuellent» ?&lt;/p&gt;
-
-&lt;p&gt;Ma &lt;strong&gt;croyance&lt;/strong&gt; est que la simplicité est la clé du développement logiciel, car les objectifs de compréhension, de relecture et de modification sont les plus importantes. Ce qui implique le moins de connaissances à acquérir. Et ce n&amp;rsquo;est il pas finalement dans la recherche à 360 degrés de la simplicité (dans les techniques, les outils et l&amp;rsquo;organisation) que l&amp;rsquo;on peut puiser les meilleurs résultats et non un langage &lt;em&gt;The Right Thing&lt;/em&gt; ? Par exemple :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Un langage adapté aux besoins, possédant une petite spécification et qui ne demande pas de connaissances poussées en logique mathématique.&lt;/li&gt;
-&lt;li&gt;La conception pilotée par les tests (TDD) qui pousse à réduire la complexité cyclomatique.&lt;/li&gt;
-&lt;li&gt;La revue de code (et pair-programming) qui diminue le code «mappé du cerveau», car compréhensible par d&amp;rsquo;autres.&lt;/li&gt;
-&lt;li&gt;Le refactoring pour raffiner le code (cohésion, découplage, extraction ,etc).&lt;/li&gt;
-&lt;li&gt;Une taille d&amp;rsquo;équipe réduite et cohérente pour contrôler la complexité relationnelle.&lt;/li&gt;
-&lt;li&gt;Le Kanban qui modélise une seule métrique organisationnelle (le temps de cycle)&lt;/li&gt;
-&lt;li&gt;Le déploiement continue qui force à un déploiement maitrisé, donc simple.&lt;/li&gt;
-&lt;li&gt;Garder une taille de code raisonnable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Et que donc, la qualité passe avant tout par une &lt;strong&gt;culture de la simplicité&lt;/strong&gt; ? Culture qui doit être régulièrement questionnée et travaillée ?&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_5&#34;&gt;Un dernier mot sur Rust&lt;/h2&gt;
-
-&lt;p&gt;Un dernier mot sur &lt;a href=&#34;http://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt;, langage en court d&amp;rsquo;élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéresasnte de rapprochement  de ces deux voies. Exact, complet, cohérent mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0&amp;hellip;&lt;/p&gt;
-</description>
+      <description>J&amp;rsquo;ai lu voici quelques mois un billet qui s&amp;rsquo;intitule The Rise of Worse is Better par Richard P. Gabriel, développeur Lisp (qui a d&amp;rsquo;ailleurs monté une société autour de ce langage dans les années 80). Vieux billet puisqu&amp;rsquo;il date de 1989 dans sa version original. Il est, à l&amp;rsquo;origine, une section dans un essai nommé Lisp: Good News, Bad News, How to Win Big.
+Dans ce billet, Gabriel expose deux visions du développement logiciel qu&amp;rsquo;il appelle la conception «The Right Thing» (approche MIT) et la conception «Worse is Better» (approche Stanford).</description>
     </item>
     
     <item>
       <title>Expliquer un langage de programmation</title>
       <link>http://douche.name/blog/expliquer-un-langage-de-programmation/</link>
-      <pubDate>Tue, 16 Dec 2014 09:00:00 &#43;0200</pubDate>
+      <pubDate>Tue, 16 Dec 2014 09:00:00 +0200</pubDate>
       
       <guid>http://douche.name/blog/expliquer-un-langage-de-programmation/</guid>
-      <description>
-
-&lt;p&gt;Lors d&amp;rsquo;une présentation d&amp;rsquo;un langage de programmation, ou lors d&amp;rsquo;une discussion entre développeurs, il arrive bien souvent que l&amp;rsquo;on utilise les termes «avantage» et «inconvénient». Par exemple, cela peut donner comme argument pour Java : «Java c&amp;rsquo;est cool, tu codes sur la JVM et cela fonctionne sur plusieurs plateformes». Hors pour moi, la JVM est loin d&amp;rsquo;être un avantage. C&amp;rsquo;est gros, lourd, géré par Oracle qui impose des restrictions alacon&amp;hellip; L&amp;rsquo;exemple illustre un défaut dans l&amp;rsquo;argumentation : l&amp;rsquo;utilisation d&amp;rsquo;un &lt;strong&gt;argument subjectif présenté comme objectif&lt;/strong&gt;. Un avantage pour l&amp;rsquo;un peut être un défaut pour l&amp;rsquo;autre, et vice-versa, et la conversation peut donc rapidement tourner à l&amp;rsquo;affrontement stérile de ce qui est positif ou non.&lt;/p&gt;
-
-&lt;p&gt;Pour contrer cela, je voudrais vous présenter une autre approche, qui part de l&amp;rsquo;objectif (ou au moins tente de l&amp;rsquo;être) pour aller vers le subjectif, en détachant bien les deux aspects. Explication.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;«Opportunité» vs «contrainte»&lt;/h2&gt;
-
-&lt;p&gt;Je préfère remplacer avantage vs inconvénient par &lt;strong&gt;opportunité vs contrainte&lt;/strong&gt;, ici avec l&amp;rsquo;exemple de la JVM cité plus haut :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Une contrainte est une &lt;strong&gt;obligation&lt;/strong&gt;, on ne peut y échapper. Coder en Java oblige à utiliser la JVM.&lt;/li&gt;
-&lt;li&gt;Une opportunité est une &lt;strong&gt;possibilité&lt;/strong&gt; que l&amp;rsquo;on peut profiter. Utiliser la JVM permet de faire fonctionner son code sur plusieurs plateformes comme Linux ou MacOS.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ces 2 points tentent d&amp;rsquo;être objectifs, et peuvent être accepter par ceux qui aiment Java, comme par ses détracteurs. Si vous avez un consensus, alors il est possible de glisser vers la subjectivité car on partage maintenant un &lt;strong&gt;référentiel commun&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est dans l&amp;rsquo;acceptation des contraintes ou dans la recherche d&amp;rsquo;opportunités que le choix de chacun va se faire. Voici 2 courts exemples :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Un amoureux de Scala va apprécier l&amp;rsquo;opportunité de disposer d&amp;rsquo;un code plus solide en production et de refactorer plus facilement son code. Pour cela il acceptera que le compilateur soit strict et lui renvoie de temps en temps des messages d&amp;rsquo;erreur compliqués. Il acceptera aussi une courbe d&amp;rsquo;apprentissage plus lourde et exigeante, une syntaxe un peu alambiquée et une sémantique chargée.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Un amateur de Python va aimer la simplicité syntaxique, la sensation de productivité à court terme. Il devra par contre subir la GIL, être plus vigilant sur sa gestion des erreurs.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vous choisirez alors un langage parce que :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;les opportunités offertes sont intéressantes.&lt;/li&gt;
-&lt;li&gt;les contraintes sont bloquantes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;C&amp;rsquo;est ici que la subjectivité intervient, et qu&amp;rsquo;il fait prendre à chacun de nous des chemins différents. Si je parle de mes propres choix, je pourrais par exemple dire que j&amp;rsquo;envie la capacité de gros refactoring que permet Scala, mais la complexité sémantique me rebute suffisamment pour éliminer le langage des mes choix. Et que si j&amp;rsquo;ai apprécié développer en Python pendant 10 ans, certaines contraintes se font de plus en plus douloureusement ressentir. Nous sommes ici dans la plus parfaite subjectivité. Subjectivité qui dépend de notre expérience, de nos douleurs, de nos envies, de notre travail et de nos objectifs en tant que développeur&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;La volonté des concepteurs&lt;/h2&gt;
-
-&lt;p&gt;Cette dualité «opportunité» vs «contrainte» mets aussi en lumière un point important : les concepteur d&amp;rsquo;un langage de programmation naviguent en permanence entre un équilibre fragile d&amp;rsquo;opportunités et de contraintes. Il est de plus très rare de disposer d&amp;rsquo;une opportunité sans contrainte associée. Faire beaucoup de vérification à la compilation ? Dites alors adieu à une compilation ultra-rapide. Vous voulez un langage avec des concepts avancés de programmation ? Ne vous attendez pas alors à maitriser le langage en 1 an, mais plus en 5 ans, et d&amp;rsquo;avoir de sérieux mal à la tête sur certains messages d&amp;rsquo;erreurs. Tout est question d&amp;rsquo;équilibre. A ma gauche des opportunités, á ma droite des contraintes.&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est maintenant comme cela que je présente un langage, en faisant au préalable, en introduction, l’équivalent du texte que vous venez de lire. Non pas comme une liste d’avantages (que les auditeurs prendront ou nous comme tel), mais comme un ensemble de contraintes et d&amp;rsquo;opportunités, et laissant chacun d&amp;rsquo;entre eux faire leur opinion. Le plus important, je pense, est de montrer en quoi cet équilibre est intéressant.&lt;/p&gt;
-</description>
+      <description>Lors d&amp;rsquo;une présentation d&amp;rsquo;un langage de programmation, ou lors d&amp;rsquo;une discussion entre développeurs, il arrive bien souvent que l&amp;rsquo;on utilise les termes «avantage» et «inconvénient». Par exemple, cela peut donner comme argument pour Java : «Java c&amp;rsquo;est cool, tu codes sur la JVM et cela fonctionne sur plusieurs plateformes». Hors pour moi, la JVM est loin d&amp;rsquo;être un avantage. C&amp;rsquo;est gros, lourd, géré par Oracle qui impose des restrictions alacon&amp;hellip; L&amp;rsquo;exemple illustre un défaut dans l&amp;rsquo;argumentation : l&amp;rsquo;utilisation d&amp;rsquo;un argument subjectif présenté comme objectif.</description>
     </item>
     
     <item>
       <title>Pourquoi je crois (techniquement) en Google</title>
       <link>http://douche.name/blog/pourquoi-je-crois-techniquement-en-google/</link>
-      <pubDate>Mon, 15 Dec 2014 07:29:44 CET</pubDate>
+      <pubDate>Mon, 15 Dec 2014 07:29:44 +0100</pubDate>
       
       <guid>http://douche.name/blog/pourquoi-je-crois-techniquement-en-google/</guid>
-      <description>
-
-&lt;p&gt;Si cela fait des années que je n&amp;rsquo;espère plus rien de Google sur le plan des
-libertés, je reste curieux de tout ce qu&amp;rsquo;ils font sur le plan technique,
-notamment pour Internet. Car c&amp;rsquo;est pour moi la seule (grosse) boite qui
-fait avancer sérieusement les choses. Explication.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;La différence de business model&lt;/h2&gt;
-
-&lt;p&gt;Pour expliquer mon point de vue, il faut d&amp;rsquo;abord parler de &lt;em&gt;business model&lt;/em&gt; :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Quel est le &lt;em&gt;business model&lt;/em&gt; de Microsoft ? Vous faire utiliser les produits
-Microsoft.&lt;/li&gt;
-&lt;li&gt;Quel est le &lt;em&gt;business model&lt;/em&gt; d&amp;rsquo;Apple ? Vous faire utiliser les produits
-Apple.&lt;/li&gt;
-&lt;li&gt;Quel est le &lt;em&gt;business model&lt;/em&gt; de Facebook ? Vous faire utiliser les produits
-Facebook.&lt;/li&gt;
-&lt;li&gt;Et quel est le &lt;em&gt;business model&lt;/em&gt; de Google ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Arrêtez vous 30 secondes pour répondre à cette question. Ça y est ? Alors
-reprenons. Son &lt;em&gt;business model&lt;/em&gt; est de vous faire &lt;strong&gt;utiliser Internet&lt;/strong&gt;. Bien sûr,
-c&amp;rsquo;est mieux au travers de leurs services mais cela n&amp;rsquo;est pas une obligation.
-On l&amp;rsquo;oublie souvent, mais le CA de Google vient en &lt;strong&gt;grande partie&lt;/strong&gt; de la
-publicité (90% du CA, 30% du marché mondial de la publicité en ligne, loin
-devant Facebook et Yahoo). Ils gagnent donc de l&amp;rsquo;argent quand les gens
-vont sur le Net. Et plus l&amp;rsquo;expérience de navigation est plaisante, plus Google
-gagne de l&amp;rsquo;argent. Je me souviens d&amp;rsquo;un tweet qui m&amp;rsquo;avait marqué : «Quand
-Internet va &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt; de seconde plus vite, Google gagne 1 milliard de dollars de
-plus». Je ne peux pas valider son contenu mais j&amp;rsquo;ai trouvé à l&amp;rsquo;époque cette réflexion
-intéressante.&lt;/p&gt;
-
-&lt;p&gt;Cela explique toutes les initiatives de Google pour améliorer le Net, non pas
-par philanthropie, mais par besoin. Regardons de plus près ce que Google a fait.
-Voici une petite liste de mémoire (je pense que l&amp;rsquo;on peut en rajouter bien plus) :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La mise à disposition gratuite de CDN pour les librairies Javascript les
-plus populaires ainsi qu&amp;rsquo;une longue liste de fontes.&lt;/li&gt;
-&lt;li&gt;Le financement de nombreux Logiciels Libres par l&amp;rsquo;intermédiaire du Google
-Summer of Code.&lt;/li&gt;
-&lt;li&gt;Le développement du Javascript avec le projet v8. Rappelez vous l&amp;rsquo;état
-de délabrement du langage avant que Google s&amp;rsquo;en charge (un navigateur
-moderne va plus de 100x plus vite que Firefox 2 coté JS).&lt;/li&gt;
-&lt;li&gt;Le financement de successeur de HTTP1 (SPDY et HTTP2).&lt;/li&gt;
-&lt;li&gt;Le financement des «Web Components» pour standardiser le développement Web.&lt;/li&gt;
-&lt;li&gt;Le financement de 2 langages, un backend (Go), l&amp;rsquo;autre frontend (Dart).&lt;/li&gt;
-&lt;li&gt;Le financement du framework AngularJS.&lt;/li&gt;
-&lt;li&gt;Le financement de la fibre optique dans plusieurs régions des USA.&lt;/li&gt;
-&lt;li&gt;La mise à disposition gratuite d&amp;rsquo;une forge (Google Developers).&lt;/li&gt;
-&lt;li&gt;La mise à disposition gratuite des formats WebM et WebP, développés en
-interne.&lt;/li&gt;
-&lt;li&gt;La mise à disposition gratuite d&amp;rsquo;une suite bureautique.&lt;/li&gt;
-&lt;li&gt;La mise à disposition gratuite d&amp;rsquo;un large espace de stockage cloud.&lt;/li&gt;
-&lt;li&gt;Le développement d&amp;rsquo;un «OS Internet», ChromeOS, pour disposer d&amp;rsquo;un
-notebook pas cher.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sans compter le moteur de recherche qui a révolutionné l&amp;rsquo;utilisation du Net.
-Bref, je m&amp;rsquo;arrête la mais vous voyez le tableau. Google veut votre confort,
-car elle gagnera encore plus d&amp;rsquo;argent. C&amp;rsquo;est pour raison que Google est bien
-plus dangereux á mes yeux que Microsoft, ce dernier se bornant à vous
-bloquer dans leur techno. Il suffisait donc de trouver mieux (merci Linux
-et le Logiciel Libre) pour facilement se libérer. Mais pour Google, c&amp;rsquo;est
-une autre histoire. Qui aide autant les développeurs qu&amp;rsquo;eux ? Facebook ?
-Apple ? Mozilla ?&lt;/p&gt;
-
-&lt;p&gt;Maintenant regardons de plus près le dernier rebondissement : Angular 2.
-Suite à l&amp;rsquo;annonce de la nouvelle version du framework (qui ne sortira qu&amp;rsquo;en
-2016), des cris d&amp;rsquo;effroi et de rage se sont fait entendre : Google
-se fout de la gueule du monde en cassant la compatibilité et rendra
-orphelin tous les utilisateurs de la version 1. Alors prenons un peu de recul.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Petite note&lt;/h2&gt;
-
-&lt;p&gt;Tout d&amp;rsquo;abord, il est intéressant de noter que les projets techniques sont
-financés par Google, mais pas «dirigés» par elle. AngularJS est autonome,
-comme Go ou Dart. Savez vous ce qu&amp;rsquo;on dit les développeurs de Go quand la
-1.0 est sortie ? «Maintenant, on va tenter de &lt;strong&gt;convaincre&lt;/strong&gt; en interne». Bien
-que financé par Google (les &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; des core devs sont chez eux), cela ne veut
-pas dire que cela rentre dans un projet global. Google finance «pour voir»,
-et utilisera potentiellement le projet. C&amp;rsquo;est pour moi sa grande force.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;De GWT à Angular 2&lt;/h2&gt;
-
-&lt;p&gt;Voici, toujours de tête, un petit timeline :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2006 : GWT 1.0, un framework Java pour faire du développement Web.&lt;/li&gt;
-&lt;li&gt;2008 : Chrome 1.0 / v8 1.0.&lt;/li&gt;
-&lt;li&gt;2009 : AngularJS 1.0.&lt;/li&gt;
-&lt;li&gt;2011 : Disponibilité des technologies PNaCI / PNaCI.&lt;/li&gt;
-&lt;li&gt;2013 : Dart 1.0, tout nouveau langage pour le Web.&lt;/li&gt;
-&lt;li&gt;2013 : Parallèlement à Dart, travail sur les «Web Components» avec Dart Web UI.&lt;/li&gt;
-&lt;li&gt;2013 : Normalisation des «Web Components».&lt;/li&gt;
-&lt;li&gt;2013 : Lancement de Polymer, librairie de «Web Components» normalisés.&lt;/li&gt;
-&lt;li&gt;2013 : Lancement d&amp;rsquo;AngularDart, le pendant Dart d&amp;rsquo;AngularJS.&lt;/li&gt;
-&lt;li&gt;2013 : GWT est géré par la communauté (Google continue de payer des core devs).&lt;/li&gt;
-&lt;li&gt;2014 : Dart est normalisé (ECMA-408)&lt;/li&gt;
-&lt;li&gt;2016 : Angular 2 s&amp;rsquo;appuiera sur ES7/ES8 et l&amp;rsquo;expérience de Dart2JS pour transformer
-     le code en JS ou Dart. Il fusionnera les 2 projets AngularJS et AngularDart.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Au lieu de simplement s&amp;rsquo;appuyer sur ES5 (la dernière version officielle JS), l&amp;rsquo;équipe
-Angular saute plusieurs cases pour s&amp;rsquo;appuyer directement sur ES7/ES8. Cela fait suite au portage d&amp;rsquo;Angular sur Dart et de l&amp;rsquo;apprentissage qui en découle. D&amp;rsquo;abord dans la possibilité
-d&amp;rsquo;avoir un langage plus «moderne» et moins lourd, d&amp;rsquo;autres part dans la transformation
-automatique de code du projet Dart2JS (permettant de transformer du code Dart en code ES5).&lt;/p&gt;
-
-&lt;p&gt;Je trouve que c&amp;rsquo;est plutôt cohérent : d&amp;rsquo;un coté ils travaillent sur le futur, avec Dart
-comme base d&amp;rsquo;expérimentation, qui a permit notamment l&amp;rsquo;émergence des «Web Components» et
-l&amp;rsquo;utilisation de JS comme «assembleur» du Web. Et de l&amp;rsquo;autre, le présent avec le Javascript. Bien sur, il y&amp;rsquo;a pas mal de tâtonnements dans les projets mais globalement, les nouveaux projets pérennisent les avancées, ce qui me semble rassurant.&lt;/p&gt;
-
-&lt;p&gt;Et pour ceux qui ont misés sur AngularJS 1.x, je pense que le projet sera
-(à l&amp;rsquo;instar de GWT) transféré à la communauté tout en laissant quelques core devs. Il est
-déjà annoncé que AngularJS 1.3 aura 2 ans de support &lt;strong&gt;après&lt;/strong&gt; la sortie de la 2.0 (soit ~2018).&lt;/p&gt;
-</description>
+      <description>Si cela fait des années que je n&amp;rsquo;espère plus rien de Google sur le plan des libertés, je reste curieux de tout ce qu&amp;rsquo;ils font sur le plan technique, notamment pour Internet. Car c&amp;rsquo;est pour moi la seule (grosse) boite qui fait avancer sérieusement les choses. Explication.
+La différence de business model Pour expliquer mon point de vue, il faut d&amp;rsquo;abord parler de business model :
+ Quel est le business model de Microsoft ?</description>
     </item>
     
     <item>
       <title>Les 5 niveaux de conscience d&#39;un développeur</title>
       <link>http://douche.name/blog/les-5-niveaux-de-conscience-d-un-developpeur/</link>
-      <pubDate>Sun, 06 Nov 2011 18:51:00 &#43;0200</pubDate>
+      <pubDate>Sun, 06 Nov 2011 18:51:00 +0200</pubDate>
       
       <guid>http://douche.name/blog/les-5-niveaux-de-conscience-d-un-developpeur/</guid>
-      <description>
-
-&lt;p&gt;On peut juger un développeur sur la compréhension qu&amp;rsquo;il possède de son métier :
-5 niveaux qui détermine bien souvent sa plus value pour une organisation.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Niveau 0 : pisser de code&lt;/h2&gt;
-
-&lt;p&gt;Il pense que son boulot est de &lt;strong&gt;produire des lignes et des lignes et des lignes
-de code&lt;/strong&gt;. Généralement peu intéressé par ce qu&amp;rsquo;il fait, c&amp;rsquo;est juste un poste
-qui paye la soupe. Ou alors c&amp;rsquo;est un boulot temporaire avant de passer chef de
-projet.&lt;/p&gt;
-
-&lt;p&gt;Le développeur du niveau 0 se voit très fréquemment et forme le gros du bataillon
-des SSII. Chaque fois qu&amp;rsquo;on le rencontre, on se pince les lêvres pour ne pas lui
-demander pourquoi il fait ce métier. Mais il faut bien reconnaitre que c&amp;rsquo;est
-souvent ce que lui demande son chef de projet&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Niveau 1 : livrer du code&lt;/h2&gt;
-
-&lt;p&gt;Intéressé par la qualité du code, il pense qu&amp;rsquo;il doit &lt;strong&gt;livrer du code
-fonctionnel&lt;/strong&gt;. Il s&amp;rsquo;intéresse aux &lt;em&gt;Design Patterns&lt;/em&gt;, lit des livres sur le
-développement logiciel, refactore de temps en temps son code pour le rendre
-&lt;em&gt;plus beau&lt;/em&gt; et s&amp;rsquo;intéresse aux tests.&lt;/p&gt;
-
-&lt;p&gt;Celui ci peut se rencontrer dans les groupes de développeurs, dans les soirées
-consacrés aux codes&amp;hellip; &lt;strong&gt;Il a souvent la passion de son métier&lt;/strong&gt;. Il discute
-longuement de code, et lit régulièrement blogs et livres sur le sujet.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Niveau 2 : livrer un logiciel&lt;/h2&gt;
-
-&lt;p&gt;Le développeur &lt;strong&gt;livre un ensemble de code cohérent&lt;/strong&gt;, qui possède une
-structure et fonctionne comme un bloc uni. Il s&amp;rsquo;intéresse à la conception, à la
-robustesse, à l&amp;rsquo;architecture logicielle. Il sait que les tests sont très
-importants, autant unitaire que fonctionnel, avec une couverture suffisante
-pour être rassuré quand il modifie des pans entiers du logiciel.&lt;/p&gt;
-
-&lt;p&gt;Le niveau 2 est plus rare. Trop souvent, à la question &lt;em&gt;quel est ton métier&lt;/em&gt;,
-un développeur me répond :&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Liver du code !&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Et non, ton métier est &lt;strong&gt;au minimum&lt;/strong&gt; de livrer un logiciel. Avez vous déja
-vu un client satisfait d&amp;rsquo;une livraison d&amp;rsquo;un dépôt Git ?&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Niveau 3 : livrer un produit&lt;/h2&gt;
-
-&lt;p&gt;Le développeur livre plus qu&amp;rsquo;un logiciel, &lt;strong&gt;il livre un produit&lt;/strong&gt;. Il
-s&amp;rsquo;intéresse donc à la couche système, aux procédures d&amp;rsquo;installation et de mise
-à jour, à la reprise sur incident, à la mise en production. Il participe à la
-documentation utilisateur et se met à la place des admins.&lt;/p&gt;
-
-&lt;p&gt;Livrer un produit signifie souvent l&amp;rsquo;abandon du travail d&amp;rsquo;intégration pour un
-travail de conception, bien plus difficile. Il faut réfléchir avant
-tout à &lt;strong&gt;ses problématiques&lt;/strong&gt; (et non celles que le framework X à résolu pour
-vous), au développement sur le long terme et donc à l&amp;rsquo;évolution du produit.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Niveau 4 : livrer de la valeur&lt;/h2&gt;
-
-&lt;p&gt;Plus qu&amp;rsquo;un produit, même bien ficellé, le développeur apporte de la valeur.
-Car le réel objectif est &lt;strong&gt;d&amp;rsquo;améliorer le business du client&lt;/strong&gt;. Niveau ultime
-et de loin le plus difficile car il demande de bien comprendre le métier du
-client en plus de parfaitement maitriser le sein (le développement logiciel).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_5&#34;&gt;Constat&lt;/h2&gt;
-
-&lt;p&gt;Je vous concède que c&amp;rsquo;est un poil schématique. Une des particularités quand
-on travaille chez un éditeur logiciel est que le niveau minimum est&amp;hellip; 4.&lt;/p&gt;
-
-&lt;p&gt;Le niveau 3 est malheureusement rare alors que c&amp;rsquo;est pourtant le niveau que tout
-développeur devrait atteindre. Mais il faut bien avouer que le développement
-logiciel est un métier à la fois très exigeant et nouveau (moins de 40 ans !).&lt;/p&gt;
-
-&lt;p&gt;L&amp;rsquo;autre raison que la plupart des développeurs travaillent en France dans le
-service, et peu dans le monde de l&amp;rsquo;édition. Ce qui veut dire bien souvent
-être en cascade (peu ou prou, même ceux qui disent faire de l&amp;rsquo;agilité, voir
-mon article «l&amp;rsquo;agile est mort») avec un cahier des charges fixe. Il faut
-une collaboration étroite avec le client pour échanger sur son business et
-comprendre, au dela des besoins exprimés (qui sont le plus souvent des
-solutions exprimées et non des besoins), les besoins réels et utiles. Ce qui
-est rarement le cas en SSII ou la plupart des clients estiment que ce n&amp;rsquo;est
-pas &lt;strong&gt;votre&lt;/strong&gt; boulot de remettre en cause leurs besoins (comment voulez vous
-ensuite que les développeurs se sentent conernés ?).&lt;/p&gt;
-
-&lt;p&gt;Je raconte souvent cette anectode :
-En tant qu&amp;rsquo;éditeur, il nous a fallu pratiquement &lt;strong&gt;un an entre la première
-version commerciale et la version crédible&lt;/strong&gt;. Car nous avons trop misé sur
-des clients et partenaires incapables d&amp;rsquo;exprimer clairement des besoins, ce qui
-a affecté notre vision du produit. Nous avons donc sorti une version apportant
-peu de valeur. C&amp;rsquo;est en rencontrant des partenaires spécialisés et connaissant
-bien le métier que nous avons pu rectifier le tir et mieux comprendre ce dont
-ils avaient besoin.&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est évidemment de &lt;strong&gt;notre responsabilité&lt;/strong&gt;, et je ne rejète en aucun cas la
-faute sur des tierces personnes. Mais cela m&amp;rsquo;a bien un peu éloigné de la sainte
-croyance &lt;em&gt;qu&amp;rsquo;il faut écouter le client&lt;/em&gt;. Comme le disait Henry Ford :&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Si j&amp;rsquo;avais demandé à mes clients ce qu&amp;rsquo;ils voulaient, ils m&amp;rsquo;auraient réclamé
-un meilleur cheval&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Au passage, c&amp;rsquo;est en rencontrant des partenaires et clients Suisses,
-Belges, Allemands&amp;hellip; (et non plus Français) que cela s&amp;rsquo;est amélioré :).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_6&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Etre éditeur logiciel, c&amp;rsquo;est être capable de livrer un produit robuste et
-fiable rapidement. Il faut maitriser le développement logiciel de bout en bout
-: le codage bien sûr mais aussi l&amp;rsquo;infrastructure, la conception, le packaging,
-le déploiement, la production, la documentation, le support&amp;hellip; Il faut être
-foncièrement multi-compétences et vouloir s&amp;rsquo;améliorer dans tous ces domaines.
-Mais ce qui rend le travail si intéressant et dur, c&amp;rsquo;est que vous devez
-&lt;strong&gt;aussi&lt;/strong&gt; maitriser votre coeur de métier. Là ou les niveaux 0 à 3 se
-focalisent uniquement sur la technique (qu&amp;rsquo;elle soit système, réseau,
-algorithmie, ihm, gestion de projet&amp;hellip;)&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est pour cette raison que les &lt;em&gt;livreurs de code&lt;/em&gt;, même excellents, ne sont
-bons au final, qu&amp;rsquo;a produire de la dette technique car plus intéressés par la
-beauté d&amp;rsquo;un code que de trouver une finalité utile à celle ci.&lt;/p&gt;
-
-&lt;p&gt;Coder dans le cadre professionnel, ce n&amp;rsquo;est pas se faire plaisir avec le
-pattern X ou la techno Y, c&amp;rsquo;est avant comprendre un métier et apporter le
-maximum de valeur. Même si cela peut sembler inintéressant au premier abord,
-livrer un produit fonctionnel, fiable et robuste, utilisé par des clients
-heureux est le summum de la satisfaction, bien loin d&amp;rsquo;un algo lisible et
-performant. C&amp;rsquo;est ce qui fait tout le charme du métier d&amp;rsquo;éditeur.&lt;/p&gt;
-
-&lt;p&gt;Mais ne me faites pas dire ce que je n&amp;rsquo;ai pas dit, il faut aussi se faire
-plaisir en tant que développeur :).&lt;/p&gt;
-</description>
+      <description>On peut juger un développeur sur la compréhension qu&amp;rsquo;il possède de son métier : 5 niveaux qui détermine bien souvent sa plus value pour une organisation.
+Niveau 0 : pisser de code Il pense que son boulot est de produire des lignes et des lignes et des lignes de code. Généralement peu intéressé par ce qu&amp;rsquo;il fait, c&amp;rsquo;est juste un poste qui paye la soupe. Ou alors c&amp;rsquo;est un boulot temporaire avant de passer chef de projet.</description>
     </item>
     
     <item>
       <title>Nouveau blog avec Blogofile</title>
       <link>http://douche.name/blog/nouveau-blog-avec-blogofile/</link>
-      <pubDate>Fri, 15 Jul 2011 02:00:00 CEST</pubDate>
+      <pubDate>Fri, 15 Jul 2011 02:00:00 +0200</pubDate>
       
       <guid>http://douche.name/blog/nouveau-blog-avec-blogofile/</guid>
-      <description>
-
-&lt;p&gt;Cela faisait quelques temps que cela me titillait : écrire des billets avec
-mon éditeur texte habituel, et de pousser en prod avec Git. C&amp;rsquo;est le blog
-de &lt;a href=&#34;http://gitfr.net/blog&#34;&gt;#gitfr&lt;/a&gt; qui m&amp;rsquo;a donné le courage de m&amp;rsquo;y mettre.
-Et c&amp;rsquo;est maintenant chose faites. Adieu Wordpress, boujour Blogofile !&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Mais qu&amp;rsquo;utilises tu ?&lt;/h2&gt;
-
-&lt;p&gt;Un générateur statique de site, autrement un outil qui transforme les
-documents textes (format &lt;code&gt;markdown&lt;/code&gt; ou &lt;code&gt;rst&lt;/code&gt;) en pages html, à l&amp;rsquo;aide de
-templates.&lt;/p&gt;
-
-&lt;p&gt;Beaucoup d&amp;rsquo;avantages :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tout se trouve dans des fichiers textes.&lt;/li&gt;
-&lt;li&gt;Plus besoin d&amp;rsquo;être en ligne.&lt;/li&gt;
-&lt;li&gt;Ecriture avec Vim et non un éditeur WYSIWIG dans un navigateur.&lt;/li&gt;
-&lt;li&gt;Maintenance pratiquement nulle.&lt;/li&gt;
-&lt;li&gt;Plus de problème de sécurité.&lt;/li&gt;
-&lt;li&gt;Sauvegarde automatique sur GitHub.&lt;/li&gt;
-&lt;li&gt;Liberté totale sur l&amp;rsquo;organisation du site.&lt;/li&gt;
-&lt;li&gt;Hébergement simplifiée (plus besoin de PHP, Python&amp;hellip;).&lt;/li&gt;
-&lt;li&gt;Et bien sûr, utilisation de Git pour gérer le site :).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En contre partie, vous n&amp;rsquo;avez plus la facilité de créer un joli site en 2
-clicks de souris. La, c&amp;rsquo;est à vous de créer votre template et de développer
-les services supplémentaires (affichage de tweets par exemple).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Un retour en arrière ?&lt;/h2&gt;
-
-&lt;p&gt;Je faisais du statique en 96 quand j&amp;rsquo;apprenais l&amp;rsquo;html 3 (ou 2 je ne sais
-plus), et voila que je refais du statique en 2011, est ce vraiment
-raisonnable ? Il y&amp;rsquo;a en fait un changement important qui permet ce retour
-aux sources : le &lt;strong&gt;cloud&lt;/strong&gt;. Pour disposer d&amp;rsquo;un blog, il faut un moteur de rendu
-de billets, mais aussi un système de commentaires, la gestion de flux RSS,
-le multi-compte, des droits et authorisations, etc.&lt;/p&gt;
-
-&lt;p&gt;Maintenant, vous pouvez externaliser tous les services importants :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;les commentaires : Disqus.&lt;/li&gt;
-&lt;li&gt;les flux RSS : Feedburner.&lt;/li&gt;
-&lt;li&gt;Suivi d&amp;rsquo;activité : Google Analytics.&lt;/li&gt;
-&lt;li&gt;Hébergement, backup, droit et travail collaboratif : GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cela permet de se concentrer sur l&amp;rsquo;essentiel : écrire du contenu.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Organisation&lt;/h2&gt;
-
-&lt;p&gt;Il me faut deux dépôts. Pourquoi deux ? Ce n&amp;rsquo;est pas obligatoire bien sûr,
-mais j&amp;rsquo;utilise le service d&amp;rsquo;hébergement gratuit de pages statiques de
-&lt;em&gt;GitHub&lt;/em&gt;. Ce dernier impose des contraintes, dont le nom du dépôt et
-l&amp;rsquo;emplacement des fichiers. Si vous hébergé vous même le site, un seul dépôt
-est suffisant.&lt;/p&gt;
-
-&lt;p&gt;Pour les utilisateurs de &lt;code&gt;Git&lt;/code&gt;, les &lt;em&gt;submodules&lt;/em&gt; font parfaitement
-l&amp;rsquo;affaire puisque la version générée se trouve dans un sous répertoire.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Un exemple ?&lt;/h2&gt;
-
-&lt;p&gt;La mise en production se fait comme suit :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ /path/to/blogofile/blogofile build
-$ git add _site/*
-$ git commit -m &amp;quot;nouveau billet sur Blogofile&amp;quot;
-$ git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;(sans submodules, il suffit de copier le contenu manuellement).&lt;/p&gt;
-
-&lt;p&gt;Et voila ! Je vous laisse imaginer les possibilités intéressantes qu&amp;rsquo;offrent
-un DVCS comme &lt;em&gt;Git&lt;/em&gt; ou &lt;em&gt;Hg&lt;/em&gt; (si ce n&amp;rsquo;est pas le cas, vous êtes bon pour voir une
-de mes présentations Git ;) pour gérer votre site.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Pourquoi Blogofile ?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;il est en Python, et cela me permet de coder dans mon langage préféré
-et d&amp;rsquo;apprendre des moteurs de templates que je ne connaissais pas (&lt;em&gt;Mako&lt;/em&gt; et
-bientôt &lt;em&gt;jinja2&lt;/em&gt;).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;il est vraiment simple. Pas fioritures, il va à l&amp;rsquo;essentiel. Ecrire
-des controlleurs ne semblent vraiment pas dur et les quelques fonctionnalités
-dont j&amp;rsquo;avais besoin (Disqus, flux RSS et blog) sont là. Un site de base tiens
-dans 700 lignes de code Python, ce qui rend la compréhension aisé. Blogofile
-fait pour sa part 900 lignes.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Il permet de gérer les documents drafts, le multi-auteur ou les
-transformations multiples.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Parce que je sature un peu de Ruby. Utilisant pas mal d&amp;rsquo;outils codés en
-Ruby ces derniers temps, je commençais en avoir ras la casquette des
-erreurs d&amp;rsquo;installation ou des messages d&amp;rsquo;erreur complètement abscons. Mais
-des outils comme Jekyll ou Toto semblent pas mal du tout, j&amp;rsquo;ai fais joué
-ma fibre Pythonienne.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Alors, si vous avez un site à monter, je vous conseille fortement de jeter un oeil
-sur ces logiciels, cela peut vous intéresser ! :).&lt;/p&gt;
-</description>
+      <description>Cela faisait quelques temps que cela me titillait : écrire des billets avec mon éditeur texte habituel, et de pousser en prod avec Git. C&amp;rsquo;est le blog de #gitfr qui m&amp;rsquo;a donné le courage de m&amp;rsquo;y mettre. Et c&amp;rsquo;est maintenant chose faites. Adieu Wordpress, boujour Blogofile !
+Mais qu&amp;rsquo;utilises tu ? Un générateur statique de site, autrement un outil qui transforme les documents textes (format markdown ou rst) en pages html, à l&amp;rsquo;aide de templates.</description>
     </item>
     
   </channel>
